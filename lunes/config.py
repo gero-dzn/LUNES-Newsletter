@@ -7,8 +7,13 @@ ANTHROPIC_API_KEY  = os.getenv("ANTHROPIC_API_KEY")
 RESEND_API_KEY     = os.getenv("RESEND_API_KEY")
 RESEND_AUDIENCE_ID = os.getenv("RESEND_AUDIENCE_ID")
 FROM_EMAIL         = os.getenv("FROM_EMAIL")
+REPLY_TO           = os.getenv("REPLY_TO")
 TEST_EMAIL         = os.getenv("TEST_EMAIL")
 HMAC_SECRET        = os.getenv("HMAC_SECRET")
+
+# URLs del sitio — sobreescribibles por env var para staging/prod
+WEB_URL          = os.getenv("WEB_URL",         "https://geronimogentili.com/lunes")
+UNSUBSCRIBE_URL  = os.getenv("UNSUBSCRIBE_URL",  "https://geronimogentili.com/lunes/baja")
 
 # TODO verificar el model ID vigente en docs.anthropic.com/api antes de cada uso
 ANTHROPIC_MODEL = "claude-sonnet-4-6"

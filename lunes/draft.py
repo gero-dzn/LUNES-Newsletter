@@ -35,16 +35,20 @@ def create_broadcast(html_path=None, json_path=None):
     date_str = payload["generated_at"][:10]
     html     = Path(html_path).read_text(encoding="utf-8")
 
+    body = {
+        "audience_id": config.RESEND_AUDIENCE_ID,
+        "from":        config.FROM_EMAIL,
+        "subject":     subject,
+        "html":        html,
+        "name":        f"LUNES {date_str}",
+    }
+    if config.REPLY_TO:
+        body["reply_to"] = config.REPLY_TO
+
     resp = requests.post(
         "https://api.resend.com/broadcasts",
         headers={"Authorization": f"Bearer {config.RESEND_API_KEY}"},
-        json={
-            "audience_id": config.RESEND_AUDIENCE_ID,
-            "from":        config.FROM_EMAIL,
-            "subject":     subject,
-            "html":        html,
-            "name":        f"LUNES {date_str}",
-        },
+        json=body,
         timeout=30,
     )
 
