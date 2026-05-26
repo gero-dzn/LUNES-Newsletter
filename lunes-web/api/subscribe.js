@@ -68,7 +68,7 @@ module.exports = async function handler(req, res) {
   const token = makeToken(email, contact.id);
   const apiBase = process.env.API_BASE_URL
     ?? (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'http://localhost:3000');
-  const confirmUrl = `${apiBase}/api/confirm?token=${token}`;
+  const confirmUrl = `${apiBase}/api/confirm?token=${encodeURIComponent(token)}`;
 
   // Renderizar y enviar mail de confirmación
   const html = renderHtml('confirm.html', { confirm_url: confirmUrl });
