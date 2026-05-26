@@ -1,7 +1,18 @@
 {
-  "generated_at": "2026-05-26T20:17:21.675788+00:00",
-  "articles_fetched": 135,
+  "generated_at": "2026-05-26T23:49:23.495635+00:00",
+  "issue_number": "#01",
+  "articles_fetched": 142,
   "articles_raw": [
+    {
+      "title": "Media Facade: ORGEL IN BLOOM Reimagines Architectural Scale",
+      "source": "Abduzeedo",
+      "section": "diseño",
+      "date": "2026-05-26T22:01:54+00:00",
+      "summary": "DIVE STUDIO created ORGEL IN BLOOM, a media facade for the Shinsegae Department Store. The motion design project reimagines the large surface as an analog music box. The creative team rejects generic ...",
+      "url": "https://abduzeedo.com/media-facade-orgel-bloom-reimagines-architectural-scale/",
+      "image": null,
+      "credit": "Abduzeedo"
+    },
     {
       "title": "Lume tiles by Marazzi among new products on Dezeen Showroom",
       "source": "Dezeen",
@@ -323,6 +334,16 @@
       "credit": "TLDR AI"
     },
     {
+      "title": "Razorpay Sprint 26",
+      "source": "Awwwards SOTD",
+      "section": "awwwards",
+      "date": "2026-05-26T00:00:00+00:00",
+      "summary": "An immersive journey into the future of AI-led payments. Razorpay Sprint26 is about 100+ product updates brought to life through 100+ scroll and click triggered interactions.",
+      "url": "https://www.awwwards.com/sites/razorpay-sprint-26",
+      "image": "https://www.awwwards.com/awards/submissions/2026/04/69f03e17c2e6f377520226.jpg",
+      "credit": "Awwwards SOTD"
+    },
+    {
       "title": "First electric Ferrari launches with aerodynamic shell wrapped around sweeping glasshouse",
       "source": "Dezeen",
       "section": "diseño",
@@ -473,6 +494,16 @@
       "credit": "OpenAI News"
     },
     {
+      "title": "Cartier Watches & Wonders 2026",
+      "source": "Awwwards SOTD",
+      "section": "awwwards",
+      "date": "2026-05-25T00:00:00+00:00",
+      "summary": "Discover the new Cartier Watches & Wonders site, an immersive journey through refined worlds, highlighting iconic timepieces.",
+      "url": "https://www.awwwards.com/sites/cartier-watches-wonders-2026",
+      "image": "https://www.awwwards.com/awards/submissions/2026/04/69ef6833d82c4164300342.jpg",
+      "credit": "Awwwards SOTD"
+    },
+    {
       "title": "Weathering steel wraps Indigenous museum in Arizona by EYRC",
       "source": "Dezeen",
       "section": "diseño",
@@ -521,6 +552,16 @@
       "url": "https://www.dezeen.com/2026/05/24/raul-sanchez-architects-sailor-house-interiors-spain/",
       "image": "http://static.dezeen.com/uploads/2026/05/la-casa-del-pirata-house-interiors-spain-raul-sanchez-architects_dezeen_sq-1-1-411x411.jpg",
       "credit": "Dezeen"
+    },
+    {
+      "title": "Aimee's Papercraft World",
+      "source": "Awwwards SOTD",
+      "section": "awwwards",
+      "date": "2026-05-24T00:00:00+00:00",
+      "summary": "A papercraft world about someone who was abused in the creative industry and chose to help others through healthcare.",
+      "url": "https://www.awwwards.com/sites/aimees-papercraft-world",
+      "image": "https://www.awwwards.com/awards/submissions/2026/04/69da42bb4bafe204842501.jpg",
+      "credit": "Awwwards SOTD"
     },
     {
       "title": "ILLO Studio's Viva Generative Design System Makes 2,000 Visuals",
@@ -601,6 +642,16 @@
       "url": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
       "image": null,
       "credit": "Hugging Face Blog"
+    },
+    {
+      "title": "Cleo AI",
+      "source": "Awwwards SOTD",
+      "section": "awwwards",
+      "date": "2026-05-23T00:00:00+00:00",
+      "summary": "Cleo isn’t a bank - and proud of it: an ultra-modern, silky-smooth, and very “un-bank-y” website for this AI financial genius that’s changing the world’s relationship with money.",
+      "url": "https://www.awwwards.com/sites/cleo-ai",
+      "image": "https://www.awwwards.com/awards/submissions/2026/02/699f3d8d19ca4213925297.png",
+      "credit": "Awwwards SOTD"
     },
     {
       "title": "Trahan Architects integrates \"sense of mystery\" into circular university chapel in New Orleans",
@@ -893,6 +944,16 @@
       "credit": "OpenAI News"
     },
     {
+      "title": "Sidewave",
+      "source": "Awwwards SOTD",
+      "section": "awwwards",
+      "date": "2026-05-22T00:00:00+00:00",
+      "summary": "A website built as a system — Sidewave merges structure, motion, and technology into a refined, living digital experience.",
+      "url": "https://www.awwwards.com/sites/sidewave",
+      "image": "https://www.awwwards.com/awards/submissions/2026/04/69dfaa93df81c440908930.png",
+      "credit": "Awwwards SOTD"
+    },
+    {
       "title": "Fluid Systems and Pink Intelligence: The Brand Identity of Sentient Labs",
       "source": "Mindsparkle Mag",
       "section": "diseño",
@@ -1113,6 +1174,16 @@
       "credit": "TLDR AI"
     },
     {
+      "title": "La Revoltosa",
+      "source": "Awwwards SOTD",
+      "section": "awwwards",
+      "date": "2026-05-21T00:00:00+00:00",
+      "summary": "I've been in Spanish bars for 70+ years. About time I had a website that did me justice. This is my story, my flavours, my spirit. I am La Revoltosa. Sparkling drinks, Spanish soul.",
+      "url": "https://www.awwwards.com/sites/la-revoltosa",
+      "image": "https://www.awwwards.com/awards/submissions/2026/04/69ea74293b9fa603657155.jpg",
+      "credit": "Awwwards SOTD"
+    },
+    {
       "title": "Løfte Gym Brand Identity by Brand Brothers",
       "source": "Abduzeedo",
       "section": "diseño",
@@ -1243,14 +1314,14 @@
       "credit": "OpenAI News"
     },
     {
-      "title": "Introducing OpenAI for Singapore",
-      "source": "OpenAI News",
-      "section": "ia",
-      "date": "2026-05-19T20:30:00+00:00",
-      "summary": "OpenAI for Singapore launches a multi-year AI partnership to expand deployment, build local talent, and support businesses and public services with AI.",
-      "url": "https://openai.com/index/introducing-openai-for-singapore",
-      "image": null,
-      "credit": "OpenAI News"
+      "title": "aino.agency",
+      "source": "Awwwards SOTD",
+      "section": "awwwards",
+      "date": "2026-05-20T00:00:00+00:00",
+      "summary": "Aino rebuilt their site from scratch to explore what's possible with text as a medium. ASCII, 2D physics, real-time morphing - all at 30kb JS.",
+      "url": "https://www.awwwards.com/sites/aino-agency",
+      "image": "https://www.awwwards.com/awards/submissions/2026/04/69d8a9cb609f1721377665.png",
+      "credit": "Awwwards SOTD"
     },
     {
       "title": "Daylight",
@@ -1354,30 +1425,30 @@
     }
   ],
   "curation": {
-    "subject": "El Ferrari eléctrico de Jony Ive y qué le enseña a tu próximo proyecto de identidad",
+    "subject": "La tipografía como nodo y por qué el roce creativo es más valioso que la fluidez",
     "tldr": [
-      "El Ferrari Luce, diseñado por LoveFrom (Jony Ive + Marc Newson), demuestra que restringir la paleta formal al máximo amplifica el impacto: una sola idea ejecutada sin concesiones.",
-      "Chido Lager traduce el rotulismo mexicano a packaging contemporáneo sin perder autenticidad; modelo directo para identidades que quieren raíces culturales visibles.",
-      "La identidad generativa de ILLO Studio (Viva) produce 2.000 ilustraciones únicas desde tres grupos de formas: un sistema que escala sin perder coherencia es mejor que mil assets sueltos.",
-      "Friction como método: el artículo de It's Nice That argumenta que la incomodidad deliberada genera mejor trabajo creativo, argumento útil para defender procesos lentos ante clientes que piden todo para ayer."
+      "Nikotin (Davy Denduyver) demuestra que una sola restricción tipográfica —el logotipo tiene forma de cigarrillo— puede hacer un sistema de identidad instantáneamente memorable.",
+      "El artículo de It's Nice That sobre 'frictionmaxxing' argumenta que la inconveniencia deliberada produce mejor trabajo creativo: útil para justificar procesos lentos ante clientes que piden todo para ayer.",
+      "Chido Lager (Rascals Brewing) traduce el rotulismo mexicano a packaging de cerveza con coherencia total: fuente script de alto contraste, rojo y lima, un swoosh astillado. Un caso concreto de sistema cultural aplicado.",
+      "El primer Ferrari eléctrico diseñado por LoveFrom (Jony Ive + Marc Newson) ya está afuera: la referencia visual más comentada de la semana para quien trabaja en identidad de producto o presentaciones de cliente."
     ],
     "lead": {
-      "title": "Ferrari Luce: el primer eléctrico de Ferrari lo diseñó LoveFrom",
-      "kind": "proyecto",
-      "source": "Dezeen",
-      "mins": 4,
-      "summary": "Jony Ive y Marc Newson firman la carrocería del Ferrari Luce con una única idea estructural —una gran cabina de vidrio que envuelve cinco pasajeros— sin ornamento ni concesión. Es un caso de estudio en reducción: cuando el brief es el objeto de mayor deseo del mundo, la respuesta correcta es quitar, no agregar.",
-      "url": "https://www.dezeen.com/2026/05/25/electric-ferrari-luce-jony-ive-marc-newson-lovefrom/",
-      "image": "https://static.dezeen.com/uploads/2026/05/Ferrari-Luce-Jony-Ive-Marc-Newson-LoveFrom_dezeen_02_hero.jpg",
-      "credit": "Dezeen"
+      "title": "Nikotin: el logotipo que tiene forma de cigarrillo",
+      "kind": "identidad",
+      "source": "It's Nice That",
+      "mins": 3,
+      "summary": "Davy Denduyver diseñó la identidad de Nikotin, restaurante instalado en una antigua fábrica de tabaco, usando tipografía como guiño directo al pasado del espacio: el logo adopta la silueta de un cigarrillo. Un ejemplo claro de cómo una restricción conceptual única hace que todo el sistema visual se sostenga solo.",
+      "url": "https://www.itsnicethat.com/articles/davy-denduyver-nikotin-branding-project-260526",
+      "image": "https://media.itsnicethat.com/original_images/LOGOPHOTOSgif-ezgif.com-resize.gif",
+      "credit": "It's Nice That"
     },
     "radar": [
       {
         "source": "It's Nice That",
-        "mins": 3,
-        "title": "Frictionmaxxing: el caso creativo por la incomodidad",
-        "take": "El mejor argumento que vas a leer esta semana para defender un proceso lento ante un cliente que pide todo para ayer.",
-        "summary": "La cultura de la optimización está borrando la fricción que genera trabajo memorable. El artículo nombra el fenómeno y da ejemplos concretos de por qué el obstáculo es parte del método, no un defecto a eliminar.",
+        "mins": 4,
+        "title": "El roce crea trabajo mejor: sobre el frictionmaxxing y la inconveniencia como virtud creativa",
+        "take": "El argumento más honesto que vas a leer esta semana contra la obsesión por el proceso fluido y sin fricciones.",
+        "summary": "En un momento donde todo se optimiza para la velocidad, el artículo plantea que la incomodidad deliberada —el proceso lento, el medio resistente, la herramienta difícil— genera trabajo con más carácter. Relevante para freelances que sienten presión de entregar más rápido con IA.",
         "url": "https://www.itsnicethat.com/articles/pov-friction-breeds-creativity-creative-industry-260526",
         "image": "https://admin.itsnicethat.com/images/ehTkInajPTY7KL_BVcy9aJ2S6JE=/278508/width-1440%7Cformat-jpeg/39_POV_HERO.png",
         "credit": "It's Nice That"
@@ -1385,124 +1456,134 @@
       {
         "source": "The Dieline",
         "mins": 3,
-        "title": "Chido Lager: rotulismo mexicano en un six-pack",
-        "take": "Muestra cómo traducir una tradición artesanal a packaging industrial sin domesticarla, que es el desafío real de casi toda identidad con raíces culturales.",
-        "summary": "La cerveza Chido de Rascals Brewing toma el sistema de alto contraste rojo-amarillo lima, la letra script y el swoosh intencionalmente desportillado del rotulismo de calle y los convierte en un lenguaje de marca coherente. El resultado se lee como auténtico porque no suaviza nada.",
+        "title": "Chido Lager: rotulismo mexicano convertido en sistema de packaging",
+        "take": "Un caso raro en packaging: una referencia cultural específica (el rotulismo) ejecutada con coherencia total en cada pieza del sistema.",
+        "summary": "Rascals Brewing encargó una identidad para su lager inspirada en la tradición de la pintura de letreros mexicana. El resultado es un wordmark script de alto contraste, una paleta rojo-lima y un swoosh deliberadamente astillado que funciona igual en lata que en cartel. Vale estudiarlo como ejercicio de cómo traducir cultura visual a sistema.",
         "url": "https://thedieline.com/chido-lager-rascals-brewing-mexican-rotulismo-design/",
         "image": "https://thedieline.com/wp-content/uploads/2026/05/Dieline-Cover-image-chido-1920x1080-2b0c631c7c70b6cf8a03557414af61da-1.png",
         "credit": "The Dieline"
       },
       {
         "source": "Creative Review",
-        "mins": 3,
-        "title": "NGLM Group: identidad inspirada en la columna de Trajano",
-        "take": "Un recordatorio de que buscar la referencia tipográfica un escalón más arriba de lo obvio separa una identidad buena de una que dura décadas.",
-        "summary": "Gärde Design construyó el sistema visual del grupo sueco NGLM a partir de la lapidaria de la Columna de Trajano, la misma fuente histórica de Trajan, pero tratada desde la arquitectura de la letra, no desde la nostalgia. El resultado justifica cada decisión sin explicarla.",
+        "mins": 4,
+        "title": "NGLM Group: identidad construida sobre la Columna Trajana",
+        "take": "Gärde Design demuestra que mirar inscripciones romanas sigue siendo investigación tipográfica válida y diferenciadora.",
+        "summary": "Para unificar tres marcas de diseño suecas de alto patrimonio bajo el paraguas NGLM, el estudio sueco Gärde desarrolló una tipografía inspirada en el lettering de la Columna Trajana. El resultado es una identidad con peso histórico sin caer en pastiche. Interesante como modelo de cómo justificar decisiones tipográficas ante un cliente de lujo.",
         "url": "https://www.creativereview.co.uk/nglm-group-identity-typeface-trajans-column/",
         "image": "https://creativereview.imgix.net/uploads/2026/05/07_NGLM_Poster.png?auto=compress,format&amp;crop=faces,entropy,edges&amp;fit=crop&amp;q=60&amp;w=2000&amp;h=1125",
         "credit": "Creative Review"
       },
       {
+        "source": "Dezeen",
+        "mins": 2,
+        "title": "Ferrari Luce: el primer eléctrico diseñado por LoveFrom",
+        "take": "La referencia de diseño de producto más comentada de la semana; útil para presentaciones de cliente o simplemente para tener opinión.",
+        "summary": "Jony Ive y Marc Newson presentaron en Roma el Ferrari Luce, un eléctrico de cinco plazas con un glasshouse panorámico que domina toda la silueta. El diseño prioriza el habitáculo sobre la mecánica expuesta, lo contrario de la estética Ferrari tradicional. Vale verlo aunque no trabajés en diseño de producto.",
+        "url": "https://www.dezeen.com/2026/05/25/electric-ferrari-luce-jony-ive-marc-newson-lovefrom/",
+        "image": "https://static.dezeen.com/uploads/2026/05/Ferrari-Luce-Jony-Ive-Marc-Newson-LoveFrom_dezeen_02_hero.jpg",
+        "credit": "Dezeen"
+      },
+      {
+        "source": "The Dieline",
+        "mins": 2,
+        "title": "Jous: cuando el hidratante abandona el flúor neón",
+        "take": "Studio Unbound prueba que en una categoría saturada de colores agresivos, la contención es la decisión más disruptiva.",
+        "summary": "La identidad de Jous reemplaza la paleta neón estándar de bebidas deportivas por una lata blanca mate, un icono de onda sonora que funciona también como luz sobre agua, y un sistema tipográfico que sirve igual en un estudio de yoga que en una discoteca. Un modelo de cómo redefinir una categoría desde la paleta.",
+        "url": "https://thedieline.com/jous-hydrating-drink-studio-unbound-brand-identity/",
+        "image": "https://thedieline.com/wp-content/uploads/2026/05/Studio_Unbound_Packaging_Jous_Image06-scaled.jpg",
+        "credit": "The Dieline"
+      },
+      {
         "source": "Creative Review",
-        "mins": 4,
-        "title": "D&AD Yellow Pencil 2026: un mapa del trabajo que importa",
-        "take": "Si querés calibrar qué nivel de trabajo gana premios reales este año, este es el corte más honesto disponible.",
-        "summary": "D&AD recibió entradas de 89 países, el récord histórico. El artículo recorre los Yellow Pencil de 2026 con contexto de jurado: útil no para imitar sino para entender qué estándar se está moviendo y hacia dónde.",
+        "mins": 3,
+        "title": "D&AD Yellow Pencil 2026: un resumen de lo que ganó",
+        "take": "Si solo vas a leer un resumen de premios creativos este año, que sea este: 89 países participantes y criterios más claros que nunca.",
+        "summary": "Creative Review cubre los Yellow Pencil de este año con análisis de jurados y ejemplos del trabajo ganador. Útil para calibrar qué nivel de trabajo compite globalmente y qué categorías están evolucionando más rápido.",
         "url": "https://www.creativereview.co.uk/daad-awards-yellow-pencil-winners-2026/",
         "image": "https://creativereview.imgix.net/uploads/2026/05/DAD-Judging-2026-223.jpg?auto=compress,format&amp;crop=faces,entropy,edges&amp;fit=crop&amp;q=60&amp;w=2000&amp;h=1333",
         "credit": "Creative Review"
-      },
-      {
-        "source": "It's Nice That",
-        "mins": 3,
-        "title": "Imperial College London: identidad que apuesta por el individuo",
-        "take": "The Click resolvió el problema clásico de las marcas institucionales —ser reconocible sin ser genérico— y vale estudiar cómo lo hicieron.",
-        "summary": "The Click diseñó la identidad de Imperial College London poniendo la 'I' como eje conceptual y formal: individual, identidad, Imperial. Un sistema que prioriza la pertenencia sobre el branding broadcast, con resultados que no gritan universidad pero son inconfundibles.",
-        "url": "https://www.itsnicethat.com/articles/the-click-imperial-college-london-graphic-design-project-200526",
-        "image": "https://admin.itsnicethat.com/images/RlJcDmNUjQOR8xcYH0WNfZJDZAo=/278221/width-1440/the-click-imperial-college-london-graphic-design-itsnicethat-6.jpg",
-        "credit": "It's Nice That"
       }
     ],
     "type_pick": {
       "name": "Sugra",
-      "note": "Typoraith Co construyó esta sans display de terminales redondeadas para resolver un problema real: cómo dar calidez a pesos extremadamente pesados sin que pierdan autoridad visual. Los terminales hacen todo el trabajo; vale abrirlo y observar cómo se comporta de 12pt a 120pt.",
+      "note": "Display sans bold con terminales redondeados que suavizan el peso sin perder autoridad visual. Útil para titulares que necesitan presencia sin agresividad. Vale revisar cómo se comporta en pesos extremos.",
       "url": "https://abduzeedo.com/sugra-gives-bold-display-sans-serif-soft-read/",
       "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_sugra.jpg"
     },
     "ai": [
       {
-        "source": "Abduzeedo",
+        "source": "OpenAI",
         "mins": 3,
-        "title": "Viva: sistema generativo en Figma que produce 2.000 ilustraciones únicas",
-        "summary": "ILLO Studio construyó Viva con tres grupos de formas y tres paletas en Figma: el resultado son más de 2.000 ilustraciones distintas que mantienen coherencia de sistema. Es el ejemplo más concreto de la semana de IA aplicada al diseño editorial y de identidad, con lógica replicable.",
-        "url": "https://abduzeedo.com/illo-studios-viva-generative-design-system-makes-2000-visuals/",
-        "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_viva-generative-system-illo-studio.jpg",
-        "credit": "Abduzeedo"
+        "title": "Un modelo de OpenAI refutó una conjetura de 80 años en geometría discreta",
+        "summary": "Un modelo de OpenAI demostró que la conjetura de la distancia unitaria, abierta desde los años 40, es falsa. No es aplicable directamente al trabajo de diseño, pero establece un umbral nuevo sobre lo que la IA puede resolver sin intervención humana en dominios formales. Útil para tener contexto cuando un cliente pregunta hasta dónde llega la IA.",
+        "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
+        "image": null,
+        "credit": null
       }
     ],
     "craft": {
-      "title": "abtest.design: base de datos curada de resultados A/B de las mejores apps",
-      "summary": "Una colección viva de tests A/B reales con créditos y capturas: saber qué variante ganó y por qué es información que normalmente cuesta cara o está dispersa. Útil para diseñadores de producto que necesitan argumentar decisiones de interfaz con evidencia, no intuición.",
-      "url": "https://abduzeedo.com/abtestdesign-interface-abtestdesign/"
+      "title": "Prompt Brush 2.0: artistas que dibujan los prompts que irían a la IA",
+      "summary": "Pablo Delcan tomó miles de prompts que normalmente se alimentarían a modelos generativos y los convirtió en dibujos hechos a mano, primero en un libro y ahora en un proyecto abierto donde cualquiera puede participar. Más allá del gesto político, es un ejercicio concreto de observación: qué ves cuando te obligan a dibujar lo que normalmente delegarías.",
+      "url": "https://www.itsnicethat.com/articles/pablo-delcan-prompt-brush-2-illustration-digital-project-260526"
     },
     "try_this": {
-      "title": "Nikotin: tipografía como logo cuando el concepto lo exige",
-      "summary": "Davy Denduyver diseñó el sistema de identidad del restaurante Nikotin (antigua fábrica de tabaco) usando el logo como guiño tipográfico con forma de cigarrillo. Antes de tu próximo proyecto de branding para un espacio con historia, preguntate si el nombre ya contiene la forma. El GIF animado del logo en la nota lo hace evidente.",
-      "url": "https://www.itsnicethat.com/articles/davy-denduyver-nikotin-branding-project-260526",
-      "image": "https://media.itsnicethat.com/original_images/LOGOPHOTOSgif-ezgif.com-resize.gif",
-      "credit": "It's Nice That"
+      "title": "Viva: sistema generativo en Figma que produce 2.000 ilustraciones únicas",
+      "summary": "ILLO Studio construyó Viva, un sistema en Figma que combina tres grupos de formas y tres paletas para generar más de 2.000 ilustraciones distintas. Vale estudiarlo como modelo de sistema de ilustración escalable para proyectos de identidad que necesitan contenido visual consistente sin producir pieza por pieza.",
+      "url": "https://abduzeedo.com/illo-studios-viva-generative-design-system-makes-2000-visuals/",
+      "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_viva-generative-system-illo-studio.jpg",
+      "credit": "Abduzeedo"
     },
     "opportunity": {
-      "title": "DIELINE Awards 2027 – Flash Rates",
+      "title": "DIELINE Awards 2027 — Flash Rates",
       "org": "The Dieline",
-      "deadline": "2026-05-31",
+      "deadline": "31 de mayo de 2026",
       "url": "https://thedieline.com/beat-the-deadline-dieline-awards-2027-flash-rates-end-sunday/"
     },
     "spotted": [
-      {
-        "title": "Pablo Declan convierte prompts de IA en dibujos humanos con Prompt Brush 2.0",
-        "url": "https://www.itsnicethat.com/articles/pablo-delcan-prompt-brush-2-illustration-digital-project-260526"
-      },
       {
         "title": "London Sinfonietta: identidad que reacciona a la música en tiempo real, por NB Studio",
         "url": "https://www.creativereview.co.uk/london-sinfoniettas-dynamic-new-identity-reacts-to-music-itself/"
       },
       {
-        "title": "Jous: identidad de bebida que descarta el neon playbook del sector hidratación",
-        "url": "https://thedieline.com/jous-hydrating-drink-studio-unbound-brand-identity/"
+        "title": "Imperial College London: identidad universitaria de The Click donde el yo individual define el sistema",
+        "url": "https://www.itsnicethat.com/articles/the-click-imperial-college-london-graphic-design-project-200526"
+      },
+      {
+        "title": "Stand de Salone del Mobile de QuadroDesign enviado a Zambia para convertirse en baño público",
+        "url": "https://www.dezeen.com/2026/05/22/giacomo-moor-quadrodesign-salone-del-mobile-2026/"
       }
     ],
     "awwwards": {
       "featured": {
-        "name": "Kluster Collectif",
-        "author": "Studio Indice",
-        "url": "https://mindsparklemag.com/website/kluster-collectif",
-        "image": ""
+        "name": "Aimee's Papercraft World",
+        "author": "Aimee's Papercraft World",
+        "url": "https://www.awwwards.com/sites/aimees-papercraft-world",
+        "image": "https://www.awwwards.com/awards/submissions/2026/04/69da42bb4bafe204842501.jpg"
       },
       "more": [
         {
-          "name": "Royal Stranger",
-          "url": "https://mindsparklemag.com/designs/royal-stranger-a-porto-furniture-brand-finds-the-language-it-always-had"
+          "name": "Razorpay Sprint 26",
+          "url": "https://www.awwwards.com/sites/razorpay-sprint-26"
         },
         {
-          "name": "Pollen Branding",
-          "url": "https://mindsparklemag.com/designs/pollen-branding-an-artisanal-beverage-agency-with-character"
+          "name": "Cartier Watches & Wonders 2026",
+          "url": "https://www.awwwards.com/sites/cartier-watches-wonders-2026"
         },
         {
-          "name": "Fluid Systems — Sentient Labs",
-          "url": "https://mindsparklemag.com/designs/fluid-systems-and-pink-intelligence-the-brand-identity-of-sentient-labs"
+          "name": "Cleo AI",
+          "url": "https://www.awwwards.com/sites/cleo-ai"
         },
         {
-          "name": "Studio Kiln — RTS Cambridge Convention",
-          "url": "https://mindsparklemag.com/designs/how-studio-kiln-created-an-award-winning-playful-identity-for-rts-cambridge-convention"
+          "name": "Sidewave",
+          "url": "https://www.awwwards.com/sites/sidewave"
         },
         {
-          "name": "Daylight Health",
-          "url": "https://www.typewolf.com/site-of-the-day/daylight-health"
+          "name": "La Revoltosa",
+          "url": "https://www.awwwards.com/sites/la-revoltosa"
         },
         {
-          "name": "Dirty Vine",
-          "url": "https://www.typewolf.com/site-of-the-day/dirty-vine"
+          "name": "aino.agency",
+          "url": "https://www.awwwards.com/sites/aino-agency"
         }
       ]
     }
