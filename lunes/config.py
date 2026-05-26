@@ -12,8 +12,7 @@ TEST_EMAIL         = os.getenv("TEST_EMAIL")
 HMAC_SECRET        = os.getenv("HMAC_SECRET")
 
 # URLs del sitio — sobreescribibles por env var para staging/prod
-WEB_URL          = os.getenv("WEB_URL",         "https://geronimogentili.com/lunes")
-UNSUBSCRIBE_URL  = os.getenv("UNSUBSCRIBE_URL",  "https://geronimogentili.com/lunes/baja")
+WEB_URL = os.getenv("WEB_URL", "https://geronimogentili.com/lunes")
 
 # TODO verificar el model ID vigente en docs.anthropic.com/api antes de cada uso
 ANTHROPIC_MODEL = "claude-sonnet-4-6"

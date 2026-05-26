@@ -77,7 +77,6 @@ def render(issue_json_path: Path, issue_number: str = "#01") -> Path:
         opportunity=opportunity,
         spotted=spotted,
         awwwards=awwwards,
-        unsubscribe_url=config.UNSUBSCRIBE_URL,
         web_url=config.WEB_URL,
     )
 
