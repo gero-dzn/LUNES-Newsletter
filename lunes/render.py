@@ -55,7 +55,11 @@ def render(issue_json_path: Path, issue_number: str = "#01") -> Path:
     spotted        = c.get("spotted")
     awwwards       = c.get("awwwards")
 
-    preheader_text = " · ".join(tldr[:2]) if tldr else ""
+    _raw_pre = (tldr[0] if tldr else lead.get("title", "")).strip()
+    preheader_text = (
+        _raw_pre if len(_raw_pre) <= 90
+        else _raw_pre[:87].rsplit(" ", 1)[0].rstrip(".,;:") + "…"
+    )
 
     env  = Environment(
         loader=FileSystemLoader(str(TEMPLATE_DIR)),

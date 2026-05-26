@@ -32,11 +32,18 @@ jobs:
       - name: Calcular número de edición
         id: issue_num
         run: |
-          N=$(ls archive/*.json 2>/dev/null | wc -l | tr -d ' ')
-          NEXT=$((N + 1))
-          printf -v ISSUE_NUMBER "#%02d" "$NEXT"
+          COUNTER_FILE="lunes/edition_counter.txt"
+          N=$(cat "$COUNTER_FILE" 2>/dev/null || echo "0")
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            N=$((N + 1))
+            echo "$N" > "$COUNTER_FILE"
+            echo "bumped=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "bumped=false" >> "$GITHUB_OUTPUT"
+          fi
+          printf -v ISSUE_NUMBER "#%02d" "$N"
           echo "number=${ISSUE_NUMBER}" >> "$GITHUB_OUTPUT"
-          echo "Edición: ${ISSUE_NUMBER}"
+          echo "Edición: ${ISSUE_NUMBER}  (trigger: ${{ github.event_name }})"
 
       - name: Fetch → Curate → Render
         env:
@@ -65,5 +72,9 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add archive/
+          # Solo commitear el contador en corridas reales (schedule); dispatch no lo toca
+          if [ "${{ steps.issue_num.outputs.bumped }}" = "true" ]; then
+            git add lunes/edition_counter.txt
+          fi
           git diff --cached --quiet || git commit -m "archive: LUNES ${{ steps.archive.outputs.date }}"
           git push

@@ -137,10 +137,11 @@ def main() -> None:
     out_path = OUTPUT_DIR / "issue.json"
 
     payload = {
-        "generated_at":    datetime.now(timezone.utc).isoformat(),
+        "generated_at":     datetime.now(timezone.utc).isoformat(),
+        "issue_number":     args.issue_number,
         "articles_fetched": len(articles),
-        "articles_raw":    articles,
-        "curation":        curation,
+        "articles_raw":     articles,
+        "curation":         curation,
     }
 
     out_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")

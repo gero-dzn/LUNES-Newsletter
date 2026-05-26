@@ -30,9 +30,11 @@ def create_broadcast(html_path=None, json_path=None):
     html_path = html_path or OUTPUT_DIR / "issue.html"
     json_path = json_path or OUTPUT_DIR / "issue.json"
 
-    payload  = json.loads(Path(json_path).read_text(encoding="utf-8"))
-    subject  = payload["curation"]["subject"]
-    date_str = payload["generated_at"][:10]
+    payload      = json.loads(Path(json_path).read_text(encoding="utf-8"))
+    hook         = payload["curation"]["subject"]
+    issue_number = payload.get("issue_number", "#01")
+    subject      = f"{hook} · LUNES {issue_number}"
+    date_str     = payload["generated_at"][:10]
     html     = Path(html_path).read_text(encoding="utf-8")
 
     body = {

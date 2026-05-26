@@ -53,15 +53,40 @@ module.exports = async function handler(req, res) {
   }
 
   // Agregar contacto como UNSUBSCRIBED (pendiente de confirmación)
-  const { data: contact, error: contactErr } = await resend.contacts.create({
+  // Si ya existe, lo tratamos como re-suscripción: volvemos a enviar el mail de confirmación
+  let contact;
+  const { data: createData, error: createErr } = await resend.contacts.create({
     audienceId:   process.env.RESEND_AUDIENCE_ID,
     email,
     unsubscribed: true,
   });
 
-  if (contactErr) {
-    console.error('contacts.create:', contactErr);
-    return res.status(500).json({ error: 'Error al registrar. Intentá de nuevo.' });
+  if (createErr) {
+    // Si el contacto ya existe en Resend el error tiene name/type de conflicto;
+    // buscamos el contacto existente para re-enviar la confirmación
+    if (createErr.name === 'validation_error' || createErr.statusCode === 409 ||
+        (createErr.message && createErr.message.toLowerCase().includes('already exists'))) {
+      console.log('[subscribe] contact already exists, listing to find id');
+      const { data: listData, error: listErr } = await resend.contacts.list({
+        audienceId: process.env.RESEND_AUDIENCE_ID,
+      });
+      if (listErr || !listData?.data) {
+        console.error('[subscribe] contacts.list failed:', listErr);
+        return res.status(500).json({ error: 'Error al registrar. Intentá de nuevo.' });
+      }
+      const existing = listData.data.find(c => c.email === email);
+      if (!existing) {
+        console.error('[subscribe] existing contact not found after conflict');
+        return res.status(500).json({ error: 'Error al registrar. Intentá de nuevo.' });
+      }
+      contact = existing;
+      console.log('[subscribe] re-using existing contact:', contact.id);
+    } else {
+      console.error('contacts.create:', JSON.stringify(createErr));
+      return res.status(500).json({ error: 'Error al registrar. Intentá de nuevo.' });
+    }
+  } else {
+    contact = createData;
   }
 
   // Token firmado con email + contactId + expiración

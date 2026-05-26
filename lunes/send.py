@@ -48,17 +48,18 @@ def send_test(
             f"JSON no encontrado: {json_path}. Corré main.py primero."
         )
 
-    html = Path(html_path).read_text(encoding="utf-8")
-    subject = json.loads(
-        Path(json_path).read_text(encoding="utf-8")
-    )["curation"]["subject"]
+    html         = Path(html_path).read_text(encoding="utf-8")
+    _payload     = json.loads(Path(json_path).read_text(encoding="utf-8"))
+    hook         = _payload["curation"]["subject"]
+    issue_number = _payload.get("issue_number", "#01")
+    subject      = f"[TEST] {hook} · LUNES {issue_number}"
 
     resend.api_key = config.RESEND_API_KEY
 
     params = {
         "from": FROM_TEST,
         "to": [config.TEST_EMAIL],
-        "subject": f"[TEST] {subject}",
+        "subject": subject,
         "html": html,
     }
 

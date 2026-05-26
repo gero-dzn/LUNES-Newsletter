@@ -69,7 +69,19 @@ module.exports = async function handler(req, res) {
 
   console.log('[confirm] req.url:', req.url);
   console.log('[confirm] req.query:', JSON.stringify(req.query));
-  const raw = String(req.query?.token ?? '');
+  let raw = String(req.query?.token ?? '');
+
+  // Fallback: if Vercel query parsing yields nothing, parse manually from req.url
+  if (!raw && req.url) {
+    try {
+      const u = new URL(req.url, 'https://placeholder.invalid');
+      raw = u.searchParams.get('token') ?? '';
+      if (raw) console.log('[confirm] token recovered from req.url fallback');
+    } catch (e) {
+      console.error('[confirm] URL parse fallback error:', e.message);
+    }
+  }
+
   console.log('[confirm] token length:', raw.length, '| RESEND_AUDIENCE_ID set:', !!process.env.RESEND_AUDIENCE_ID);
 
   if (!raw) return res.redirect(302, REDIRECT_ERR);
