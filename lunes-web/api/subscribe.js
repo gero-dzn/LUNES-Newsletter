@@ -5,8 +5,7 @@ const { Resend } = require('resend');
 const fs = require('fs');
 const path = require('path');
 
-const ALLOWED_ORIGIN = 'https://geronimogentili.com';
-const TOKEN_TTL_MS   = 24 * 60 * 60 * 1000; // 24 h
+const TOKEN_TTL_MS = 24 * 60 * 60 * 1000; // 24 h
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
@@ -30,13 +29,10 @@ function renderHtml(filename, vars) {
 }
 
 module.exports = async function handler(req, res) {
-  // CORS — solo geronimogentili.com
-  if (req.headers.origin === ALLOWED_ORIGIN) {
-    res.setHeader('Access-Control-Allow-Origin', ALLOWED_ORIGIN);
-  }
+  // CORS — public subscription form, double opt-in keeps it safe
+  res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
-  res.setHeader('Vary', 'Origin');
 
   if (req.method === 'OPTIONS') return res.status(204).end();
   if (req.method !== 'POST')   return res.status(405).json({ error: 'Method not allowed' });
