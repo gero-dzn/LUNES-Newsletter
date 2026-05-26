@@ -1,0 +1,69 @@
+name: LUNES — generar edición semanal
+
+on:
+  schedule:
+    # Lunes 9:00 UTC = 6:00 ART (UTC-3)
+    - cron: '0 9 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: lunes/requirements.txt
+
+      - name: Instalar dependencias
+        run: pip install -r lunes/requirements.txt
+
+      - name: Calcular número de edición
+        id: issue_num
+        run: |
+          N=$(ls archive/*.json 2>/dev/null | wc -l | tr -d ' ')
+          NEXT=$((N + 1))
+          printf -v ISSUE_NUMBER "#%02d" "$NEXT"
+          echo "number=${ISSUE_NUMBER}" >> "$GITHUB_OUTPUT"
+          echo "Edición: ${ISSUE_NUMBER}"
+
+      - name: Fetch → Curate → Render
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          RESEND_API_KEY:    ${{ secrets.RESEND_API_KEY }}
+        run: python lunes/main.py --issue-number "${{ steps.issue_num.outputs.number }}"
+
+      - name: Crear borrador en Resend
+        env:
+          RESEND_API_KEY:     ${{ secrets.RESEND_API_KEY }}
+          RESEND_AUDIENCE_ID: ${{ secrets.RESEND_AUDIENCE_ID }}
+          FROM_EMAIL:         ${{ secrets.FROM_EMAIL }}
+        run: python lunes/draft.py
+
+      - name: Archivar edición
+        id: archive
+        run: |
+          DATE=$(date -u +%Y-%m-%d)
+          mkdir -p archive
+          cp lunes/output/issue.json "archive/${DATE}.json"
+          cp lunes/output/issue.html "archive/${DATE}.html"
+          echo "date=${DATE}" >> "$GITHUB_OUTPUT"
+
+      - name: Commit al repo
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add archive/
+          git diff --cached --quiet || git commit -m "archive: LUNES ${{ steps.archive.outputs.date }}"
+          git push

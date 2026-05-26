@@ -1,0 +1,20 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Generated output (archive/ holds permanent copies)
+lunes/output/issue.html
+lunes/output/issue.json
+lunes/output/confirm.html
+lunes/output/welcome.html
+
+# Local tooling
+.agents/
+lunes/.agents/
+skills-lock.json
