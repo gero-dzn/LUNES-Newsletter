@@ -18,3 +18,8 @@ lunes/output/welcome.html
 .agents/
 lunes/.agents/
 skills-lock.json
+
+# lunes-web
+lunes-web/.env.local
+lunes-web/node_modules/
+lunes-web/.vercel/
