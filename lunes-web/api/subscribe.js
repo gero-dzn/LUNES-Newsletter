@@ -69,6 +69,7 @@ module.exports = async function handler(req, res) {
   const apiBase = process.env.API_BASE_URL
     ?? (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'http://localhost:3000');
   const confirmUrl = `${apiBase}/api/confirm?token=${encodeURIComponent(token)}`;
+  console.log('[subscribe] confirmUrl:', confirmUrl);
 
   // Renderizar y enviar mail de confirmación
   const html = renderHtml('confirm.html', { confirm_url: confirmUrl });
