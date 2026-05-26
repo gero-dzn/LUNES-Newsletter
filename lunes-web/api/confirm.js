@@ -67,6 +67,8 @@ function renderHtml(filename, vars) {
 module.exports = async function handler(req, res) {
   if (req.method !== 'GET') return res.status(405).end();
 
+  console.log('[confirm] req.url:', req.url);
+  console.log('[confirm] req.query:', JSON.stringify(req.query));
   const raw = String(req.query?.token ?? '');
   console.log('[confirm] token length:', raw.length, '| RESEND_AUDIENCE_ID set:', !!process.env.RESEND_AUDIENCE_ID);
 
