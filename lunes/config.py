@@ -10,6 +10,10 @@ FROM_EMAIL         = os.getenv("FROM_EMAIL")
 REPLY_TO           = os.getenv("REPLY_TO")
 TEST_EMAIL         = os.getenv("TEST_EMAIL")
 HMAC_SECRET        = os.getenv("HMAC_SECRET")
+NOTIFY_EMAIL       = os.getenv("NOTIFY_EMAIL", "dsg.geronimogentili@gmail.com")
+
+# Hora de envío en UTC: 12 = 09:00 ART (UTC-3). Sobreescribible por env var.
+SEND_HOUR_UTC = int(os.getenv("SEND_HOUR_UTC", "12"))
 
 # URLs del sitio — sobreescribibles por env var para staging/prod
 WEB_URL = os.getenv("WEB_URL", "https://geronimogentili.com/lunes")

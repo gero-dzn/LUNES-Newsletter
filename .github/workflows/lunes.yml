@@ -51,11 +51,14 @@ jobs:
           RESEND_API_KEY:    ${{ secrets.RESEND_API_KEY }}
         run: python lunes/main.py --issue-number "${{ steps.issue_num.outputs.number }}"
 
-      - name: Crear borrador en Resend
+      - name: Crear borrador, programar y notificar
         env:
           RESEND_API_KEY:     ${{ secrets.RESEND_API_KEY }}
           RESEND_AUDIENCE_ID: ${{ secrets.RESEND_AUDIENCE_ID }}
           FROM_EMAIL:         ${{ secrets.FROM_EMAIL }}
+          NOTIFY_EMAIL:       ${{ secrets.NOTIFY_EMAIL }}
+          # SEND_HOUR_UTC=12 → 09:00 ART. Cambiar aquí si se ajusta el horario.
+          SEND_HOUR_UTC:      "12"
         run: python lunes/draft.py
 
       - name: Archivar edición
