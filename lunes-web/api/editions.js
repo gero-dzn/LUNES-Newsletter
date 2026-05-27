@@ -64,9 +64,11 @@ module.exports = async function handler(req, res) {
           .slice(0, 3)
           .map(k => SECTION_TAGS[k]);
 
+        const rawDate = f.name.replace('.json', '');
         return {
           num:    `#${String(total - i).padStart(2, '0')}`,
-          date:   formatDate(f.name.replace('.json', '')),
+          date:   formatDate(rawDate),
+          slug:   rawDate,
           accent: ACCENTS[i % 3],
           title:  truncate(c.lead?.title || c.subject || 'Edición LUNES', 65),
           sub:    truncate(
