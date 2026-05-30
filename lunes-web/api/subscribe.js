@@ -87,10 +87,12 @@ module.exports = async function handler(req, res) {
 
   // Token firmado con email + contactId + expiración
   const token = makeToken(email, contact.id);
-  const apiBase = process.env.API_BASE_URL
-    ?? (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'http://localhost:3000');
+  // || en vez de ?? para que string vacío también active el fallback
+  const apiBase = (process.env.API_BASE_URL || '').trim()
+    || (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'https://lunes-newsletter.vercel.app');
   const confirmUrl = `${apiBase}/api/confirm?token=${encodeURIComponent(token)}`;
-  console.log('[subscribe] confirmUrl:', confirmUrl);
+  console.log('[subscribe] apiBase:', apiBase);
+  console.log('[subscribe] confirmUrl:', confirmUrl.slice(0, 80) + '...');
 
   // Renderizar y enviar mail de confirmación
   const html = renderHtml('confirm.html', { confirm_url: confirmUrl });
