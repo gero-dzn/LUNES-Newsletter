@@ -26,7 +26,7 @@ import config
 logging.basicConfig(level=logging.INFO, format="%(levelname)-8s %(message)s")
 logger = logging.getLogger(__name__)
 
-TOKEN_TTL_MS = 24 * 60 * 60 * 1000   # 24 h
+TOKEN_TTL_MS = 7 * 24 * 60 * 60 * 1000   # 7 días
 EMAILS_DIR   = Path(__file__).parent.parent / "lunes-web" / "emails"
 
 

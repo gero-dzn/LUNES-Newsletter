@@ -1,14 +1,11 @@
 'use strict';
 
 const crypto = require('crypto');
-const { Resend } = require('resend');
-const fs = require('fs');
-const path = require('path');
+const fs     = require('fs');
+const path   = require('path');
 
 const REDIRECT_OK  = 'https://geronimogentili.com/lunes/confirmado';
 const REDIRECT_ERR = 'https://geronimogentili.com/lunes/confirmado?error=1';
-
-const resend = new Resend(process.env.RESEND_API_KEY);
 
 function verifyToken(raw) {
   if (!process.env.HMAC_SECRET) {
@@ -68,10 +65,8 @@ module.exports = async function handler(req, res) {
   if (req.method !== 'GET') return res.status(405).end();
 
   console.log('[confirm] req.url:', req.url);
-  console.log('[confirm] req.query:', JSON.stringify(req.query));
   let raw = String(req.query?.token ?? '');
 
-  // Fallback: if Vercel query parsing yields nothing, parse manually from req.url
   if (!raw && req.url) {
     try {
       const u = new URL(req.url, 'https://placeholder.invalid');
@@ -82,8 +77,7 @@ module.exports = async function handler(req, res) {
     }
   }
 
-  console.log('[confirm] token length:', raw.length, '| RESEND_AUDIENCE_ID set:', !!process.env.RESEND_AUDIENCE_ID);
-
+  console.log('[confirm] token length:', raw.length);
   if (!raw) return res.redirect(302, REDIRECT_ERR);
 
   let data;
@@ -102,30 +96,44 @@ module.exports = async function handler(req, res) {
   const { email, id: contactId } = data;
   console.log('[confirm] token OK — email:', email, '| contactId:', contactId);
 
-  // Flipear contacto a SUBSCRIBED
-  const { data: updateData, error: updateErr } = await resend.contacts.update({
-    audienceId:   process.env.RESEND_AUDIENCE_ID,
-    id:           contactId,
-    unsubscribed: false,
-  });
+  // Flipear contacto a SUBSCRIBED usando fetch directo (evita incompatibilidades del SDK)
+  const updateResp = await fetch(
+    `https://api.resend.com/audiences/${process.env.RESEND_AUDIENCE_ID}/contacts/${contactId}`,
+    {
+      method:  'PATCH',
+      headers: {
+        'Authorization': `Bearer ${process.env.RESEND_API_KEY}`,
+        'Content-Type':  'application/json',
+      },
+      body: JSON.stringify({ unsubscribed: false }),
+    }
+  );
 
-  console.log('[confirm] contacts.update →', JSON.stringify({ data: updateData, error: updateErr }));
-
-  if (updateErr) {
-    console.error('[confirm] contacts.update failed:', JSON.stringify(updateErr));
+  if (!updateResp.ok) {
+    const errBody = await updateResp.text();
+    console.error('[confirm] contacts.update failed:', updateResp.status, errBody.slice(0, 300));
     return res.redirect(302, REDIRECT_ERR);
   }
+
+  console.log('[confirm] contact updated → subscribed  (email:', email, ')');
 
   // Enviar bienvenida (fire-and-forget)
   const html = renderHtml('welcome.html', {
     unsubscribe_url: 'https://geronimogentili.com/lunes/baja',
   });
-  resend.emails.send({
-    from:    process.env.FROM_EMAIL,
-    to:      email,
-    subject: 'Bienvenido/a a LUNES',
-    html,
-    ...(process.env.REPLY_TO ? { replyTo: process.env.REPLY_TO } : {}),
+  fetch('https://api.resend.com/emails', {
+    method:  'POST',
+    headers: {
+      'Authorization': `Bearer ${process.env.RESEND_API_KEY}`,
+      'Content-Type':  'application/json',
+    },
+    body: JSON.stringify({
+      from:    process.env.FROM_EMAIL,
+      to:      [email],
+      subject: 'Bienvenido/a a LUNES',
+      html,
+      ...(process.env.REPLY_TO ? { reply_to: process.env.REPLY_TO } : {}),
+    }),
   }).catch(err => console.error('[confirm] welcome email error:', err.message));
 
   console.log('[confirm] success — redirecting to OK');

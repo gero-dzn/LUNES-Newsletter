@@ -5,7 +5,7 @@ const { Resend } = require('resend');
 const fs = require('fs');
 const path = require('path');
 
-const TOKEN_TTL_MS = 24 * 60 * 60 * 1000; // 24 h
+const TOKEN_TTL_MS = 7 * 24 * 60 * 60 * 1000; // 7 días
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
