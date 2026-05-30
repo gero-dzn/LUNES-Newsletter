@@ -17,7 +17,7 @@ SEND_HOUR_UTC = int(os.getenv("SEND_HOUR_UTC", "12"))
 
 # URLs del sitio — sobreescribibles por env var para staging/prod
 WEB_URL      = os.getenv("WEB_URL",      "https://geronimogentili.com/lunes")
-API_BASE_URL = os.getenv("API_BASE_URL", "https://lunes-newsletter.vercel.app")
+API_BASE_URL = (os.getenv("API_BASE_URL") or "https://lunes-newsletter.vercel.app").strip()
 
 # TODO verificar el model ID vigente en docs.anthropic.com/api antes de cada uso
 ANTHROPIC_MODEL = "claude-sonnet-4-6"
