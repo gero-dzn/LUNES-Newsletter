@@ -1,8 +1,128 @@
 {
-  "generated_at": "2026-06-01T11:47:32.286241+00:00",
-  "issue_number": "#01",
-  "articles_fetched": 156,
+  "generated_at": "2026-06-01T21:53:40.227773+00:00",
+  "issue_number": "#02",
+  "articles_fetched": 155,
   "articles_raw": [
+    {
+      "title": "Mexican Restaurant Branding Visual Identity: Señor Gonzales by Heavy",
+      "source": "Abduzeedo",
+      "section": "diseño",
+      "date": "2026-06-01T17:00:11+00:00",
+      "summary": "Guadalajara-based studio Heavy has crafted a comprehensive mexican restaurant branding visual identity for Señor Gonzales. Located in Dubai, this system rejects traditional cultural clichés. It introd...",
+      "url": "https://abduzeedo.com/mexican-restaurant-branding-visual-identity-senor-gonzales-heavy/",
+      "image": null,
+      "credit": "Abduzeedo"
+    },
+    {
+      "title": "Branding Design Studio Visual Identity: Heavy's Masterful Studio Rebranding",
+      "source": "Abduzeedo",
+      "section": "diseño",
+      "date": "2026-06-01T16:47:32+00:00",
+      "summary": "Heavy's latest self-identity project sets a benchmark for branding design studio visual identity. The Guadalajara-based studio delivers a sophisticated graphic system that redefines agency positioning...",
+      "url": "https://abduzeedo.com/branding-design-studio-visual-identity-heavys-masterful-studio-rebranding/",
+      "image": null,
+      "credit": "Abduzeedo"
+    },
+    {
+      "title": "Safdie Architects completes major Crystal Bridges Museum expansion in Arkansas",
+      "source": "Dezeen",
+      "section": "diseño",
+      "date": "2026-06-01T15:45:21+00:00",
+      "summary": "Boston-based studio  Safdie Architects  has completed an expansion for  the Crystal Bridges Museum of American Art  in Bentonville, Arkansas, with structures that both maintain and depart from the original style.  \n This component of a long-running plan for the site adds two galleries and 114,00 square feet (10,590 square metres) of space for a recent major gift and the subsequent reinterpretation of its collection. The museum's footprint has expanded by half since its opening in 2011. \n Safdie ",
+      "url": "https://www.dezeen.com/2026/06/01/safdie-architects-crystal-bridges-museum-of-art-arkansas-expansion/",
+      "image": "http://static.dezeen.com/uploads/2026/06/safdie-crystal-bridges-expansion-arkansas_dezeen_2364_sq-411x411.jpg",
+      "credit": "Dezeen"
+    },
+    {
+      "title": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
+      "source": "Hugging Face Blog",
+      "section": "ia",
+      "date": "2026-06-01T15:45:17+00:00",
+      "summary": "",
+      "url": "https://huggingface.co/blog/JetBrains/mellum2-launch",
+      "image": null,
+      "credit": "Hugging Face Blog"
+    },
+    {
+      "title": "“At 28, you are absolutely not too old for this industry”",
+      "source": "It's Nice That",
+      "section": "diseño",
+      "date": "2026-06-01T14:00:00+00:00",
+      "summary": "You don’t love the work your agency produces and you’re starting to feel like the clock is ticking on finding your way into something new. But hold your horses! In this week’s Creative Career Conundrums Kat Wong explains why its never too late to roll the career dice again.",
+      "url": "https://www.itsnicethat.com/articles/creative-career-conundrums-if-you-could-jobs-advice-010626",
+      "image": "https://admin.itsnicethat.com/images/XidiBpaqLMWNXOHvJO80lk2_fXI=/278669/width-1440/CCC_Square_AM_I_TOO_OLD_ALREADY_1.jpg",
+      "credit": "It's Nice That"
+    },
+    {
+      "title": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
+      "source": "Hugging Face Blog",
+      "section": "ia",
+      "date": "2026-06-01T13:51:18+00:00",
+      "summary": "",
+      "url": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
+      "image": null,
+      "credit": "Hugging Face Blog"
+    },
+    {
+      "title": "KieranTimberlake Architecture Firm Brand Identity by Athletics",
+      "source": "Abduzeedo",
+      "section": "diseño",
+      "date": "2026-06-01T13:04:48+00:00",
+      "summary": "Athletics rebuilt KieranTimberlake’s architecture firm brand identity around one central tension: research-backed rigor held in the same frame as warmth.\nThe visual system answers that tension through...",
+      "url": "https://abduzeedo.com/kierantimberlake-architecture-firm-brand-identity-athletics/",
+      "image": null,
+      "credit": "Abduzeedo"
+    },
+    {
+      "title": "Custom Puppet Design by Furry Puppet Studio",
+      "source": "Abduzeedo",
+      "section": "diseño",
+      "date": "2026-06-01T12:56:43+00:00",
+      "summary": "Furry Puppet Studio hand-builds custom puppet design in foam, fleece, and fabric for TV commercials, music videos, and advertising campaigns in New York.\nEach custom puppet design starts with a foam-c...",
+      "url": "https://abduzeedo.com/custom-puppet-design-furry-puppet-studio/",
+      "image": null,
+      "credit": "Abduzeedo"
+    },
+    {
+      "title": "Brand Identity: Like No Other by Tosin Sam",
+      "source": "Abduzeedo",
+      "section": "diseño",
+      "date": "2026-06-01T12:50:28+00:00",
+      "summary": "A cultural anchor in East Harlem merges block-party energy with premium lounge aesthetics in a vibrant new brand identity designed by Tosin Sam. Read on!\nAt the center of this visual system is a masco...",
+      "url": "https://abduzeedo.com/brand-identity-no-other-tosin-sam/",
+      "image": null,
+      "credit": "Abduzeedo"
+    },
+    {
+      "title": "Giona Is a Gin-Based Liqueur With a Cherry on Top",
+      "source": "The Dieline",
+      "section": "diseño",
+      "date": "2026-06-01T12:33:41+00:00",
+      "summary": "FLOV Studio's identity for Giona gin liqueur pairs a squat round bottle, a cherry red sphere stopper, and a compressed display serif wordmark across four pastel-coded flavor labels, making one of the most visually confident cases yet that low ABV spirits deserve a place at the top shelf. \n The post  Giona Is a Gin-Based Liqueur With a Cherry on Top   appeared first on  DIELINE .",
+      "url": "https://thedieline.com/giona-is-a-gin-based-liqueur-with-a-cherry-on-top/",
+      "image": "https://thedieline.com/wp-content/uploads/2026/05/Giona-Cover-33bc716c344119e85bf1093d7042a6ad-1.jpg",
+      "credit": "The Dieline"
+    },
+    {
+      "title": "Dukes Coffee Makes Its Presence Felt With Blind Debossing",
+      "source": "The Dieline",
+      "section": "diseño",
+      "date": "2026-06-01T12:30:12+00:00",
+      "summary": "Dukes Coffee, designed by Studio of Design and Art, went with a dark charcoal board stock, and the \"dukes\" wordmark is pressed deeply into the base panel, with no ink filling the impression. \n The post  Dukes Coffee Makes Its Presence Felt With Blind Debossing  appeared first on  DIELINE .",
+      "url": "https://thedieline.com/dukes-coffee-studio-of-design-and-art-debossed-packaging/",
+      "image": "https://thedieline.com/wp-content/uploads/2026/05/SnapInsta.to_682253319_18075437609648778_57398784880425704_n.jpg",
+      "credit": "The Dieline"
+    },
+    {
+      "title": "Building the infrastructure for the Intelligence Age in Michigan",
+      "source": "OpenAI News",
+      "section": "ia",
+      "date": "2026-06-01T12:00:00+00:00",
+      "summary": "OpenAI breaks ground on a 1GW data center project in Michigan as part of Stargate, building AI infrastructure to expand access, create jobs, and support communities.",
+      "url": "https://openai.com/index/stargate-michigan-data-center",
+      "image": null,
+      "credit": "OpenAI News"
+    },
     {
       "title": "“I try to dream collectively”: Photographer Delali Ayivi on creative projects as catalysts for communities",
       "source": "It's Nice That",
@@ -42,6 +162,16 @@
       "url": "https://www.dezeen.com/2026/06/01/k-studio-and-arup-to-expand-grigoris-lamprakis-stadium-in-athens/",
       "image": "http://static.dezeen.com/uploads/2026/06/k-studio-arup-grigoris-lamprakis-stadium-athens_dezeen_2364_col_3-411x411.jpg",
       "credit": "Dezeen"
+    },
+    {
+      "title": "OpenAI frontier models and Codex are now available on AWS",
+      "source": "OpenAI News",
+      "section": "ia",
+      "date": "2026-06-01T10:00:00+00:00",
+      "summary": "OpenAI frontier models and Codex are now generally available on AWS, giving enterprises a new path to build with OpenAI through the AWS environments, controls, and procurement workflows they already use. Customers can get started with OpenAI on AWS and move faster from evaluation to production.",
+      "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
+      "image": null,
+      "credit": "OpenAI News"
     },
     {
       "title": "Snowman22 lighting by ILKW",
@@ -140,7 +270,7 @@
       "date": "2026-06-01T03:18:00+00:00",
       "summary": "Looking for the best spring brand redesigns? As summer kicks off, we’re breaking down the top 5 packaging design refreshes featured on Dieline, including Walmart’s Great Value, Schweppes, Plezi, Mirinda, and Wild Oats. \n The post  Best Redesigns of Spring 2026  appeared first on  DIELINE .",
       "url": "https://thedieline.com/best-redesigns-of-spring-2026/",
-      "image": "https://thedieline.com/wp-content/uploads/2026/05/Mirinda_Rebrand_07.jpg.webp",
+      "image": "https://thedieline.com/wp-content/uploads/2026/06/Spring2026Redesigns-scaled.jpg",
       "credit": "The Dieline"
     },
     {
@@ -192,16 +322,6 @@
       "url": "https://tldr.tech/tech/2026-06-01",
       "image": null,
       "credit": "TLDR AI"
-    },
-    {
-      "title": "Hashgraph Ventures",
-      "source": "Awwwards SOTD",
-      "section": "awwwards",
-      "date": "2026-06-01T00:00:00+00:00",
-      "summary": "Hashgraph Ventures is an early-stage venture capital firm backing the next generation of blockchain and AI founders.",
-      "url": "https://www.awwwards.com/sites/hashgraph-ventures",
-      "image": "https://www.awwwards.com/awards/submissions/2026/05/69f47301157ca682331562.png",
-      "credit": "Awwwards SOTD"
     },
     {
       "title": "Women's-only running hub among projects from Manchester Metropolitan University",
@@ -272,16 +392,6 @@
       "url": "https://www.dezeen.com/2026/05/31/mil-studios-junge-office-madrid/",
       "image": "http://static.dezeen.com/uploads/2026/05/sq-mil-studios-jungle-madrid_dezeen_1704_ss_2-411x411.jpg",
       "credit": "Dezeen"
-    },
-    {
-      "title": "Vaulk",
-      "source": "Awwwards SOTD",
-      "section": "awwwards",
-      "date": "2026-05-31T00:00:00+00:00",
-      "summary": "Vaulk designs and deploys modular shelter systems offering high-level protection, fast installation and absolute discretion for sensitive environments.",
-      "url": "https://www.awwwards.com/sites/vaulk",
-      "image": "https://www.awwwards.com/awards/submissions/2026/04/69f1bfae1e5b1773184514.jpg",
-      "credit": "Awwwards SOTD"
     },
     {
       "title": "Proposal for women's football stadium among projects from The University of Kansas",
@@ -362,16 +472,6 @@
       "url": "https://www.dezeen.com/2026/05/30/parametricism-architecture-feature-dezeen-in-depth/",
       "image": "http://static.dezeen.com/uploads/2026/05/2-yidan-center-tops-out-zaha-hadid-architects-shenzhen_dezeen_2364_col_0_square-411x411.jpg",
       "credit": "Dezeen"
-    },
-    {
-      "title": "ZettaJoule",
-      "source": "Awwwards SOTD",
-      "section": "awwwards",
-      "date": "2026-05-30T00:00:00+00:00",
-      "summary": "Zypsy created the full brand and website for ZettaJoule, a next-generation nuclear company building advanced reactors to deliver clean, reliable energy for heavy industry.",
-      "url": "https://www.awwwards.com/sites/zettajoule",
-      "image": "https://www.awwwards.com/awards/submissions/2026/03/69aaaaaed8570422747579.jpg",
-      "credit": "Awwwards SOTD"
     },
     {
       "title": "Film Studio Brand Identity: Broaden's Kinetic and Material Vocabulary",
@@ -674,16 +774,6 @@
       "credit": "OpenAI News"
     },
     {
-      "title": "Sowieso Wero",
-      "source": "Awwwards SOTD",
-      "section": "awwwards",
-      "date": "2026-05-29T00:00:00+00:00",
-      "summary": "iDeal is becoming Wero: The new european payment system. Wero offers the samen safety and ease of us as iDeal but it's available across Europe",
-      "url": "https://www.awwwards.com/sites/sowieso-wero",
-      "image": "https://www.awwwards.com/awards/submissions/2026/03/69cb7c5ac3cce200376504.png",
-      "credit": "Awwwards SOTD"
-    },
-    {
       "title": "Otis - A speculative brand for a mycelium-powered biotech company",
       "source": "Mindsparkle Mag",
       "section": "diseño",
@@ -814,16 +904,6 @@
       "credit": "The Dieline"
     },
     {
-      "title": "Wuben Craft Beer Grounds Its Identity in Ancient Chinese Philosophy",
-      "source": "The Dieline",
-      "section": "diseño",
-      "date": "2026-05-28T11:20:51+00:00",
-      "summary": "Wuben Craft Beer's identity takes the craft beer category's illustration playbook and replaces it with a Confucian brand philosophy, a stacked ingredient photography and color swatch system, and a heavy grotesque wordmark that treats every can like a page from the most considered design annual of the year. \n The post  Wuben Craft Beer Grounds Its Identity in Ancient Chinese Philosophy   appeared first on  DIELINE .",
-      "url": "https://thedieline.com/wuben-craft-beer-chinese-philosophy-can-design/",
-      "image": "https://thedieline.com/wp-content/uploads/2026/05/37e6c9244912343.69a1a0a5e31a9.jpg",
-      "credit": "The Dieline"
-    },
-    {
       "title": "TYPE rejects anything \"brand new or flashy\" in Purbeck Cottage renovation",
       "source": "Dezeen",
       "section": "diseño",
@@ -862,16 +942,6 @@
       "url": "https://www.dezeen.com/2026/05/28/pullman-modular-seating-system-naughtone-design-dezeen-showroom/",
       "image": "http://static.dezeen.com/uploads/2026/05/pullman-modular-seating-naughtone-design_dezeen_2364_sq-411x411.jpg",
       "credit": "Dezeen"
-    },
-    {
-      "title": "Derek&Eric Design Series Of Bitburger Cans Celebrating Germany’s World Cup Wins",
-      "source": "The Dieline",
-      "section": "diseño",
-      "date": "2026-05-28T09:17:00+00:00",
-      "summary": "Bitburger and Derek&Eric debut 2026 World Cup collectible cans celebrating Germany's iconic soccer jerseys and historic titles.  \n The post  Derek&Eric Design Series Of Bitburger Cans Celebrating Germany’s World Cup Wins  appeared first on  DIELINE .",
-      "url": "https://thedieline.com/derekeric-design-series-of-bitburger-cans-celebrating-germanys-world-cup-wins/",
-      "image": "https://thedieline.com/wp-content/uploads/2026/05/1779786592364.jpeg",
-      "credit": "The Dieline"
     },
     {
       "title": "Researchers warn plastic-potted green walls could pose \"Grenfell nightmare\"",
@@ -1014,16 +1084,6 @@
       "credit": "OpenAI News"
     },
     {
-      "title": "Cdiscount - Jumping Max",
-      "source": "Awwwards SOTD",
-      "section": "awwwards",
-      "date": "2026-05-28T00:00:00+00:00",
-      "summary": "Jumping Max is the new online event from Cdiscount: Avoid obstacles, grab megaphones, climb levels, and turn your score into real gifts!",
-      "url": "https://www.awwwards.com/sites/cdiscount-jumping-max",
-      "image": "https://www.awwwards.com/awards/submissions/2026/04/69e7a4542320f438685981.jpg",
-      "credit": "Awwwards SOTD"
-    },
-    {
       "title": "Courier brand identity: Posta24's modern postal design system",
       "source": "Abduzeedo",
       "section": "diseño",
@@ -1054,16 +1114,6 @@
       "credit": "Abduzeedo"
     },
     {
-      "title": "ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks — by Artificial Analysis and IBM",
-      "source": "Hugging Face Blog",
-      "section": "ia",
-      "date": "2026-05-27T17:20:29+00:00",
-      "summary": "",
-      "url": "https://huggingface.co/blog/ibm-research/itbench-aa",
-      "image": null,
-      "credit": "Hugging Face Blog"
-    },
-    {
       "title": "Unemployment and burnout issues spotlighted by Arts University Plymouth students",
       "source": "Dezeen",
       "section": "diseño",
@@ -1081,16 +1131,6 @@
       "summary": "From shows featuring dozens of nightlights to conceptual furniture and innovative student work,  NYCxDesign  2026 was a dazzling mix. Dezeen US editor Ben Dreith and US reporter  Ellen Eberhardt  pick out objects that show the scope of the busy week. \n New York's year design week has wrapped up, and the tenor of the event was both communitarian, with shows designed to bring designers together, and contemplative due to news that  long-running trade show ICFF is moving to November in 2027 . \n Many",
       "url": "https://www.dezeen.com/2026/05/27/eighteen-objects-nycxdesign-2026/",
       "image": "http://static.dezeen.com/uploads/2026/05/nyc-design-week-2026-sq_dezeen_2364_col_5-411x411.jpg",
-      "credit": "Dezeen"
-    },
-    {
-      "title": "NASA says \"living and working on the moon will become reality\" after 2032",
-      "source": "Dezeen",
-      "section": "diseño",
-      "date": "2026-05-27T13:51:13+00:00",
-      "summary": "American space agency  NASA  has updated plans for a permanent  moon  base, with a multi-phased plan culminating in \"semi-permanent habitation models\". \n NASA  released  the plan on Tuesday, building on a  March announcement  that scrapped the idea of an orbital space station in favour of the current moon base scheme after the  successful Artemis II mission , the first crewed flight to the moon since Apollo 17 in 1972. \n Location for base chosen \n It will be built on the moon's South Pole, which",
-      "url": "https://www.dezeen.com/2026/05/27/nasa-moon-base-plan-living-2032/",
-      "image": "http://static.dezeen.com/uploads/2026/05/nasa-moon-base-2026_dezeen_2364_sq-411x411.jpg",
       "credit": "Dezeen"
     },
     {
@@ -1284,16 +1324,6 @@
       "credit": "OpenAI News"
     },
     {
-      "title": "AIR",
-      "source": "Awwwards SOTD",
-      "section": "awwwards",
-      "date": "2026-05-27T00:00:00+00:00",
-      "summary": "The striking Grade A business center website",
-      "url": "https://www.awwwards.com/sites/air-1",
-      "image": "https://www.awwwards.com/awards/submissions/2026/04/69f37defaf18f110436968.jpg",
-      "credit": "Awwwards SOTD"
-    },
-    {
       "title": "Media Facade: ORGEL IN BLOOM Reimagines Architectural Scale",
       "source": "Abduzeedo",
       "section": "diseño",
@@ -1424,46 +1454,6 @@
       "credit": "TLDR AI"
     },
     {
-      "title": "Razorpay Sprint 26",
-      "source": "Awwwards SOTD",
-      "section": "awwwards",
-      "date": "2026-05-26T00:00:00+00:00",
-      "summary": "An immersive journey into the future of AI-led payments. Razorpay Sprint26 is about 100+ product updates brought to life through 100+ scroll and click triggered interactions.",
-      "url": "https://www.awwwards.com/sites/razorpay-sprint-26",
-      "image": "https://www.awwwards.com/awards/submissions/2026/04/69f03e17c2e6f377520226.jpg",
-      "credit": "Awwwards SOTD"
-    },
-    {
-      "title": "UniWise: A Masterclass in Clinical Geometric Identity",
-      "source": "Abduzeedo",
-      "section": "diseño",
-      "date": "2026-05-25T17:18:00+00:00",
-      "summary": "The UniWise visual identity system is a masterclass in monolinear geometric construction, striking a definitive balance between intelligent technology and clinical precision. Designed by Igor Nora, th...",
-      "url": "https://abduzeedo.com/uniwise-masterclass-clinical-geometric-identity/",
-      "image": null,
-      "credit": "Abduzeedo"
-    },
-    {
-      "title": "cancan: Food Design Studio Brand Identity Restaurant by Chiang",
-      "source": "Abduzeedo",
-      "section": "diseño",
-      "date": "2026-05-25T14:48:53+00:00",
-      "summary": "Lung-Hao Chiang's cancan food design studio brand identity restaurant uses a tin can as vessel and verb — preservation, scale, collective work in a mark.\nThe food design studio brand identity restaura...",
-      "url": "https://abduzeedo.com/cancan-food-design-studio-brand-identity-restaurant-chiang/",
-      "image": null,
-      "credit": "Abduzeedo"
-    },
-    {
-      "title": "AXIA Energia: Branding and Motion Design",
-      "source": "Abduzeedo",
-      "section": "diseño",
-      "date": "2026-05-25T13:51:00+00:00",
-      "summary": "AXIA is born as the new name and the new expression of Eletrobras — a milestone that translates the, a branding  and motion design project.\nThe transition from a legacy of engineering to a future...",
-      "url": "https://abduzeedo.com/axia-energia-branding-and-motion-design/",
-      "image": null,
-      "credit": "Abduzeedo"
-    },
-    {
       "title": "Daylight",
       "source": "Typewolf",
       "section": "diseño",
@@ -1565,164 +1555,155 @@
     }
   ],
   "curation": {
-    "subject": "El rebranding que no traiciona el pasado (y cómo cobrar mejor lo que ya sabés hacer)",
+    "subject": "La identidad que rechaza los clichés y qué hacemos con la IA que nos pisa el trabajo",
     "tldr": [
-      "Ey Studio rebrandeó Alemagna sin tirar el modernismo italiano: la lección es que respetar el archivo es una decisión de diseño, no una limitación.",
-      "Creative Review documenta cómo LA28 construyó una identidad olímpica pensada para mutar entre plataformas y audiencias — lectura obligada antes de tu próxima propuesta de identidad sistémica.",
-      "El libro 'The Elements of Brand Design' de Sussek y Müller argumenta por qué la originalidad visual sigue importando aunque la IA pueda generar miles de variantes.",
-      "NDAs te frenan el portfolio: It's Nice That ofrece estrategias concretas para mostrar trabajo confidencial sin violar contratos."
+      "Heavy (Guadalajara) rebrandeó a Señor Gonzales —restaurante mexicano en Dubai— sin un solo mariachi: la lección es que el contexto del cliente importa más que las referencias obvias de su cultura.",
+      "Creative Review publica por qué el diseño de marca sigue importando en la era de la IA: colores, símbolos y tipografías construyen percepción que los modelos aún no pueden originar.",
+      "Pablo Delcan abrió Prompt Brush 2.0 —artistas humanos ejecutando prompts que irían a generative AI—: un recordatorio de que la autoría manual tiene valor de posicionamiento, no solo estético.",
+      "El NDA te congela el portfolio: It's Nice That explica estrategias concretas para mostrar proceso sin violar acuerdos, tema crítico para freelances que trabajan con corporativos."
     ],
     "lead": {
-      "title": "Cómo Ey Studio rebrandeó el panettone más icónico de Italia sin destruir su herencia modernista",
+      "title": "Señor Gonzales: identidad mexicana sin clichés para Dubai",
       "kind": "identidad",
-      "source": "It's Nice That",
+      "source": "Abduzeedo / Heavy Studio",
       "mins": 4,
-      "summary": "El estudio italiano encontró el equilibrio exacto entre actualizar Alemagna y proteger décadas de capital visual: una demostración práctica de que el brief 'modernizá sin romper' es resoluble cuando conocés bien el archivo de la marca.",
-      "url": "https://www.itsnicethat.com/articles/ey-studio-alemagna-branding-project-010625",
-      "image": "https://admin.itsnicethat.com/images/eWiwWtWbQZ3euYAvPYD-LwYCOdY=/278578/width-1440/Post3.jpg",
-      "credit": "It's Nice That"
+      "summary": "Heavy (Guadalajara) construyó un sistema de identidad para este restaurante mexicano en Dubai que ignora deliberadamente los códigos visuales folclóricos esperados. El resultado es un lenguaje gráfico de alta sofisticación que habla del contexto del comensal —Dubai— sin traicionar el origen del concepto. Un caso de estudio sobre cómo leer el brief más allá de lo obvio.",
+      "url": "https://abduzeedo.com/mexican-restaurant-branding-visual-identity-senor-gonzales-heavy/",
+      "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_senor-gonzales-heavy_0.jpg",
+      "credit": "Abduzeedo / Heavy Studio"
     },
     "radar": [
       {
         "source": "Creative Review",
         "mins": 5,
-        "title": "Cómo LA28 construyó una identidad olímpica diseñada para evolucionar",
-        "take": "El caso más útil de la semana para entender qué significa diseñar identidad sistémica en la era digital: una marca que muta por plataforma sin perder coherencia.",
-        "summary": "El equipo de diseño de LA28 explica cómo construyeron un sistema visual adaptable a múltiples audiencias, formatos y la ciudad misma — con implicaciones directas para cualquier proyecto de identidad que tenga que vivir en más de tres canales.",
-        "url": "https://www.creativereview.co.uk/la28-look-of-the-games-identity-graphic-design/",
-        "image": "https://creativereview.imgix.net/uploads/2026/05/la28-logos-featured.png?auto=compress,format&amp;crop=faces,entropy,edges&amp;fit=crop&amp;q=60&amp;w=1200&amp;h=1202",
-        "credit": "Creative Review"
-      },
-      {
-        "source": "It's Nice That",
-        "mins": 3,
-        "title": "El logo del Young Vic usa motion blur para no parecer teatro",
-        "take": "venturethree resolvió el problema clásico de instituciones culturales que quieren sonar jóvenes sin parecer que lo intentan demasiado.",
-        "summary": "La renovación visual del Young Vic usa el desenfoque de movimiento como metáfora de energía y contemporaneidad, resultado directo de entender que el problema no era tipográfico sino de actitud.",
-        "url": "https://www.itsnicethat.com/articles/venturethree-young-vic-graphic-design-project-280526",
-        "image": "https://admin.itsnicethat.com/images/eKh6KdzIra1TxSAdVW6MEHf7-yI=/278512/width-1440/venturethree-graphic-design-itsnicethat-1.jpg",
-        "credit": "It's Nice That"
-      },
-      {
-        "source": "Creative Review",
-        "mins": 4,
-        "title": "Por qué el diseño de marca todavía importa aunque la IA pueda generarlo todo",
-        "take": "Sussek y Müller argumentan que color, símbolo y tipografía operan a un nivel semiótico que los modelos generativos no entienden — y tienen razón, aunque les guste el argumento un poco demasiado.",
-        "summary": "El nuevo libro de Taschen examina los elementos fundacionales del diseño de marca y por qué la originalidad visual sigue siendo diferenciadora; útil como munición para justificar fees ante clientes que preguntan si ChatGPT puede hacer lo mismo.",
+        "title": "Por qué el diseño de marca sigue importando en la era de la IA",
+        "take": "El argumento más útil que vas a tener con tu próximo cliente que pregunta por qué no usar IA para \"hacer el logo\".",
+        "summary": "Katharina Sussek y Jens Müller documentan en su nuevo libro cómo colores, símbolos y tipografías construyen percepción corporativa —y por qué la originalidad sigue siendo el diferencial que los modelos generativos no pueden producir sin un autor detrás.",
         "url": "https://www.creativereview.co.uk/the-elements-of-brand-design-taschen-book-katharina-sussek-jens-muller/",
         "image": "https://creativereview.imgix.net/uploads/2026/05/Leibniz_letterforms.jpg?auto=compress,format&amp;crop=faces,entropy,edges&amp;fit=crop&amp;q=60&amp;w=1806&amp;h=2500",
         "credit": "Creative Review"
       },
       {
-        "source": "The Dieline",
-        "mins": 4,
-        "title": "Young Jerks diseñó Canary Cocktails con total libertad creativa — esto es lo que hicieron con ella",
-        "take": "El proceso de Young Jerks es un argumento en tiempo real para defender briefs abiertos con clientes: la libertad produce mejor trabajo cuando el estudio tiene voz propia.",
-        "summary": "Con un brief que decía literalmente 'hacelo cool', el estudio construyó un universo visual art deco-alienígena con tipografía dibujada a mano y paleta atemporal, documentando cada decisión — lectura útil antes de tu próxima propuesta de packaging.",
-        "url": "https://thedieline.com/when-the-brief-is-make-it-cool-young-jerks-delivers-for-canary-cocktails/",
-        "image": "https://thedieline.com/wp-content/uploads/2026/05/YoungJerks13130.jpg",
-        "credit": "The Dieline"
+        "source": "It's Nice That",
+        "mins": 3,
+        "title": "NDAs y portfolio: cómo mostrar trabajo que no podés mostrar",
+        "take": "Un problema real para cualquier freelance que trabaja con corporativos y necesita ganar su siguiente cliente.",
+        "summary": "Katie Cadwell ofrece estrategias prácticas: mostrar proceso y razonamiento en lugar de piezas finales, pedir permiso para versiones anonymizadas, y construir un relato de rol que no dependa de las imágenes protegidas.",
+        "url": "https://www.itsnicethat.com/articles/creative-career-conundrums-if-you-could-jobs-advice-270526",
+        "image": "https://admin.itsnicethat.com/images/H_guucZNJEfWiLPwCSa2KlQv3a4=/278572/width-1440/CCC_Square_HOW_DO_I_SHARE_WORK_IM_NOT_ALLOWED_TO_SHARE.jpg",
+        "credit": "It's Nice That"
       },
       {
         "source": "It's Nice That",
-        "mins": 3,
-        "title": "El branding de Nikotin convierte un pasado tabaco en una virtud visual",
-        "take": "Davy Denduyver demuestra que el contexto histórico del local es el brief más fuerte que tenés — cuando lo usás, la identidad se explica sola.",
-        "summary": "Para una tabacalera reconvertida en restaurante, el diseñador usó tipografía que adopta la forma de un cigarrillo como sistema de identidad completo: simple, memorable, imposible de confundir.",
+        "mins": 4,
+        "title": "Nikotin: el logo con forma de cigarrillo que convirtió el pasado industrial en marca",
+        "take": "Prueba concreta de que el briefing histórico del local —si lo excavás bien— es el activo más poderoso de cualquier identidad gastronómica.",
+        "summary": "Davy Denduyver diseñó el sistema visual para Nikotin, una fábrica de tabaco reconvertida en restaurante en Bélgica. La tipografía adopta literalmente la forma de un cigarrillo: un ejemplo de cómo un insight contextual produce reconocimiento inmediato sin recurrir a ilustración decorativa.",
         "url": "https://www.itsnicethat.com/articles/davy-denduyver-nikotin-branding-project-260526",
         "image": "https://media.itsnicethat.com/original_images/LOGOPHOTOSgif-ezgif.com-resize.gif",
         "credit": "It's Nice That"
+      },
+      {
+        "source": "The Dieline",
+        "mins": 3,
+        "title": "Giona: por qué un espirituoso de baja graduación merece identidad de alto estante",
+        "take": "El caso más claro de la semana de que diseño de packaging premium no es sinónimo de categoría premium —es una decisión de posicionamiento.",
+        "summary": "FLOV Studio diseñó para Giona gin liqueur una botella rechoncha con tapón esfera rojo cereza y una serif comprimida como wordmark, en cuatro colores pastel por variedad. La apuesta es explícita: los spirits de baja ABV merecen el mismo rigor visual que un whisky de 20 años.",
+        "url": "https://thedieline.com/giona-is-a-gin-based-liqueur-with-a-cherry-on-top/",
+        "image": "https://thedieline.com/wp-content/uploads/2026/05/Giona-Cover-33bc716c344119e85bf1093d7042a6ad-1.jpg",
+        "credit": "The Dieline"
+      },
+      {
+        "source": "Creative Review",
+        "mins": 4,
+        "title": "LA28: construir una identidad olímpica para que evolucione, no para que dure",
+        "take": "El caso de estudio que hay que leer antes de proponer cualquier sistema de identidad a un cliente que opera en múltiples plataformas.",
+        "summary": "El equipo de diseño de LA28 explica cómo construyeron un sistema visual adaptable para los Juegos 2028: una identidad que muta por plataforma, audiencia y ciudad sin perder coherencia. Útil no solo por la escala olímpica sino por la metodología de sistemas flexibles aplicable a proyectos mucho más pequeños.",
+        "url": "https://www.creativereview.co.uk/la28-look-of-the-games-identity-graphic-design/",
+        "image": "https://creativereview.imgix.net/uploads/2026/05/la28-logos-featured.png?auto=compress,format&amp;crop=faces,entropy,edges&amp;fit=crop&amp;q=60&amp;w=1200&amp;h=1202",
+        "credit": "Creative Review"
       }
     ],
     "type_pick": {
-      "name": "TT Turns — variable font con terminales estructurales como firma visual",
-      "note": "Pavel Emelyanov construyó la specimen de TT Turns alrededor de un detalle técnico — las terminales giradas — y lo convirtió en el argumento visual de toda la familia. Método replicable: identificá el rasgo más particular de una tipografía y construí la presentación desde ahí.",
+      "name": "TT Turns — variable rounded sans con terminales estructurales",
+      "note": "Pavel Emelyanov diseñó TT Turns como una variable font donde los terminales girados son la firma visual, no un detalle: cada peso mantiene el mismo gesto estructural. Candidata sólida para proyectos de identidad tech o cultural que necesitan personalidad sin excentricidad.",
       "url": "https://abduzeedo.com/sans-serif-typeface-specimen-rounded-variable-font-tt-turns-and-logic-structural-terminals/",
       "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_tt-turns-font-specimen-pavel-emelyanov_0.jpg"
     },
     "ai": [
       {
         "source": "It's Nice That",
-        "mins": 3,
-        "title": "Prompt Brush 2.0: un artista tomó miles de prompts de IA y los convirtió en dibujo humano colectivo",
-        "summary": "Pablo Delcan abrió su proyecto a cualquier persona: los prompts que normalmente alimentarían modelos generativos ahora se responden con dibujo manual, construyendo un argumento visual sobre agencia creativa humana que vale más que cualquier manifiesto escrito.",
+        "mins": 4,
+        "title": "Prompt Brush 2.0: artistas humanos ejecutando los prompts que irían a la IA",
+        "summary": "Pablo Delcan convirtió miles de prompts —del tipo que se ingresa a Midjourney— en encargos para ilustradores humanos. La segunda versión abre la plataforma a cualquiera. No es solo un gesto político: es una propuesta de posicionamiento para diseñadores que quieren diferenciarse por autoría manual en un mercado saturado de outputs generativos.",
         "url": "https://www.itsnicethat.com/articles/pablo-delcan-prompt-brush-2-illustration-digital-project-260526",
         "image": "https://admin.itsnicethat.com/images/ULBv6sjN58BCS9yW3oyotuZNMtw=/278328/width-1440%7Cformat-jpeg/prompt-brush-illustration-itsnicethat-12.png",
         "credit": "It's Nice That"
-      },
-      {
-        "source": "Dezeen",
-        "mins": 4,
-        "title": "Las ferias de diseño necesitan una política de IA, y la necesitan ahora",
-        "summary": "Rima Sabina Aouf argumenta que Milán 2026 fue el punto de inflexión donde el sector ya no puede ignorar el uso de IA en presentaciones y propuestas — lo que propone tiene consecuencias directas para diseñadores freelance que compiten con estudios que usan generación masiva.",
-        "url": "https://www.dezeen.com/2026/05/28/design-fairs-need-to-adopt-ai-policy-now/",
-        "image": null,
-        "credit": null
       }
     ],
     "craft": {
-      "title": "NDAs te tapan el portfolio — estrategias concretas para mostrar trabajo que no podés mostrar",
-      "summary": "Katie Cadwell responde una pregunta que casi todo freelance enfrenta: cómo avanzar en tu carrera cuando los mejores proyectos están bloqueados por confidencialidad. Las soluciones son específicas y aplicables esta semana.",
-      "url": "https://www.itsnicethat.com/articles/creative-career-conundrums-if-you-could-jobs-advice-270526"
+      "title": "abtest.design: archivo de resultados reales de A/B tests en producto digital",
+      "summary": "Una base de datos curada de experimentos A/B documentados de aplicaciones top-tier —qué variante ganó y por qué. Si hacés diseño de interfaces o UX, es el tipo de referencia que reemplaza horas de búsqueda y te da argumentos concretos frente a un cliente o PM que quiere cambiar algo por intuición.",
+      "url": "https://abduzeedo.com/abtestdesign-interface-abtestdesign/"
     },
     "try_this": {
-      "title": "abtest.design — archivo curado de resultados reales de tests A/B en producto",
-      "summary": "Base de datos de decisiones de UX con resultados documentados de aplicaciones de primer nivel: si diseñás interfaces o necesitás argumentar cambios a clientes, este recurso reemplaza horas de búsqueda en Medium.",
-      "url": "https://abduzeedo.com/abtestdesign-interface-abtestdesign/",
-      "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_abtestdesign-abtestdesign.jpg",
-      "credit": "Abduzeedo"
+      "title": "Debossing ciego: lo que el packaging de Dukes Coffee muestra que otros evitan",
+      "summary": "Studio of Design and Art presionó el wordmark profundamente en cartón oscuro sin rellenar con tinta. El resultado habla de calidad sin un solo color adicional. Si tenés un proyecto de packaging esta semana, cotizá el blind deboss antes de agregar otro Pantone: casi siempre sale más barato y comunica más.",
+      "url": "https://thedieline.com/dukes-coffee-studio-of-design-and-art-debossed-packaging/",
+      "image": "https://thedieline.com/wp-content/uploads/2026/05/SnapInsta.to_682253319_18075437609648778_57398784880425704_n.jpg",
+      "credit": "vía The Dieline"
     },
     "opportunity": {
-      "title": "Dezeen Awards 2026 — última convocatoria para entradas tardías",
+      "title": "Dezeen Awards 2026 — últimas entradas",
       "org": "Dezeen",
       "deadline": "3 de junio de 2026",
       "url": "https://www.dezeen.com/2026/05/28/dezeen-awards-2026-late-entries/"
     },
     "spotted": [
       {
-        "title": "Swissted: carteles de punk y new wave convertidos en pósters Swiss modernistas — un ejercicio de restricciones que sigue siendo referencia",
-        "url": "https://abduzeedo.com/swissted-swiss-modernist-poster-art-mike-joyce/"
-      },
-      {
-        "title": "Outlet Atlas: un diseñador frustrado con las webs de SEO creó la guía más bella de adaptadores de corriente del mundo",
+        "title": "Outlet Atlas: un diseñador hizo el archivo de enchufes y adaptadores que el mundo necesitaba (y que nadie había diseñado bien)",
         "url": "https://www.itsnicethat.com/articles/michael-romanowicz-outlet-atlast-graphic-design-project-270526"
       },
       {
-        "title": "'Frictionmaxxing': el argumento más interesante de la semana sobre por qué la inconveniencia puede ser una ventaja creativa",
-        "url": "https://www.itsnicethat.com/articles/pov-friction-breeds-creativity-creative-industry-260526"
+        "title": "Young Vic rebrand por venturethree: motion blur como solución tipográfica para comunicar juventud sin perder institución",
+        "url": "https://www.itsnicethat.com/articles/venturethree-young-vic-graphic-design-project-280526"
+      },
+      {
+        "title": "Myarze Coffee: Memphis-influenced + confianza de objeto coleccionable — el antídoto al minimalismo de specialty coffee",
+        "url": "https://thedieline.com/myarze-coffee-packaging-hellocean-design/"
       }
     ],
     "awwwards": {
       "featured": {
-        "name": "ZettaJoule",
-        "author": "Zypsy",
-        "url": "https://www.awwwards.com/sites/zettajoule",
-        "image": "https://www.awwwards.com/awards/submissions/2026/03/69aaaaaed8570422747579.jpg"
+        "name": "Kluster Collectif",
+        "author": "Studio Indice",
+        "url": "https://mindsparklemag.com/website/kluster-collectif",
+        "image": ""
       },
       "more": [
         {
-          "name": "Hashgraph Ventures",
-          "url": "https://www.awwwards.com/sites/hashgraph-ventures"
+          "name": "Daylight Health",
+          "url": "https://www.typewolf.com/site-of-the-day/daylight-health"
         },
         {
-          "name": "Vaulk",
-          "url": "https://www.awwwards.com/sites/vaulk"
+          "name": "Dirty Vine",
+          "url": "https://www.typewolf.com/site-of-the-day/dirty-vine"
         },
         {
-          "name": "Sowieso Wero",
-          "url": "https://www.awwwards.com/sites/sowieso-wero"
+          "name": "Muse Paris",
+          "url": "https://www.typewolf.com/site-of-the-day/muse-paris"
         },
         {
-          "name": "Cdiscount - Jumping Max",
-          "url": "https://www.awwwards.com/sites/cdiscount-jumping-max"
+          "name": "Speakeasy",
+          "url": "https://www.typewolf.com/site-of-the-day/speakeasy"
         },
         {
-          "name": "AIR",
-          "url": "https://www.awwwards.com/sites/air-1"
+          "name": "Elena Scott",
+          "url": "https://www.typewolf.com/site-of-the-day/elena-scott"
         },
         {
-          "name": "Razorpay Sprint 26",
-          "url": "https://www.awwwards.com/sites/razorpay-sprint-26"
+          "name": "TR Studio",
+          "url": "https://www.typewolf.com/site-of-the-day/tr-studio"
         }
       ]
     }
