@@ -1,0 +1,1621 @@
+{
+  "generated_at": "2026-08-10T10:10:23.836837+00:00",
+  "issue_number": "#12",
+  "articles_fetched": 146,
+  "articles_raw": [
+    {
+      "title": "Making Knowledge Distillation Cheap Enough to Run at Scale",
+      "source": "Hugging Face Blog",
+      "section": "ia",
+      "date": "2026-08-10T10:05:36+00:00",
+      "summary": "",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+      "image": null,
+      "credit": "Hugging Face Blog"
+    },
+    {
+      "title": "RTA Studio designs mass-timber groundscraper in Auckland as \"continuous ribbon\"",
+      "source": "Dezeen",
+      "section": "diseño",
+      "date": "2026-08-10T09:00:12+00:00",
+      "summary": "Local architecture firm RTA Studio has completed a curve-edged  office building  in  Auckland , New Zealand, built from a diagrid structure of locally grown timber. \n Situated within a regenerated wetland, the expansive, 11,500-square-metre campus serves as a global headquarters for appliance brands  Fisher & Paykel  and  Haier Australasia , combining their offices and research facilities into a single, three-story volume. \n The building's  mass-timber  structure was built using locally sourced ",
+      "url": "https://www.dezeen.com/2026/08/10/rta-studio-mass-timber-office-auckland/",
+      "image": "http://static.dezeen.com/uploads/2026/08/rta-studio-mass-timber-office-auckland-sq_dezeen_2364_col_0-411x411.jpg",
+      "credit": "Dezeen"
+    },
+    {
+      "title": "“We all have a responsibility to widen our content bubble”",
+      "source": "It's Nice That",
+      "section": "diseño",
+      "date": "2026-08-10T09:00:00+00:00",
+      "summary": "Plenty of analogue crafts are at risk, particularly due to the increasingly digital echo chamber that many of us inhabit. For those getting into these endangered crafts, there is a real jeopardy of knowledge loss, which is a lose-lose for everyone involved. So how can we combat this? Well, in this week’s Creative Career Conundrums, Katie Cadwell has some thoughts.",
+      "url": "https://www.itsnicethat.com/articles/creative-career-conundrums-if-you-could-jobs-100826",
+      "image": "https://admin.itsnicethat.com/images/7ipg8fKuNXQxzWe_ewm7-PyuHMo=/280775/width-1440%7Cformat-jpeg/CCC_Square_HOW_DO_I_EVOLVE_MY_CRAFT_IN_A_DIGITAL_ECHO_CHAMBER.png",
+      "credit": "It's Nice That"
+    },
+    {
+      "title": "“Places need to offer something that pixels can’t replicate”: Acrylicize on designing spaces for real connection",
+      "source": "It's Nice That",
+      "section": "diseño",
+      "date": "2026-08-10T09:00:00+00:00",
+      "summary": "The multidisciplinary studio believes culture, creativity and belonging is too often swapped out for basic function – instead it should be “felt, embodied, and experienced through physical space”.",
+      "url": "https://www.itsnicethat.com/articles/acrylicize-physical-culture-sponsored-content-100826",
+      "image": "https://admin.itsnicethat.com/images/udF29gdeEfAPha8ksHbvBYJC2-I=/280788/width-1440/SOFTER_Digital_Futures_at_The_Art_House_copy.jpg",
+      "credit": "It's Nice That"
+    },
+    {
+      "title": "Bijou Karman’s “nonsensical” magazine is a visual dance between 90s punk posters, vintage men’s magazines and old yoga books",
+      "source": "It's Nice That",
+      "section": "diseño",
+      "date": "2026-08-10T08:00:00+00:00",
+      "summary": "This fictional publication is a rallying cry against the patriarchy and toxic diet culture, inspired by feminist publications from the 70s.",
+      "url": "https://www.itsnicethat.com/articles/bijou-karman-peace-eye-publication-project-100826",
+      "image": "https://admin.itsnicethat.com/images/bF6Ve07HTuS-HUJfDeo8Cg3BNJU=/280660/width-1440/bijou_karman_peace_eye_4.jpg",
+      "credit": "It's Nice That"
+    },
+    {
+      "title": "Runblock is the sun cream for runners that’s been designed to look like it’s melted in the heat",
+      "source": "It's Nice That",
+      "section": "diseño",
+      "date": "2026-08-10T08:00:00+00:00",
+      "summary": "Graphic designers Tess Lockhart and George Fletcher have shaped a new visual lexicon for sun cream that isn’t beholden to pharmaceutical or beach-ready aesthetics.",
+      "url": "https://www.itsnicethat.com/articles/george-fletcher-tess-lockhart-runblock-graphic-design-project-100826",
+      "image": "https://admin.itsnicethat.com/images/6oyo4KCpsfSb5XCGKwjnUt9fDW8=/280593/width-1440%7Cformat-jpeg/george-fletcher-and-tess-lockhart-runblock-graphic-design-project-itsnicet.png",
+      "credit": "It's Nice That"
+    },
+    {
+      "title": "26 hours of non-stop creativity: Explore over 580 inspiring talks on the new Nicer Tuesdays platform",
+      "source": "It's Nice That",
+      "section": "diseño",
+      "date": "2026-08-10T08:00:00+00:00",
+      "summary": "Nicer Tuesdays is a global event from It’s Nice That: an evening of talks where speakers from across the creative sphere share insights from landmark projects.",
+      "url": "https://www.itsnicethat.com/features/nicer-tuesdays-platform-launch-100826",
+      "image": null,
+      "credit": "It's Nice That"
+    },
+    {
+      "title": "Design profession receives own classification in upcoming Australian census",
+      "source": "Dezeen",
+      "section": "diseño",
+      "date": "2026-08-10T05:00:41+00:00",
+      "summary": "Australian  designers across every discipline will be counted, for the first time, under a dedicated professional group in the upcoming census on 11 August. \n The Australian Census of Population and Housing, which is held every five years, is a compulsory national population count that reveals information about the country's demographics, including respondents' occupation. \n This year marks the first time that design will have its own classification. In total, 92 design occupations across 11 occ",
+      "url": "https://www.dezeen.com/2026/08/10/design-profession-category-australia-census/",
+      "image": "http://static.dezeen.com/uploads/2026/08/designers-working-census_dezeen_2364_col_0-411x411.jpg",
+      "credit": "Dezeen"
+    },
+    {
+      "title": "Youma Matcha Branding and Packaging Design",
+      "source": "Abduzeedo",
+      "section": "diseño",
+      "date": "2026-08-10T03:10:24+00:00",
+      "summary": "",
+      "url": "https://abduzeedo.com/youma-matcha-branding-and-packaging-design/",
+      "image": "https://cms.abduzeedo.com/sites/default/files/originals/youma-matcha-brand-identity-design_4_clean_1.jpg",
+      "credit": "Abduzeedo"
+    },
+    {
+      "title": "Maltique Extra Bold Chunky Sans Typography",
+      "source": "Abduzeedo",
+      "section": "diseño",
+      "date": "2026-08-10T03:03:58+00:00",
+      "summary": "",
+      "url": "https://abduzeedo.com/maltique-extra-bold-chunky-sans-typography/",
+      "image": "https://cms.abduzeedo.com/sites/default/files/originals/maltique-extra-bold-chunky-sans-font_0_clean_0.jpg",
+      "credit": "Abduzeedo"
+    },
+    {
+      "title": "Shelf Life 122: Are Influencer Kits No Longer Just for Influencers?",
+      "source": "The Dieline",
+      "section": "diseño",
+      "date": "2026-08-10T03:00:00+00:00",
+      "summary": "Poppi's Sour Apple mailer and McCormick's TikTok Shop spice set prove brands no longer need creators to go viral, just consumers willing to unbox on camera. \n The post  Shelf Life 122: Are Influencer Kits No Longer Just for Influencers?  appeared first on  DIELINE .",
+      "url": "https://thedieline.com/shelf-life-122-are-influencer-kits-no-longer-just-for-influencers/",
+      "image": null,
+      "credit": "The Dieline"
+    },
+    {
+      "title": "Bose Drops Special Edition Mint Tin Packaging To Promote Their Newest Earbud Colorway",
+      "source": "The Dieline",
+      "section": "diseño",
+      "date": "2026-08-10T02:07:00+00:00",
+      "summary": "Bose and agency Hello Comrade have teamed up to create mint tin-inspired packaging for the QuietComfort Earbuds in \"Dewdrop Mint.\"  \n The post  Bose Drops Special Edition Mint Tin Packaging To Promote Their Newest Earbud Colorway  appeared first on  DIELINE .",
+      "url": "https://thedieline.com/bose-drops-special-edition-mint-tin-packaging-to-promote-their-newest-earbud-colorway/",
+      "image": "https://thedieline.com/wp-content/uploads/2026/08/Bose_Dieline_08-12b72aaae69bab60e4b92a1ec63da1e8-1.jpg",
+      "credit": "The Dieline"
+    },
+    {
+      "title": "NOTHIN'",
+      "source": "Awwwards SOTD",
+      "section": "awwwards",
+      "date": "2026-08-10T00:00:00+00:00",
+      "summary": "Nothin' is a Paris studio at the intersection of fashion, luxury and tech. Branding, editorial, art direction and AI systems — built so a single idea can become anything.",
+      "url": "https://www.awwwards.com/sites/nothin",
+      "image": "https://www.awwwards.com/awards/submissions/2026/06/6a351f5e3f18f475727585.jpg",
+      "credit": "Awwwards SOTD"
+    },
+    {
+      "title": "Best of the Week: Geometry and Grid-Based Systems",
+      "source": "Abduzeedo",
+      "section": "diseño",
+      "date": "2026-08-09T13:16:16+00:00",
+      "summary": "",
+      "url": "https://abduzeedo.com/best-week-geometry-and-grid-based-systems/",
+      "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_best-of-week-2026-W32.jpg",
+      "credit": "Abduzeedo"
+    },
+    {
+      "title": "How Dolrid turned deodorant into a self-care ritual for Blumo",
+      "source": "Mindsparkle Mag",
+      "section": "diseño",
+      "date": "2026-08-09T12:52:58+00:00",
+      "summary": "In Thailand’s tropical climate, deodorants are typically designed around performance. Most brands communicate freshness, protection and efficacy through highly commercial visual language, leaving litt...",
+      "url": "https://mindsparklemag.com/designs/blumo",
+      "image": null,
+      "credit": "Mindsparkle Mag"
+    },
+    {
+      "title": "Crystal-shaped sauna rises from former industrial site in Sweden",
+      "source": "Dezeen",
+      "section": "diseño",
+      "date": "2026-08-09T10:00:17+00:00",
+      "summary": "Stockholm-based artist duo Bigert & Bergström has created a  pink  crystal-shaped  sauna  on a remediated industrial site in Skellefteå, northern  Sweden . \n Named Lithium Crystal Sauna, it is the first permanent structure completed for WasteLand Climate Action Park – a project transforming one of Västerbotten's most polluted industrial sites into  public space . \n Bigert & Bergström have created a crystal-shaped sauna in northern Sweden \n After more than a century of pollution caused by toxic c",
+      "url": "https://www.dezeen.com/2026/08/09/lithium-crystal-sauna-bigert-bergstrom/",
+      "image": "http://static.dezeen.com/uploads/2026/08/crystal-sauna-bigert-bergstrom-sweden_dezeen_2364_col-SQ1-411x411.jpg",
+      "credit": "Dezeen"
+    },
+    {
+      "title": "Eight interiors where picture windows frame picture-perfect views",
+      "source": "Dezeen",
+      "section": "diseño",
+      "date": "2026-08-09T09:00:07+00:00",
+      "summary": "This  lookbook  collates eight  bedrooms  and  living spaces  where slim-framed picture  windows  help landscapes become  art . \n A picture window is square or rectangular in shape, lacks transoms or crossbeams of any kind, has a slimline frame and comprises one singular – often large – pane of glass. \n These qualities allow the views beyond to be displayed in an unobstructed way that could be mistaken for a painting hung on the wall. \n The following views captured include rolling hills, dense f",
+      "url": "https://www.dezeen.com/2026/08/09/interiors-picture-windows-views-lookbooks/",
+      "image": "http://static.dezeen.com/uploads/2026/08/the-blue-house-atelier-backlar-adaptive-reuse-sao-miguel-island-azores-portugal-architecture_dezeen_2364_col_9-scaled-1-411x411.jpg",
+      "credit": "Dezeen"
+    },
+    {
+      "title": "I IN clads Human Made store in handcrafted Korean celadon tiles with \"powerful presence\"",
+      "source": "Dezeen",
+      "section": "diseño",
+      "date": "2026-08-09T05:00:38+00:00",
+      "summary": "Tokyo studio  I IN  combined handcrafted tiles with an industrial-style gridded ceiling and playful animal sculptures in a store for designer  Nigo 's Human Made brand in  Seoul 's Lotte Mall Jamsil. \n The lifestyle store, located inside a contemporary department store, was designed to \"truly embody Human Made's philosophy, 'the future is in the past',\"  I IN  co-founder Hiromu Yuyama told Dezeen. \n The store is clad in pale-green tiles \n To reference the past, I IN chose to clad the store with ",
+      "url": "https://www.dezeen.com/2026/08/09/i-in-human-made-store-korean-celadon-tiles/",
+      "image": "http://static.dezeen.com/uploads/2026/08/i-in-human-made-seoul_dezeen_2364_col_sq1-411x411.jpg",
+      "credit": "Dezeen"
+    },
+    {
+      "title": "Produx Design",
+      "source": "Awwwards SOTD",
+      "section": "awwwards",
+      "date": "2026-08-09T00:00:00+00:00",
+      "summary": "Produx builds brand identities for companies that care how things feel and how they are perceived over time.",
+      "url": "https://www.awwwards.com/sites/produx-design",
+      "image": "https://www.awwwards.com/awards/submissions/2026/05/6a1a71acbf077725504416.jpg",
+      "credit": "Awwwards SOTD"
+    },
+    {
+      "title": "Etéreo Zine M / Martins Estúdio Editorial Layout",
+      "source": "Abduzeedo",
+      "section": "diseño",
+      "date": "2026-08-08T22:07:28+00:00",
+      "summary": "",
+      "url": "https://abduzeedo.com/etereo-zine-m-martins-estudio-editorial-layout/",
+      "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_etreo-zine-m-martins-estdio.jpg",
+      "credit": "Abduzeedo"
+    },
+    {
+      "title": "Saddington Baynes Identity and 3D Visual System",
+      "source": "Abduzeedo",
+      "section": "diseño",
+      "date": "2026-08-08T22:07:18+00:00",
+      "summary": "",
+      "url": "https://abduzeedo.com/saddington-baynes-identity-and-3d-visual-system/",
+      "image": "https://cms.abduzeedo.com/sites/default/files/originals/saddington-baynes_0_clean_0.jpg",
+      "credit": "Abduzeedo"
+    },
+    {
+      "title": "illo: colour, systems, and keeping motion human",
+      "source": "Mindsparkle Mag",
+      "section": "diseño",
+      "date": "2026-08-08T18:58:56+00:00",
+      "summary": "For thirteen years, illo has been turning complicated ideas into something you can feel at a glance. The Italian studio — motion, illustration and brand systems in equal measure — began in a kitchen u...",
+      "url": "https://mindsparklemag.com/designs/illo-colour-systems-and-keeping-motion-human",
+      "image": null,
+      "credit": "Mindsparkle Mag"
+    },
+    {
+      "title": "Cyro Arquitetura designs \"white noise\" apartment in São Paulo",
+      "source": "Dezeen",
+      "section": "diseño",
+      "date": "2026-08-08T18:00:58+00:00",
+      "summary": "São Paulo  studio Cyro Arquitetura has created a temporary studio  apartment  for the city's Casacor 2026 exhibition, designed to remove distractions and promote focus. \n Inside an existing building in the city's historic Parque da Água Branca, the 50-square-metre installation is based on the concept of Ruído Branco, or white noise – used as a metaphor for cancelling out external distractions to induce focus. \n Cyro Arquitetura's Ruído Branco studio apartment features a sofa by Guilherme Wentz \n",
+      "url": "https://www.dezeen.com/2026/08/08/ruido-branco-studio-casacor-sao-paulo-cyro-arquitetura/",
+      "image": "http://static.dezeen.com/uploads/2026/08/ruido-branco-studio_cyro-arquitetura_dezeen_sq1-411x411.jpg",
+      "credit": "Dezeen"
+    },
+    {
+      "title": "Hotel Rigen Fugitiva .co Branding System",
+      "source": "Abduzeedo",
+      "section": "diseño",
+      "date": "2026-08-08T13:01:13+00:00",
+      "summary": "",
+      "url": "https://abduzeedo.com/hotel-rigen-fugitiva-co-branding-system/",
+      "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_hotel-rigen-fugitiva-co.jpg",
+      "credit": "Abduzeedo"
+    },
+    {
+      "title": "When Québec territory forms the foundation of a new brand identity",
+      "source": "Mindsparkle Mag",
+      "section": "diseño",
+      "date": "2026-08-08T11:12:20+00:00",
+      "summary": "To fully immerse yourself in a region is also to embrace what makes it singular. For Tourisme Abitibi-Témiscamingue, lg2 built a brand identity that leans all the way into the Québec territory — a pla...",
+      "url": "https://mindsparklemag.com/designs/how-lg2-built-a-territorial-identity-for-abitibi-temiscamingue",
+      "image": null,
+      "credit": "Mindsparkle Mag"
+    },
+    {
+      "title": "AOR Architects draws on harbour warehouses for Talas community centre in Helsinki",
+      "source": "Dezeen",
+      "section": "diseño",
+      "date": "2026-08-08T10:00:13+00:00",
+      "summary": "Finnish studio AOR Architects has completed a  community centre  on  Helsinki 's waterfront, using a palette of timber and  corrugated metal  informed by maritime warehouses and coastal shelters. \n Named Talas after a type of traditional Finnish coastal shelter, the 1,200-square-metre centre is located in Kalasatama, a former commercial port in Helsinki that is currently being developed into a residential area. \n AOR Architects has completed a community centre on Helsinki's waterfront \n Designed",
+      "url": "https://www.dezeen.com/2026/08/08/aor-architects-talas-community-centre-helsinki/",
+      "image": "http://static.dezeen.com/uploads/2026/07/aor-architects-kalasatama-community-house-helsinki-sq_dezeen_2364_col_0-411x411.jpg",
+      "credit": "Dezeen"
+    },
+    {
+      "title": "Seven versatile homes that facilitate multi-generational living",
+      "source": "Dezeen",
+      "section": "diseño",
+      "date": "2026-08-08T09:00:36+00:00",
+      "summary": "For our latest  roundup , we look at seven  homes  and apartments, spanning India, Australia and the UK, designed to accommodate  multiple generations  under one roof. \n \n Photo by Ishita Sitwala \n LJ House, India, by Studio Saransh and Iksoi Studio \n Asymmetrical forms define this multi-generational home in  Ahmedabad , completed by local practices  Studio Saransh  and  Iksoi Studio . \n Designed for a family of six, the four-storey home maximises communal space, drawing on the \"social and clima",
+      "url": "https://www.dezeen.com/2026/08/08/multi-generational-homes-roundup-2/",
+      "image": "http://static.dezeen.com/uploads/2025/08/peter-besley-brisbane-home-sq_dezeen_2364_col_0-411x411.jpg",
+      "credit": "Dezeen"
+    },
+    {
+      "title": "This week on Dezeen we reported on the demolition of Rike Concert Hall",
+      "source": "Dezeen",
+      "section": "diseño",
+      "date": "2026-08-08T05:00:58+00:00",
+      "summary": "This week on Dezeen , we reported on  the demolition of a never-opened concert hall by Studio Fuksas , which is now underway in Tbilisi, Georgia. \n Footage shared by local news organisation TV Pirveli captured scale-like cladding being removed from the tube-shaped Rike Concert Hall, which has sat unopened since 2012. \n Demolition commenced less than two weeks after a permit for the works was issued.  Studio Fuksas told Dezeen the plans were \"a significant cultural setback\" . \n A Scottish archite",
+      "url": "https://www.dezeen.com/2026/08/08/this-week-dezeen-rike-concert-hall/",
+      "image": "http://static.dezeen.com/uploads/2026/08/tbilisi-music-theatre-concert-hall-fuksas-architecture-tbilisi-georgia_dezeen_2364_sq-411x411.jpg",
+      "credit": "Dezeen"
+    },
+    {
+      "title": "Vero New-York",
+      "source": "Awwwards SOTD",
+      "section": "awwwards",
+      "date": "2026-08-08T00:00:00+00:00",
+      "summary": "Vero creates luxury custom sculptures from wedding dresses. Blending advanced technology and artistry, the studio transforms each unique gown into a timeless, bespoke piece of art.",
+      "url": "https://www.awwwards.com/sites/vero-new-york",
+      "image": "https://www.awwwards.com/awards/submissions/2026/06/6a33e2916d591814573327.jpg",
+      "credit": "Awwwards SOTD"
+    },
+    {
+      "title": "Wayfinding system mediateka tychy blank studio: Spatial Geometry",
+      "source": "Abduzeedo",
+      "section": "diseño",
+      "date": "2026-08-07T22:12:54+00:00",
+      "summary": "",
+      "url": "https://abduzeedo.com/wayfinding-system-mediateka-tychy-blank-studio-spatial-geometry/",
+      "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_wayfinding-system-mediateka-tychy-blank-studio.jpg",
+      "credit": "Abduzeedo"
+    },
+    {
+      "title": "Agrandir Typeface Alex Slobzheninov: Bold Imperfect Forms",
+      "source": "Abduzeedo",
+      "section": "diseño",
+      "date": "2026-08-07T19:10:40+00:00",
+      "summary": "",
+      "url": "https://abduzeedo.com/agrandir-typeface-alex-slobzheninov-bold-imperfect-forms/",
+      "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_agrandir-typeface-free-fonts-variable-font-alex-slobzheninov.jpg",
+      "credit": "Abduzeedo"
+    },
+    {
+      "title": "TutorMoments: Do AI tutors know when to help and when to hold back?",
+      "source": "Hugging Face Blog",
+      "section": "ia",
+      "date": "2026-08-07T17:53:32+00:00",
+      "summary": "",
+      "url": "https://huggingface.co/blog/allenai/tutormoments",
+      "image": null,
+      "credit": "Hugging Face Blog"
+    },
+    {
+      "title": "Olson Kundig crowns Sky View house with retractable roof",
+      "source": "Dezeen",
+      "section": "diseño",
+      "date": "2026-08-07T17:00:09+00:00",
+      "summary": "US studio  Olson Kundig Architects  has completed a house in the  mountains  of  Idaho  with large spans of concrete, steel and glass, topped with a retractable roof. \n Known as Sky View, the 7,190-square-foot (667-square-metre) house looks out on the surrounding slopes and up to the clouds and stars over Sun Valley, Idaho. \n Olson Kundig has completed a house in Sun Valley \n \"Sky View is very much of the landscape,\"  Olson Kundig  design principal and co-founder Tom Kundig told Dezeen. \n \"It ha",
+      "url": "https://www.dezeen.com/2026/08/07/olson-kundig-sky-view/",
+      "image": "http://static.dezeen.com/uploads/2026/06/sky-view-sun-valley-idaho-olson-kundig-architects_dezeen_2364_sq-1-411x411.jpg",
+      "credit": "Dezeen"
+    },
+    {
+      "title": "The Vendange Gang Wine Branding and Visual Identity",
+      "source": "Abduzeedo",
+      "section": "diseño",
+      "date": "2026-08-07T15:45:47+00:00",
+      "summary": "",
+      "url": "https://abduzeedo.com/vendange-gang-wine-branding-and-visual-identity/",
+      "image": "https://cms.abduzeedo.com/sites/default/files/originals/the-vendange-gang-branding-visual-identity_4_clean_0.jpg",
+      "credit": "Abduzeedo"
+    },
+    {
+      "title": "Morloe: Flexible Variable Font for Modern Typography",
+      "source": "Abduzeedo",
+      "section": "diseño",
+      "date": "2026-08-07T15:24:43+00:00",
+      "summary": "",
+      "url": "https://abduzeedo.com/morloe-flexible-variable-font-modern-typography/",
+      "image": "https://cms.abduzeedo.com/sites/default/files/originals/saddington-baynes_0.jpg",
+      "credit": "Abduzeedo"
+    },
+    {
+      "title": "Responding to the next frontier of critical cyber capabilities",
+      "source": "OpenAI News",
+      "section": "ia",
+      "date": "2026-08-07T15:20:00+00:00",
+      "summary": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
+      "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+      "image": null,
+      "credit": "OpenAI News"
+    },
+    {
+      "title": "Brompton Global Identity and Branding System",
+      "source": "Abduzeedo",
+      "section": "diseño",
+      "date": "2026-08-07T13:50:50+00:00",
+      "summary": "",
+      "url": "https://abduzeedo.com/brompton-global-identity-and-branding-system/",
+      "image": "https://cms.abduzeedo.com/sites/default/files/originals/brompton_0_clean_0.jpg",
+      "credit": "Abduzeedo"
+    },
+    {
+      "title": "Otz Lab Proves Chemistry Can Be a Color Story",
+      "source": "The Dieline",
+      "section": "diseño",
+      "date": "2026-08-07T13:20:55+00:00",
+      "summary": "OTZ LAB's fragrance packaging swaps velvet and gold foil for test tubes and matte steel, turning color into chemistry and Constructivist boxes into a lesson in restraint over CPG excess. \n The post  Otz Lab Proves Chemistry Can Be a Color Story  appeared first on  DIELINE .",
+      "url": "https://thedieline.com/otz-lab-proves-chemistry-can-be-a-color-story/",
+      "image": "https://thedieline.com/wp-content/uploads/2026/08/OTZ-LAB-07-9ffb98ad8e8a81a9efd3f4be87ef65b0-scaled-1.jpg",
+      "credit": "The Dieline"
+    },
+    {
+      "title": "ra laser z3: Portable Engraver Redefining Industrial Forms",
+      "source": "Abduzeedo",
+      "section": "diseño",
+      "date": "2026-08-07T13:07:22+00:00",
+      "summary": "",
+      "url": "https://abduzeedo.com/ra-laser-z3-portable-engraver-redefining-industrial-forms/",
+      "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_ra-laser-z3-y-z-2025.jpg",
+      "credit": "Abduzeedo"
+    },
+    {
+      "title": "Ben's session",
+      "source": "Ben's Bites",
+      "section": "ia",
+      "date": "2026-08-07T12:58:51+00:00",
+      "summary": "Hello again :) I’m trying something new - this email walks through one of my actual agent sessions and I’ll explain what’s happening along the way. The build or task I’m doing isn’t important. But I’m looking at how I could be using agents more effectively. You might pick up a thing or two, I’m finding it helpful to solidify my own learning. Please comment what you thought of this, was it helpful? anything unclear? want to see other things?  Subscribe now What I was trying to do I was setting up",
+      "url": "https://www.bensbites.com/p/bens-session",
+      "image": "https://substack-post-media.s3.amazonaws.com/public/images/06869fae-ac26-4d3d-87ad-a73f0916187e_1686x733.png",
+      "credit": "Ben's Bites"
+    },
+    {
+      "title": "YOKO Skips the Zen Garden for a Sticker Sheet",
+      "source": "The Dieline",
+      "section": "diseño",
+      "date": "2026-08-07T12:58:37+00:00",
+      "summary": "Matcha packaging has settled into the same soft green, minimalist formula for years, but Good Spark's design for YOKO breaks that mold completely. Oversized, cropped lettering and a punchy yellow, green, and blue palette give the tins a vintage sticker sheet energy, more skate brand than tea ceremony, while clean monospace info cards keep origin and harvest details easy to scan. \n The post  YOKO Skips the Zen Garden for a Sticker Sheet  appeared first on  DIELINE .",
+      "url": "https://thedieline.com/yoko-skips-the-zen-garden-for-a-sticker-sheet/",
+      "image": "https://thedieline.com/wp-content/uploads/2026/08/SnapInsta.to_756894719_18347831677219733_8476302730292748152_n.jpg",
+      "credit": "The Dieline"
+    },
+    {
+      "title": "e.l.f. and Bubble Announce ‘Hybrid Holy Grail’ Collab",
+      "source": "The Dieline",
+      "section": "diseño",
+      "date": "2026-08-07T12:42:52+00:00",
+      "summary": "Skincare and makeup brands e.l.f. and Bubble have recently announced a new collaboration combining some of their popular products, inspired by beauty influencers and customers who mix and match from both brands in their routines. \n The post  e.l.f. and Bubble Announce ‘Hybrid Holy Grail’ Collab  appeared first on  DIELINE .",
+      "url": "https://thedieline.com/e-l-f-and-bubble-announce-hybrid-holy-grail-collab/",
+      "image": "https://thedieline.com/wp-content/uploads/2026/08/1920X1080_Family_Shot.jpg",
+      "credit": "The Dieline"
+    },
+    {
+      "title": "Mother Design, Foam Magazine, Studio Kiln, Joanna Blémont: Get tickets for September’s Nicer Tuesdays in London!",
+      "source": "It's Nice That",
+      "section": "diseño",
+      "date": "2026-08-07T11:00:00+00:00",
+      "summary": "Join us for our next Nicer Tuesdays event in London, where you can catch exciting talks about hand-painted films, internationally acclaimed magazines and brand identities that breathe life and inspire play.",
+      "url": "https://www.itsnicethat.com/articles/nicer-tuesdays-september-2026-launch-070826",
+      "image": null,
+      "credit": "It's Nice That"
+    },
+    {
+      "title": "The New Company, Arielle Bobb-Willis, ilovecreatives, Bill Rebholz: Grab your tickets for September’s Nicer Tuesdays in LA!",
+      "source": "It's Nice That",
+      "section": "diseño",
+      "date": "2026-08-07T11:00:00+00:00",
+      "summary": "Nicer Tuesdays is returning to LA! Just in time for fall, this September’s line-up promises to bring some fresh inspiration with talks on all things branding, design, photography and folk art!",
+      "url": "https://www.itsnicethat.com/articles/nicer-tuesdays-september-la-launch-070826",
+      "image": null,
+      "credit": "It's Nice That"
+    },
+    {
+      "title": "Kuryłowicz + Architects designs Antarctic research station as \"home at the end of the world\"",
+      "source": "Dezeen",
+      "section": "diseño",
+      "date": "2026-08-07T10:30:13+00:00",
+      "summary": "Architecture studio  Kuryłowicz + Architects  has revealed photos of the  timber  Arctowski Station nearing completion on King George Island in  Antarctica . \n Currently under construction, the three-pronged research station has a prefabricated timber structure clad in insulated golden panels. \n Kuryłowicz + Architects  designed the base to be a home away from home for the 28 researchers working at the Polish research station. \n The Arctowski Station is nearing completion in Antarctica \n \"The ma",
+      "url": "https://www.dezeen.com/2026/08/07/antarctic-arctowski-station-kurylowicz-architects/",
+      "image": "http://static.dezeen.com/uploads/2026/08/polish-antarctic-research-station-kurylowicz-architects_dezeen_2364_sq_2261-411x411.jpg",
+      "credit": "Dezeen"
+    },
+    {
+      "title": "Foster + Partners found not guilty over window fall death",
+      "source": "Dezeen",
+      "section": "diseño",
+      "date": "2026-08-07T10:00:02+00:00",
+      "summary": "British architecture studio  Foster + Partners  has been cleared of health and safety breaches after the death of a man killed by a window that fell from one of its buildings in  London , following a five-week criminal trial. \n The case concerned the Corniche, a tower block of luxury flats standing close to the south side of the Thames on Albert Embankment, as part of a development that completed in 2019. \n Mick Ferris, a 53-year-old coach driver, was killed instantly on 2 October 2018 when he w",
+      "url": "https://www.dezeen.com/2026/08/07/foster-partners-corniche-window-death-not-guilty/",
+      "image": "http://static.dezeen.com/uploads/2026/08/the-corniche-foster-and-partners-london-sq-411x411.jpg",
+      "credit": "Dezeen"
+    },
+    {
+      "title": "Gothic romance and 1980s slasher films informed sets of Teenage Sex and Death at Camp Miasma",
+      "source": "Dezeen",
+      "section": "diseño",
+      "date": "2026-08-07T09:00:53+00:00",
+      "summary": "Production designers Brandon Tonner-Connolly and Matt Hyland constructed  sets  including a \"flesh palace\" and a taxidermy-filled gas station to create a dreamlike world for this horror  film  starring Gillian Anderson. \n The name of the film,  Teenage Sex and Death at Camp Miasma , nods to the lurid titles of 1970s and 80s slasher movies – a feeling the designers also wanted to evoke with the sets themselves. \n Much of the film is set at an abandoned summer camp \n The movie centres around filmm",
+      "url": "https://www.dezeen.com/2026/08/07/slasher-films-set-teenage-sex-and-death-at-camp-miasma/",
+      "image": "http://static.dezeen.com/uploads/2026/08/teenage-sex-and-death-camp-miasma-set-design_dezeen_2364_col_sq4-411x411.jpg",
+      "credit": "Dezeen"
+    },
+    {
+      "title": "How HSP GRUPPE builds AI capabilities for tax advisory",
+      "source": "OpenAI News",
+      "section": "ia",
+      "date": "2026-08-07T09:00:00+00:00",
+      "summary": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.",
+      "url": "https://openai.com/index/hsp-gruppe",
+      "image": null,
+      "credit": "OpenAI News"
+    },
+    {
+      "title": "\"A hodgepodge of ideas\" says commenter",
+      "source": "Dezeen",
+      "section": "diseño",
+      "date": "2026-08-07T08:34:24+00:00",
+      "summary": "In this week's comments update, readers are discussing  The Linhay, a family house in the Somerset countryside designed by studio Charles Gillespie Architecture . \n Wrapped by a  concrete  colonnade, the  house  draws on the traditional linhay – a type of agricultural barn that is local to the region, characterised by its open-fronted form. \n Charles Gillespie Architecture completes Somerset house with wildlife-friendly colonnade \n \"Love, love, love this house!\" \n \"This had potential, nice mater",
+      "url": "https://www.dezeen.com/2026/08/07/linhay-charles-gillespie-architecture-comments/",
+      "image": "http://static.dezeen.com/uploads/2026/08/the-linhay-residential-charles-gillespie-architecture-somerset-england_dezeen_2364_col_44-scaled_square-411x411.jpg",
+      "credit": "Dezeen"
+    },
+    {
+      "title": "RIBA reveals four-strong shortlist for UK's best affordable housing for 2026",
+      "source": "Dezeen",
+      "section": "diseño",
+      "date": "2026-08-07T08:00:02+00:00",
+      "summary": "The  Royal Institute of British Architects  has announced its shortlist for the Neave Brown Award for Housing 2026, which includes the expansion of a 1970s  housing  estate with 46 homes for social rent in  London . \n Also in London, a landscape-led residential development spanning five brick buildings and a 100 per cent affordable housing block bordering a woodland are among this year's shortlisted projects. \n A housing complex in Glasgow combining stacked maisonettes, apartments and terraced h",
+      "url": "https://www.dezeen.com/2026/08/07/riba-neave-brown-award-shortlist-2026-news/",
+      "image": "http://static.dezeen.com/uploads/2026/08/riba-neave-brown-award-shortlist-2026-news-sq_dezeen_2364_col_1-411x411.jpg",
+      "credit": "Dezeen"
+    },
+    {
+      "title": "The Weekend With From Form",
+      "source": "It's Nice That",
+      "section": "diseño",
+      "date": "2026-08-07T08:00:00+00:00",
+      "summary": "Spend a fun-filled weekend in Rotterdam with From Form: Ashley and Jurjen share their creative recommendations across food, film, literature, music and more!",
+      "url": "https://www.itsnicethat.com/features/the-weekend-with-from-form-070826",
+      "image": "https://admin.itsnicethat.com/images/ohPU8taVqwXlHHlnh9yXr_eVjQQ=/280567/width-1440%7Cformat-jpeg/The_Weekend_HERO_Bgk9L1K.png",
+      "credit": "It's Nice That"
+    },
+    {
+      "title": "Crissy Zhang creates Melbourne home shaped by \"modern Parisian sensibility\"",
+      "source": "Dezeen",
+      "section": "diseño",
+      "date": "2026-08-07T05:00:08+00:00",
+      "summary": "Local interior studio Crissy Zhang Design has transformed the interior of the Parkhill residence in  Melbourne ,  Australia , using  arched  forms and tactile materials to create a soft, calming space. \n As part of the renovation of the 265-square-metre home, the studio redefined its internal spatial layout but largely retained the structure of the  house . \n \"Rather than pursuing stark minimalism, Parkhill is a contemporary Melbourne residence shaped by softness, restraint and a quiet, modern P",
+      "url": "https://www.dezeen.com/2026/08/07/crissy-zhang-parkhill-melbourne/",
+      "image": "http://static.dezeen.com/uploads/2026/08/crissy-zhang-parkhill-residence-interiors-melbourne-australia_dezeen_2364_col_11-1704x2555-1-411x411.jpg",
+      "credit": "Dezeen"
+    },
+    {
+      "title": "OpenAI device details 🤖, AI synthetic virus 🦠, agent plugins 👨‍💻",
+      "source": "TLDR AI",
+      "section": "ia",
+      "date": "2026-08-07T00:00:00+00:00",
+      "summary": "",
+      "url": "https://tldr.tech/tech/2026-08-07",
+      "image": null,
+      "credit": "TLDR AI"
+    },
+    {
+      "title": "20 Years Inspired by People",
+      "source": "Awwwards SOTD",
+      "section": "awwwards",
+      "date": "2026-08-07T00:00:00+00:00",
+      "summary": "An archive of stories, people and moments that inspired /nk.studio throughout 20 years. Before inspiring, we were inspired.",
+      "url": "https://www.awwwards.com/sites/20-years-inspired-by-people",
+      "image": "https://www.awwwards.com/awards/submissions/2026/06/6a32c07ed542b255801066.jpg",
+      "credit": "Awwwards SOTD"
+    },
+    {
+      "title": "Dezeen Agenda features Decoy Font designed to trick AI",
+      "source": "Dezeen",
+      "section": "diseño",
+      "date": "2026-08-06T18:00:16+00:00",
+      "summary": "The  latest edition  of our weekly Dezeen Agenda newsletter features  an optical illusion font designed to trick artificial intelligence chatbots  into misreading messages.  Subscribe to Dezeen Agenda now . \n Created by Mixfont for those who want to avoid having their data scraped, Decoy Font features two layers of image – one in thin but clear outlines in the foreground, and another in blurry dark shapes in the background. \n Demolition of Studio Fuksas concert hall underway in Tbilisi \n This we",
+      "url": "https://www.dezeen.com/2026/08/06/dezeen-agenda-decoy-font-ai-mixfont/",
+      "image": "http://static.dezeen.com/uploads/2026/08/decoy-font-mixfont-eric-lu-design_dezeen_2364_col_555_square-411x411.jpg",
+      "credit": "Dezeen"
+    },
+    {
+      "title": "AI Design: Introducing Adobe for ChatGPT",
+      "source": "Abduzeedo",
+      "section": "diseño",
+      "date": "2026-08-06T17:11:44+00:00",
+      "summary": "",
+      "url": "https://abduzeedo.com/ai-design-introducing-adobe-chatgpt/",
+      "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_introducing-adobe-chatgpt-create-edit-get-work-deepti-pradeep.jpg",
+      "credit": "Abduzeedo"
+    },
+    {
+      "title": "Leckie Studio tucks house clad in \"silvered wood\" into forested Vancouver site",
+      "source": "Dezeen",
+      "section": "diseño",
+      "date": "2026-08-06T17:00:15+00:00",
+      "summary": "Canadian practice  Leckie Studio  has completed Twin Peaks House, which features an asymmetrical roof and silvery wood cladding that helps the building \"recede among the trees\". \n Located in North Vancouver and designed for a young family, the Twin Peaks House sits on a sloped property dotted with trees. \n Local practice  Leckie Studio  set out to create a dwelling that felt cohesive while allowing for variety. \n Leckie Studio has completed Twin Peaks House in North Vancouver \n \"The house explor",
+      "url": "https://www.dezeen.com/2026/08/06/leckie-studio-twin-peaks-house-vancouver/",
+      "image": "http://static.dezeen.com/uploads/2026/08/twin-peaks-house-leckie-studio-vancouver_dezeen_2364_sq4-411x411.jpg",
+      "credit": "Dezeen"
+    },
+    {
+      "title": "Vimundo AI smart glasses branding",
+      "source": "Mindsparkle Mag",
+      "section": "diseño",
+      "date": "2026-08-06T16:23:14+00:00",
+      "summary": "Vimundo is an AI smart glasses brand built around real-time translation and navigation, designed to help travelers move through the world without a language barrier standing in the way. Atomerg Studio...",
+      "url": "https://mindsparklemag.com/designs/how-atomerg-studio-turned-a-viewfinder-into-vimundos-ai-glasses-identity",
+      "image": null,
+      "credit": "Mindsparkle Mag"
+    },
+    {
+      "title": "Tan France launches debut furniture collection with Castlery",
+      "source": "Dezeen",
+      "section": "diseño",
+      "date": "2026-08-06T14:00:28+00:00",
+      "summary": "Media personality and former Queer Eye host Tan France has released an 18-piece homeware collection with Singapore brand Castlery, which marks his first foray into  furniture  design. \n France, who formerly guided fashion transformations on the Netflix show Queer Eye, told Dezeen the  Castlery x Tan France Collection  was informed by his British and South Asian heritage. \n \"I designed my current home, including some of the furniture in my home, and had the most incredible experience doing so,\" F",
+      "url": "https://www.dezeen.com/2026/08/06/tan-france-debuts-furniture-collection-castlery/",
+      "image": "http://static.dezeen.com/uploads/2026/08/tan-france-castlery-collection_dezeen_2364_col_2-1-411x411.jpg",
+      "credit": "Dezeen"
+    },
+    {
+      "title": "Bord Restaurant Visual Identity and Web Branding",
+      "source": "Abduzeedo",
+      "section": "diseño",
+      "date": "2026-08-06T13:30:53+00:00",
+      "summary": "",
+      "url": "https://abduzeedo.com/bord-restaurant-visual-identity-and-web-branding/",
+      "image": "https://cms.abduzeedo.com/sites/default/files/originals/bord_hero_mac_1to1_0.jpg",
+      "credit": "Abduzeedo"
+    },
+    {
+      "title": "Violaine et Jérémy Keep Materiality, Craft, and Hand-Drawn Illustration Kicking in the Digital Age",
+      "source": "The Dieline",
+      "section": "diseño",
+      "date": "2026-08-06T13:15:28+00:00",
+      "summary": "Violaine Orsoni and Jérémy Schneider left advertising to build a studio rooted in tactile, anti-digital design. Renowned for their hyper-detailed illustration, custom typography, and artisanal materiality, they design brand universes and packaging that defy the screen. \n The post  Violaine et Jérémy Keep Materiality, Craft, and Hand-Drawn Illustration Kicking in the Digital Age  appeared first on  DIELINE .",
+      "url": "https://thedieline.com/violaine-et-jeremy-keep-materiality-craft-and-hand-drawn-illustration-kicking-in-the-digital-age/",
+      "image": "https://thedieline.com/wp-content/uploads/2026/08/EASTERN_AND_ORIENTAL_EXPRESS_BELMOND1-scaled.jpg",
+      "credit": "The Dieline"
+    },
+    {
+      "title": "I'm using a new agent app",
+      "source": "Ben's Bites",
+      "section": "ia",
+      "date": "2026-08-06T13:03:28+00:00",
+      "summary": "Hey folks, This time last week I told you I’d downloaded t3 as my ‘all-in-one’ agent app, which lets you use your chat/claude subscriptions from one place.  Well forget that. (strong opinions, weekly held) There’s a new kid on the block and I’m in love…with the name,  bb , but also the app itself. If you use claude/chatgpt/pi/cursor/factory/[any agent] - you can use it within bb. It looks and works a lot like the chat/codex app (great). I got it set up on my mobile in like 4 seconds which is mil",
+      "url": "https://www.bensbites.com/p/im-using-a-new-agent-app",
+      "image": "https://substack-post-media.s3.amazonaws.com/public/images/21b1a179-2c74-4296-b8e9-e5d8c8ffdb02_1536x1024.png",
+      "credit": "Ben's Bites"
+    },
+    {
+      "title": "Numa Is a Conceptual Cold Brew Built on Color and Pattern",
+      "source": "The Dieline",
+      "section": "diseño",
+      "date": "2026-08-06T12:55:58+00:00",
+      "summary": "Ready to drink cold brew tends to split between moody minimal cans and overly illustrated cartons, but Numa skips both. Erika Luisetta built the entire system on horizontal color bands and a repeating geometric pattern, giving each flavor its own distinct palette and letting color alone signal Mocha from Matcha from Vanilla, all without a single illustrated bean or fruit in sight. \n The post  Numa Is a Conceptual Cold Brew Built on Color and Pattern  appeared first on  DIELINE .",
+      "url": "https://thedieline.com/numa-is-a-conceptual-cold-brew-built-on-color-and-pattern/",
+      "image": "https://thedieline.com/wp-content/uploads/2026/08/75d7fe252290333.6a4bf73584a27.jpg-scaled.webp",
+      "credit": "The Dieline"
+    },
+    {
+      "title": "Dio Kores Wine Combines Foil Stamping with a Delicate Illustration",
+      "source": "The Dieline",
+      "section": "diseño",
+      "date": "2026-08-06T12:53:08+00:00",
+      "summary": "Wine labels have fallen for illustrations, but most stay decorative and distant. Dio Kores goes personal instead, with iFrame Design Studio drawing two overlapping faces, a direct nod to the wine's name meaning two daughters, finished with stone toned paper and foil stamped detailing that ties the whole bottle back to the limestone hills of Epirus. \n The post  Dio Kores Wine Combines Foil Stamping with a Delicate Illustration  appeared first on  DIELINE .",
+      "url": "https://thedieline.com/dio-kores-wine-combines-foil-stamping-with-a-delicate-illustration/",
+      "image": "https://thedieline.com/wp-content/uploads/2026/08/fisekis-winery-label-design-4-7df4013105864cd98d89c35ba858e388.webp",
+      "credit": "The Dieline"
+    },
+    {
+      "title": "KORBA Architectural Studio Branding System",
+      "source": "Abduzeedo",
+      "section": "diseño",
+      "date": "2026-08-06T12:51:39+00:00",
+      "summary": "",
+      "url": "https://abduzeedo.com/korba-architectural-studio-branding-system/",
+      "image": "https://cms.abduzeedo.com/sites/default/files/originals/korba-brand-identity_1_0.jpg",
+      "credit": "Abduzeedo"
+    },
+    {
+      "title": "WOW Visual Identity Branding by Plural Branding Studio",
+      "source": "Abduzeedo",
+      "section": "diseño",
+      "date": "2026-08-06T12:10:37+00:00",
+      "summary": "",
+      "url": "https://abduzeedo.com/wow-visual-identity-branding-plural-branding-studio/",
+      "image": "https://cms.abduzeedo.com/sites/default/files/originals/wow_0_0.jpg",
+      "credit": "Abduzeedo"
+    },
+    {
+      "title": "Gregory Lalle Portfolio Concept UI UX Design by Dmitri Semenov",
+      "source": "Abduzeedo",
+      "section": "diseño",
+      "date": "2026-08-06T11:35:27+00:00",
+      "summary": "",
+      "url": "https://abduzeedo.com/gregory-lalle-portfolio-concept-ui-ux-design-dmitri-semenov/",
+      "image": "https://cms.abduzeedo.com/sites/default/files/originals/gregory-lalle-portfolio-concept_0_0.png",
+      "credit": "Abduzeedo"
+    },
+    {
+      "title": "Multi-generational LJ House in Ahmedabad prioritises shared living",
+      "source": "Dezeen",
+      "section": "diseño",
+      "date": "2026-08-06T10:30:17+00:00",
+      "summary": "Gently curving rooflines and an asymmetrical heart-shaped stairwell characterise this  multi-generational home  in  Ahmedabad , designed by local practices  Studio Saransh  and  Iksoi Studio . \n Named LJ House, the four-storey, 585-square-metre home was completed for a family of six on a compact urban plot, with the brief calling for an adaptable layout to accommodate changing needs. \n Studio Saransh and Iksoi Studio have completed LJ House in Ahmedabad \n Studio Saransh  and Iksoi Studio drew up",
+      "url": "https://www.dezeen.com/2026/08/06/lj-house-studio-saransh-iksoi-studio/",
+      "image": "http://static.dezeen.com/uploads/2026/07/lj-house-studio-saransh-iksoi-studio-ahmedabad_dezeen_2364_col_4-SQ2-411x411.jpg",
+      "credit": "Dezeen"
+    },
+    {
+      "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
+      "source": "OpenAI News",
+      "section": "ia",
+      "date": "2026-08-06T10:00:00+00:00",
+      "summary": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
+      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+      "image": null,
+      "credit": "OpenAI News"
+    },
+    {
+      "title": "MVRDV designs colourful stacked volumes for Shenzhen cultural complex",
+      "source": "Dezeen",
+      "section": "diseño",
+      "date": "2026-08-06T09:00:59+00:00",
+      "summary": "Dutch studio  MVRDV  has revealed designs for the Bihailou Art Village, a  cultural  development in  Shenzhen , China, set to comprise a stack of colourful volumes. \n Currently under construction in the Shatoujiao neighbourhood near the Hong Kong border, the 6,500-square-metre complex will contain cultural and retail spaces, including a museum and a double-height theatre, within its geometrically shaped volumes. \n MVRDV  conceptualised the proposal as a \"vertical village\", drawing on nearby home",
+      "url": "https://www.dezeen.com/2026/08/06/mvrdv-bihailou-art-village-shenzhen/",
+      "image": "http://static.dezeen.com/uploads/2026/08/mvrdv-bihailou-art-village-shenzhen-sq_dezeen_2364_col_0-411x411.jpg",
+      "credit": "Dezeen"
+    },
+    {
+      "title": "Mumbai apartment designed to feel like \"arriving at the edge of a still body of water\"",
+      "source": "Dezeen",
+      "section": "diseño",
+      "date": "2026-08-06T08:00:48+00:00",
+      "summary": "The lily pads that float on the  Kerala  backwaters were the inspiration for this  multi-generational  apartment renovation in  Mumbai  by local studio  The Act of Quad . \n Poetically named A Borrowed Memory, the apartment is characterised by continuous green flooring designed to echo the interconnected lakes, rivers and lagoons known as the Kerala backwaters in southern  India . \n A Borrowed Memory is an apartment characterised by continuous green flooring \n Priyanka Itadkar and Falguni Bhatia ",
+      "url": "https://www.dezeen.com/2026/08/06/mumbai-apartment-kerala-backwaters-lily-pads/",
+      "image": "http://static.dezeen.com/uploads/2026/08/a-borrowed-memory-act-of-quad-sq2-411x411.jpg",
+      "credit": "Dezeen"
+    },
+    {
+      "title": "200 Summers Later: Photographer Ana Paganini uncovers bloodless beauty at reenactments of history’s most iconic battles",
+      "source": "It's Nice That",
+      "section": "diseño",
+      "date": "2026-08-06T08:00:00+00:00",
+      "summary": "The photographer spent her past few summers swapping festivals with friends for battlefields, all to create an archive for historical events that have no photographic record.",
+      "url": "https://www.itsnicethat.com/articles/ana-paganini-200-summers-later-photography-project-060826",
+      "image": "https://admin.itsnicethat.com/images/7JF22B8sobTNCEGVK7fKPrXkv-4=/280473/width-1440/20250808-9.jpg",
+      "credit": "It's Nice That"
+    },
+    {
+      "title": "Berlin Museum’s makeover borrows typefaces from the U-Bahn and currywurst stands",
+      "source": "It's Nice That",
+      "section": "diseño",
+      "date": "2026-08-06T08:00:00+00:00",
+      "summary": "The Stadtmuseum is an amazing body of museums all over Berlin, but people don’t know where it is or most importantly, what it is. Design studio Stan Hema reviewed the facts, stepped in and gave it a brand new name, wordmark and attitude.",
+      "url": "https://www.itsnicethat.com/articles/stan-hema-berlin-museum-graphic-design-project-060826",
+      "image": "https://admin.itsnicethat.com/images/DGq-KIDbRd-SCpPSyuahUQfLwpI=/280718/width-1440/stan-hema-berlin-museum-graphic-design-itsnicethat-9.jpg",
+      "credit": "It's Nice That"
+    },
+    {
+      "title": "Working with the American Psychological Association on youth mental health and AI",
+      "source": "OpenAI News",
+      "section": "ia",
+      "date": "2026-08-06T06:00:00+00:00",
+      "summary": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.",
+      "url": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
+      "image": null,
+      "credit": "OpenAI News"
+    },
+    {
+      "title": "Forchewn Brews Instant, Single-Serve Coffee In Sustainable Packaging",
+      "source": "The Dieline",
+      "section": "diseño",
+      "date": "2026-08-06T05:06:00+00:00",
+      "summary": "Forchewn is a brand that combines the qualities of specialty coffee with the conveniences of instant and single-serve, with sustainable packaging in mind.  \n The post  Forchewn Brews Instant, Single-Serve Coffee In Sustainable Packaging  appeared first on  DIELINE .",
+      "url": "https://thedieline.com/forchewn-brews-instant-single-serve-coffee-in-sustainable-packaging/",
+      "image": "https://thedieline.com/wp-content/uploads/2026/08/DSCF4526-scaled.jpeg",
+      "credit": "The Dieline"
+    },
+    {
+      "title": "Harvest Moon table fabricated with materials and tools from within a 40 mile radius",
+      "source": "Dezeen",
+      "section": "diseño",
+      "date": "2026-08-06T05:00:37+00:00",
+      "summary": "Architect  Charles Holland , academic  Catharine Rossi  and design studio Local Works have fabricated a table from materials harvested within a 40-mile radius of Canterbury,  UK . \n Named Harvest Moon, the table was designed to investigate the potential of local biomaterials, while evoking the ideals of gathering associated with harvest rituals. \n The Harvest Moon table was made from biomaterials \n \"The table explores not just the materials we use but the attitudes and rituals around them,\" Holl",
+      "url": "https://www.dezeen.com/2026/08/06/harvest-moon-table-charles-holland-cat-rossi-local-works/",
+      "image": "http://static.dezeen.com/uploads/2026/08/harvest-moon-table-charles-holland-cat-rossi-local-works_dezeen_2364_sq_3-411x411.jpg",
+      "credit": "Dezeen"
+    },
+    {
+      "title": "Mucho Gusto Tactile Branding and Packaging System",
+      "source": "Abduzeedo",
+      "section": "diseño",
+      "date": "2026-08-06T03:44:08+00:00",
+      "summary": "",
+      "url": "https://abduzeedo.com/mucho-gusto-tactile-branding-and-packaging-system/",
+      "image": "https://cms.abduzeedo.com/sites/default/files/originals/mucho-gusto_0_0.jpg",
+      "credit": "Abduzeedo"
+    },
+    {
+      "title": "DeepMind CEO steps down 👋, Jeff Dean's startup 🤖, Cloudflare OS 👨‍💻",
+      "source": "TLDR AI",
+      "section": "ia",
+      "date": "2026-08-06T00:00:00+00:00",
+      "summary": "",
+      "url": "https://tldr.tech/tech/2026-08-06",
+      "image": null,
+      "credit": "TLDR AI"
+    },
+    {
+      "title": "Baseten on Hugging Face Inference Providers 🔥",
+      "source": "Hugging Face Blog",
+      "section": "ia",
+      "date": "2026-08-06T00:00:00+00:00",
+      "summary": "",
+      "url": "https://huggingface.co/blog/baseten",
+      "image": null,
+      "credit": "Hugging Face Blog"
+    },
+    {
+      "title": "From asking to doing: How the world is putting ChatGPT to work",
+      "source": "OpenAI News",
+      "section": "ia",
+      "date": "2026-08-06T00:00:00+00:00",
+      "summary": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.",
+      "url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
+      "image": null,
+      "credit": "OpenAI News"
+    },
+    {
+      "title": "No Art",
+      "source": "Awwwards SOTD",
+      "section": "awwwards",
+      "date": "2026-08-06T00:00:00+00:00",
+      "summary": "An immersive digital platform for No Art, bringing its global music and art universe to life through interactive storytelling, releases and events.",
+      "url": "https://www.awwwards.com/sites/no-art",
+      "image": "https://www.awwwards.com/awards/submissions/2026/06/6a34ee26568f3604651374.jpg",
+      "credit": "Awwwards SOTD"
+    },
+    {
+      "title": "noise-scape 2025 holger lippmann generative art",
+      "source": "Abduzeedo",
+      "section": "diseño",
+      "date": "2026-08-05T22:04:17+00:00",
+      "summary": "",
+      "url": "https://abduzeedo.com/noise-scape-2025-holger-lippmann-generative-art/",
+      "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_noise-scape-2025-i-holger-lippmann.jpg",
+      "credit": "Abduzeedo"
+    },
+    {
+      "title": "Bona Nova Mateusz Machalski Free Typeface",
+      "source": "Abduzeedo",
+      "section": "diseño",
+      "date": "2026-08-05T19:04:34+00:00",
+      "summary": "",
+      "url": "https://abduzeedo.com/bona-nova-mateusz-machalski-free-typeface/",
+      "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_bona-nova-free-font-mateusz-machalski.jpg",
+      "credit": "Abduzeedo"
+    },
+    {
+      "title": "Design Spells UI UX Interaction Gallery Showcase",
+      "source": "Abduzeedo",
+      "section": "diseño",
+      "date": "2026-08-05T18:42:34+00:00",
+      "summary": "",
+      "url": "https://abduzeedo.com/design-spells-ui-ux-interaction-gallery-showcase/",
+      "image": "https://cms.abduzeedo.com/sites/default/files/originals/designspells_hero_mac_1to1_1.jpg",
+      "credit": "Abduzeedo"
+    },
+    {
+      "title": "Eleven architecture preservation battles across the US",
+      "source": "Dezeen",
+      "section": "diseño",
+      "date": "2026-08-05T17:00:16+00:00",
+      "summary": "With the recent release of plans to build  on top of Eero Saarinen's terminal building at Dulles International Airport , we take a look at old and new controversies surrounding significant works of architecture and their  preservation  across the US. \n Preserving historic architecture is no easy task given ageing buildings, lack of funding and the lucrative nature of new development. \n From a Tadao Ando beach house gutted by musician  Kanye West , to  Frank Lloyd Wright 's only realised skyscrap",
+      "url": "https://www.dezeen.com/2026/08/05/eleven-architecture-preservation-battles-roundup/",
+      "image": "http://static.dezeen.com/uploads/2025/11/dallas-city-hall-preservation-2025_dezeen_2364_sq-1-411x411.jpg",
+      "credit": "Dezeen"
+    },
+    {
+      "title": "Zwqy .lab Redefines Artistic Identity with Artevive Branding",
+      "source": "Abduzeedo",
+      "section": "diseño",
+      "date": "2026-08-05T16:28:33+00:00",
+      "summary": "",
+      "url": "https://abduzeedo.com/zwqy-lab-redefines-artistic-identity-artevive-branding/",
+      "image": "https://cms.abduzeedo.com/sites/default/files/originals/artevive-rebranding-design_0.jpg",
+      "credit": "Abduzeedo"
+    },
+    {
+      "title": "SOM designs \"vertical data center\" for Downtown Kansas City",
+      "source": "Dezeen",
+      "section": "diseño",
+      "date": "2026-08-05T15:13:34+00:00",
+      "summary": "International architecture studio  SOM  has released designs of the 20-storey 934 Central Street  data centre  in  Kansas City , USA, with a facade configured to \"feel at home within its downtown context\". \n The 20-storey skyscraper will be built in the heart of Kansas City on a 0.23-acre site that is currently occupied by the Western Newspaper Union Building. \n Developed by Miami-based  Revitalization Unlimited , the structure will incorporate floors for data systems, cooling systems, and power",
+      "url": "https://www.dezeen.com/2026/08/05/data-center-skyscraper-kansas-city-som/",
+      "image": "http://static.dezeen.com/uploads/2026/08/som-data-center-kansas-city_dezeen_2364_sq-411x411.jpg",
+      "credit": "Dezeen"
+    },
+    {
+      "title": "Neurath Mono Geometric Typography by René Bieder",
+      "source": "Abduzeedo",
+      "section": "diseño",
+      "date": "2026-08-05T14:08:28+00:00",
+      "summary": "",
+      "url": "https://abduzeedo.com/neurath-mono-geometric-typography-rene-bieder/",
+      "image": "https://cms.abduzeedo.com/sites/default/files/originals/neurath-mono-type-family_0.jpg",
+      "credit": "Abduzeedo"
+    },
+    {
+      "title": "Ton Bui Crafts Rustic Industrial Branding for Xuong Caphe",
+      "source": "Abduzeedo",
+      "section": "diseño",
+      "date": "2026-08-05T13:34:35+00:00",
+      "summary": "",
+      "url": "https://abduzeedo.com/ton-bui-crafts-rustic-industrial-branding-xuong-caphe/",
+      "image": "https://cms.abduzeedo.com/sites/default/files/originals/xuong-caphe_0.jpg",
+      "credit": "Abduzeedo"
+    },
+    {
+      "title": "Generative Type Experiments GTX Mariam Badawy: Arabic Layouts",
+      "source": "Abduzeedo",
+      "section": "diseño",
+      "date": "2026-08-05T13:01:30+00:00",
+      "summary": "",
+      "url": "https://abduzeedo.com/generative-type-experiments-gtx-mariam-badawy-arabic-layouts/",
+      "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_generative-type-experiments-gtx-mariam-badawy.jpg",
+      "credit": "Abduzeedo"
+    },
+    {
+      "title": "DIELINE Awards 2027: Late Summer entry is open (and what it costs from here)",
+      "source": "The Dieline",
+      "section": "diseño",
+      "date": "2026-08-05T13:00:00+00:00",
+      "summary": "Late Summer entry for DIELINE Awards 2027 closes Friday, August 28 at 11:59 PM PT. The rates, the ladder above them, and why August is the cheapest this competition gets again. \n The post  DIELINE Awards 2027: Late Summer entry is open (and what it costs from here)  appeared first on  DIELINE .",
+      "url": "https://thedieline.com/dieline-awards-2027-late-summer-entry-open/",
+      "image": "https://thedieline.com/wp-content/uploads/2026/08/da27-blog-b1-v2-1920x1080-1.png",
+      "credit": "The Dieline"
+    },
+    {
+      "title": "Humanix",
+      "source": "Mindsparkle Mag",
+      "section": "diseño",
+      "date": "2026-08-05T11:29:05+00:00",
+      "summary": "Social engineering is behind many of today's biggest security breaches, yet the human layer has largely remained unprotected. Humanix set out to change that with an AI-powered platform that detects an...",
+      "url": "https://mindsparklemag.com/website/humanix",
+      "image": null,
+      "credit": "Mindsparkle Mag"
+    },
+    {
+      "title": "Red scaffolding surrounds temporary pavilion in India",
+      "source": "Dezeen",
+      "section": "diseño",
+      "date": "2026-08-05T10:45:57+00:00",
+      "summary": "A vast grid of red  scaffolding  surrounds The Reclaimed Pavilion, a temporary events space in  India  designed by local studio Kanan Modi Associates using materials that were salvaged from local construction sites. \n Commissioned by real estate firm Jayabheri Group for a rapidly developing neighbourhood in  Hyderabad , the 1,500-square-metre  pavilion  contains work and events spaces alongside a show home for a nearby apartment block, The Pinnacle. \n Kanan Modi Associates has created a temporar",
+      "url": "https://www.dezeen.com/2026/08/05/reclaimed-pavilion-kanan-modi-associates-india/",
+      "image": "http://static.dezeen.com/uploads/2026/08/reclaimed-pavilion-kanan-modi-associates-india-411x411.jpg",
+      "credit": "Dezeen"
+    },
+    {
+      "title": "MAD scatters boulder-like galleries across green-roofed museum in Shenzhen",
+      "source": "Dezeen",
+      "section": "diseño",
+      "date": "2026-08-05T10:00:03+00:00",
+      "summary": "Architecture studio  MAD  has unveiled Shenzhen Bay Culture Square in  China , a design  museum  formed of stone-like volumes perched atop an undulating  green roof . \n Situated in Houhai in  Shenzhen 's Nanshan District,  MAD  designed the museum to be a hub for design and culture as well as a coastal public space for city residents to enjoy. \n MAD has completed the Shenzhen Bay Culture Square in China \n \"Much of my work is guided by the same question: can public space be more open and equal?\" ",
+      "url": "https://www.dezeen.com/2026/08/05/shenzhen-bay-culture-square-mad/",
+      "image": "http://static.dezeen.com/uploads/2026/08/shenzhen-bay-culture-square-mad_dezeen_2364_sq_1-411x411.jpg",
+      "credit": "Dezeen"
+    },
+    {
+      "title": "Ómós guesthouse designed to \"feel like nothing else in Ireland\"",
+      "source": "Dezeen",
+      "section": "diseño",
+      "date": "2026-08-05T08:00:56+00:00",
+      "summary": "Asca Studio and Relief Gallery joined forces to create the interiors of the Ómós  guesthouse  outside Abbeyleix,  Ireland , which was converted from a ruin into a welcoming space filled with tactile materials. \n The 16-room guesthouse is located in a formerly dilapidated Victorian house that was renovated by local studio  Ryan W Kennihan Architects . \n It also has a dedicated restaurant, set in a new building that was designed by the same studio and informed by Irish farmsteads. \n The interior o",
+      "url": "https://www.dezeen.com/2026/08/05/omos-guesthouse-asca-studio-relief-gallery/",
+      "image": "http://static.dezeen.com/uploads/2026/08/omos-ireland-Asca-Studio-Relief-Gallery_dezeen_2364_col_sq2-411x411.jpg",
+      "credit": "Dezeen"
+    },
+    {
+      "title": "Polaroid’s Patricia Varella chats long-game strategies, imperfection and that anti-AI viral campaign",
+      "source": "It's Nice That",
+      "section": "diseño",
+      "date": "2026-08-05T08:00:00+00:00",
+      "summary": "The creative director of the iconic, analogue photography brand moved from agencies to in-house with a shared vision for how Polaroid should evolve in the AI era. Here, she shares the realities of having a bold brand campaign that swims against the tide.",
+      "url": "https://www.itsnicethat.com/features/in-house-polaroid-patricia-varella-creative-industry-050826",
+      "image": "https://admin.itsnicethat.com/images/2H770rH3FqgsnouumQYxyw_JJss=/280614/width-1440%7Cformat-jpeg/KEY_ART_16X9_LjD4sTR.png",
+      "credit": "It's Nice That"
+    },
+    {
+      "title": "Daniel Greenfeld’s artworks aren’t collages, they’re mosaics made of paper scraps",
+      "source": "It's Nice That",
+      "section": "diseño",
+      "date": "2026-08-05T08:00:00+00:00",
+      "summary": "Creating a circular process for his architectural compositions, the artist has been mining everyday offcuts for something more.",
+      "url": "https://www.itsnicethat.com/articles/daniel-greenfeld-illustration-art-discover-050826",
+      "image": "https://media.itsnicethat.com/original_images/Greenfeld_Progress.gif",
+      "credit": "It's Nice That"
+    },
+    {
+      "title": "Sam Wenc’s handmade album covers for independent music prove the importance of doing it yourself",
+      "source": "It's Nice That",
+      "section": "diseño",
+      "date": "2026-08-05T08:00:00+00:00",
+      "summary": "With over ten years experience in DIY music, Sam Wenc reminds us why album art, merchandise and posters should feel DIY too.",
+      "url": "https://www.itsnicethat.com/articles/sam-wenc-lobby-art-editions-illustration-graphic-design-discover-050826",
+      "image": "https://admin.itsnicethat.com/images/nTFN5KP5TBEyY1nb4r7CMlCN7tA=/280211/width-1440%7Cformat-jpeg/sam-wenc-graphic-design-itsnicethat-_Emahoy_Poster.png",
+      "credit": "It's Nice That"
+    },
+    {
+      "title": "“I take the silliness very seriously”: Joe Lycett on taxidermy, extinction and his debut solo exhibition",
+      "source": "It's Nice That",
+      "section": "diseño",
+      "date": "2026-08-05T08:00:00+00:00",
+      "summary": "Why did the neon-clothed comedian walk into Birmingham’s most prestigious gallery? To bring some joy into the world (with some stone cold facts sprinkled in for good measure, too).",
+      "url": "https://www.itsnicethat.com/features/joe-lycett-every-thing-must-go-art-spotlight-050826",
+      "image": "https://media.itsnicethat.com/original_images/swordfish.gif",
+      "credit": "It's Nice That"
+    },
+    {
+      "title": "Dress made of living mycelium can renew and repair itself",
+      "source": "Dezeen",
+      "section": "diseño",
+      "date": "2026-08-05T05:00:39+00:00",
+      "summary": "Researchers in China have created a  textile  from living  mycelium  that is self-cleaning, near self-repairing and can be coloured or made UV protective through \"plug-and-play\" add-ons of different fungi or yeast. \n The breakthrough from the researchers at the  Shenzhen Institutes of Advanced Technology  is a type of engineered living material (ELM) – a material built off living organisms that stay active even after they're fabricated into their final form. \n This distinguishes it from most con",
+      "url": "https://www.dezeen.com/2026/08/05/dress-living-mycelium-renew-repair/",
+      "image": "http://static.dezeen.com/uploads/2026/08/shenzen-institute-advanced-technology-programmable-fungal-platform-dress_dezeen_2364_sq-411x411.jpg",
+      "credit": "Dezeen"
+    },
+    {
+      "title": "Here & Away Travel Platform UI UX Design by Andrea Jelić",
+      "source": "Abduzeedo",
+      "section": "diseño",
+      "date": "2026-08-05T03:59:58+00:00",
+      "summary": "",
+      "url": "https://abduzeedo.com/here-away-travel-platform-ui-ux-design-andrea-jelic/",
+      "image": "https://cms.abduzeedo.com/sites/default/files/originals/here-away-web-design_0_0.png",
+      "credit": "Abduzeedo"
+    },
+    {
+      "title": "Siri AI 📱, SpaceX internet 🛰️, AI code review 👨‍💻",
+      "source": "TLDR AI",
+      "section": "ia",
+      "date": "2026-08-05T00:00:00+00:00",
+      "summary": "",
+      "url": "https://tldr.tech/tech/2026-08-05",
+      "image": null,
+      "credit": "TLDR AI"
+    },
+    {
+      "title": "Alethia",
+      "source": "Awwwards SOTD",
+      "section": "awwwards",
+      "date": "2026-08-05T00:00:00+00:00",
+      "summary": "A website where content, visuals, and interaction work as one system to make complex environmental data feel clear and trustworthy.",
+      "url": "https://www.awwwards.com/sites/alethia",
+      "image": "https://www.awwwards.com/awards/submissions/2026/06/6a31b669d3af7918980732.png",
+      "credit": "Awwwards SOTD"
+    },
+    {
+      "title": "Flightmode Exhibition Identity Catalogue Heather Lynn Billyclub",
+      "source": "Abduzeedo",
+      "section": "diseño",
+      "date": "2026-08-04T22:05:15+00:00",
+      "summary": "",
+      "url": "https://abduzeedo.com/flightmode-exhibition-identity-catalogue-heather-lynn-billyclub/",
+      "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_flightmode-exhibition-identity-catalogue-heather-lynn.jpg",
+      "credit": "Abduzeedo"
+    },
+    {
+      "title": "Freaky Lizard Branding Packaging Yevheniia Dutchak",
+      "source": "Abduzeedo",
+      "section": "diseño",
+      "date": "2026-08-04T19:03:05+00:00",
+      "summary": "",
+      "url": "https://abduzeedo.com/freaky-lizard-branding-packaging-yevheniia-dutchak/",
+      "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_freaky-lizard-branding-packaging-yevheniia-dutchak.jpg",
+      "credit": "Abduzeedo"
+    },
+    {
+      "title": "Third-party cyber evaluations involving OpenAI models",
+      "source": "OpenAI News",
+      "section": "ia",
+      "date": "2026-08-04T19:00:00+00:00",
+      "summary": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
+      "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+      "image": null,
+      "credit": "OpenAI News"
+    },
+    {
+      "title": "Dezeen Debate features \"shameless\" proposal for Dulles airport",
+      "source": "Dezeen",
+      "section": "diseño",
+      "date": "2026-08-04T18:00:35+00:00",
+      "summary": "The  latest Dezeen Debate newsletter  features the Donald Trump-backed  plans to extend Eero Saarinen's terminal at Dulles airport .  Subscribe to Dezeen Debate now . \n The US Department of Transportation announced the plan in partnership with The Metropolitan Washington Airports Authority and United Airlines, after dozens of architecture studios  submitted proposals  to an RFI from the government last year. \n Commenters are unsure about the proposal, with one calling it \"shameless\", referring t",
+      "url": "https://www.dezeen.com/2026/08/04/dulles-revamp-trump-united-airlines-concept-dezeen-debate/",
+      "image": "http://static.dezeen.com/uploads/2026/08/united-airlines-trump-dulles-concept-renderings_dezeen_2364_col_6_square-411x411.jpg",
+      "credit": "Dezeen"
+    },
+    {
+      "title": "River Architects replaces Hudson Valley structure with gabled Passive House",
+      "source": "Dezeen",
+      "section": "diseño",
+      "date": "2026-08-04T17:30:22+00:00",
+      "summary": "Local studio River Architects has designed a  wood-clad  structure to  Passive House  standards, orienting gabled volumes around a pond in New York's  Hudson Valley . \n Known as the China Pond Passive House, the 4,318-square-foot (400-square-metre) home sits on a wooded 2.2-acre property in Carmel, New York. \n River Architects , which is based in nearby Cold Spring, completed the house in November 2025, replacing an earlier residence with a similar footprint. \n River Architects has created a Pas",
+      "url": "https://www.dezeen.com/2026/08/04/river-architects-china-pond-passive-house/",
+      "image": "http://static.dezeen.com/uploads/2026/07/china-pond-passive-house-river-architects-new-york_dezeen_2364_sq-411x411.jpg",
+      "credit": "Dezeen"
+    },
+    {
+      "title": "WORM Visual Identity Branding by Jonas Bombardelli",
+      "source": "Abduzeedo",
+      "section": "diseño",
+      "date": "2026-08-04T15:38:48+00:00",
+      "summary": "",
+      "url": "https://abduzeedo.com/worm-visual-identity-branding-jonas-bombardelli/",
+      "image": "https://cms.abduzeedo.com/sites/default/files/originals/worm_0_0.png",
+      "credit": "Abduzeedo"
+    },
+    {
+      "title": "SBP and Snøhetta cantilever bridge between rock faces in Upstate New York",
+      "source": "Dezeen",
+      "section": "diseño",
+      "date": "2026-08-04T14:40:30+00:00",
+      "summary": "New York studios Schlaich Bergermann Partner and  Snøhetta  have replaced an ageing bridge in  Upstate New York  with a steel half-arch span that is mounted on one side of a gorge and cantilevers across to the other side. \n The Sentry Bridge replaces a decaying structure of the same name located in Watkins Glen State Park in the Finger Lakes region of New York. \n SBP and Snøhetta have completed a bridge in Upstate New York \n The bridge is wedged between two cavernous rock walls among the park's ",
+      "url": "https://www.dezeen.com/2026/08/04/sentry-bridge-watkins-glen-gorge-snohetta-sbp/",
+      "image": "http://static.dezeen.com/uploads/2026/08/sentry-bridge-new-york-watkins-glen-snohetta_dezeen_2364_sq-2-411x411.jpg",
+      "credit": "Dezeen"
+    },
+    {
+      "title": "Deploy local agents everywhere with LFM2.5-2.6B",
+      "source": "Hugging Face Blog",
+      "section": "ia",
+      "date": "2026-08-04T13:58:29+00:00",
+      "summary": "",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
+      "image": null,
+      "credit": "Hugging Face Blog"
+    },
+    {
+      "title": "What my agent knows about me",
+      "source": "Ben's Bites",
+      "section": "ia",
+      "date": "2026-08-04T13:10:31+00:00",
+      "summary": "Hey folks, I wasn’t prepared for AI hard-hitting truths this morning but I tested this: In the link, you download the file ‘reflection engine’ which is just a very big prompt basically. Upload the file to your agent and ask: Please evaluate the attached markdown file and complete all tasks. I tested it with Fable High and Sol Max, and Sol produced the better report. It was more coherent (agents are speaking more gobbledy goop these days) and nailed connections. Fable’s was harder to read.  I’m g",
+      "url": "https://www.bensbites.com/p/what-my-agent-knows-about-me",
+      "image": "https://substack-post-media.s3.amazonaws.com/public/images/6f7cbbb6-f7f6-4f44-9dd3-927a5674ee15_888x545.png",
+      "credit": "Ben's Bites"
+    },
+    {
+      "title": "Kopalnia Magazine 2 World Cup 2026 Ania Wielunska Design",
+      "source": "Abduzeedo",
+      "section": "diseño",
+      "date": "2026-08-04T13:05:18+00:00",
+      "summary": "",
+      "url": "https://abduzeedo.com/kopalnia-magazine-2-world-cup-2026-ania-wielunska-design/",
+      "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_kopalnia-magazine-2-world-cup-2026-ania-wieluska.jpg",
+      "credit": "Abduzeedo"
+    },
+    {
+      "title": "INKDRUM Browser Risograph Print Simulator by INKDRUM Team",
+      "source": "Abduzeedo",
+      "section": "diseño",
+      "date": "2026-08-04T12:50:29+00:00",
+      "summary": "",
+      "url": "https://abduzeedo.com/inkdrum-browser-risograph-print-simulator-inkdrum-team/",
+      "image": "https://cms.abduzeedo.com/sites/default/files/originals/inkdrum_0.jpg",
+      "credit": "Abduzeedo"
+    },
+    {
+      "title": "A playful deli identity for Belgrade&#039;s Paninoteca",
+      "source": "Mindsparkle Mag",
+      "section": "diseño",
+      "date": "2026-08-04T12:36:04+00:00",
+      "summary": "Inspired by the golden era of Italian-American delis, Paninoteca brings the spirit of New York sandwich culture to Belgrade through a bold and playful brand identity. The challenge was to capture the...",
+      "url": "https://mindsparklemag.com/designs/paninoteca",
+      "image": null,
+      "credit": "Mindsparkle Mag"
+    },
+    {
+      "title": "Farmsteads inform corrugated metal-clad home in Sussex",
+      "source": "Dezeen",
+      "section": "diseño",
+      "date": "2026-08-04T10:30:46+00:00",
+      "summary": "Agricultural  barns  and sheds informed the  corrugated metal -clad volumes of House in a Clearing, a  house  in East Sussex completed by UK studio TaylorHare Architects. \n When the clients purchased the site nestled in a woodland clearing near Uckfield, it was occupied by a small structure but already had planning permission for a much larger, two-storey dwelling. \n TaylorHare Architects has completed a family home in East Sussex \n The new owners, however, sought a quieter design that would fee",
+      "url": "https://www.dezeen.com/2026/08/04/house-in-a-clearing-sussex-uk-taylorhare-architects/",
+      "image": "http://static.dezeen.com/uploads/2026/07/house-in-a-clearing-sussex-uk-taylorhare-architects-sq_dezeen_2364_col_1-411x411.jpg",
+      "credit": "Dezeen"
+    },
+    {
+      "title": "Joyce Wang draws on \"colonial country manors\" for Hong Kong hotel interior",
+      "source": "Dezeen",
+      "section": "diseño",
+      "date": "2026-08-04T09:30:12+00:00",
+      "summary": "Designer  Joyce Wang  has completed an interior renovation at the Mandarin Oriental The Landmark  hotel  in Hong Kong, designed to evoke the feel of living in a colonial mansion. \n Located on Queen's Road in Hong Kong's Central district, the hotel was first established a decade ago. It recently reopened after the completion of interior renovation by  Joyce Wang Studio  and a  new facade design by Neri&Hu . \n Terracotta tones in the lobby nod to Hong Kong's colonial architecture \n Joyce Wang Stud",
+      "url": "https://www.dezeen.com/2026/08/04/joyce-wangs-mandarin-oriental-the-landmark-hong-kong/",
+      "image": "http://static.dezeen.com/uploads/2026/08/joyce-wang-studio-mandarin-oriental-the-landmark-hong-kong-hotel-interiors_dezeen_2364_col_sq-411x411.jpg",
+      "credit": "Dezeen"
+    },
+    {
+      "title": "Chicago.com",
+      "source": "Mindsparkle Mag",
+      "section": "diseño",
+      "date": "2026-08-04T09:02:15+00:00",
+      "summary": "Chicago.com is being built by Chicago Public Media as a destination where Chicagoans can find trusted local information, discover community knowledge, explore civic and cultural resources, and uncover...",
+      "url": "https://mindsparklemag.com/website/chicagocom",
+      "image": null,
+      "credit": "Mindsparkle Mag"
+    },
+    {
+      "title": "Norm Architects designs Dynaudio showroom to resemble \"speaker components unfolded\"",
+      "source": "Dezeen",
+      "section": "diseño",
+      "date": "2026-08-04T08:00:05+00:00",
+      "summary": "Wood, aluminium and artworks made from reused textiles were used to create speaker brand Dynaudio's new showroom in  Copenhagen , which local studio  Norm Architects  has filled with wooden furniture by Japanese manufacturer  Karimoku . \n The showroom is located in Copenhagen's picturesque, central Indre By neighbourhood, in a former flagship store for Danish shoe brand Notabene that was also designed by  Norm Architects . \n For   Dynaudio , however, the studio wanted to create an interior that ",
+      "url": "https://www.dezeen.com/2026/08/04/norm-architects-dynaudio-showroom-speaker-components/",
+      "image": "http://static.dezeen.com/uploads/2026/07/dynaudio-norm-architects-karimoku-copenhagen_dezeen_2364_col_sq1-411x411.jpg",
+      "credit": "Dezeen"
+    },
+    {
+      "title": "How in-camera tricks, colourful paper and patience brought Sam Nicklin’s reflective photographs for Alessi to life",
+      "source": "It's Nice That",
+      "section": "diseño",
+      "date": "2026-08-04T08:00:00+00:00",
+      "summary": "The photographer’s collaboration with the iconic Italian homeware brand is a key reminder that “simple ideas can often have the biggest impact.”",
+      "url": "https://www.itsnicethat.com/articles/sam-nicklin-chrome-and-colour-alessi-photography-project-040826",
+      "image": "https://admin.itsnicethat.com/images/iY-Kxuxw3FLv9AFWaTTu8kQ1aRE=/280498/width-1440/ALESSI_POST_3_-_FOR_INT.jpg",
+      "credit": "It's Nice That"
+    },
+    {
+      "title": "Translating the digital language of design into traditional craft: Daniela Doe on tactility, tufting and typography",
+      "source": "It's Nice That",
+      "section": "diseño",
+      "date": "2026-08-04T08:00:00+00:00",
+      "summary": "This artist is exploring how graphic design can move beyond the screen and turn into something you can feel.",
+      "url": "https://www.itsnicethat.com/articles/daniela-doe-graphic-design-art-discover-040826",
+      "image": "https://admin.itsnicethat.com/images/a2W2zm6STUDXZjvI6dQd1Cgv818=/280190/width-1440/Daniela_Doe___Grid__2_handtufted_rug__2025.JPG",
+      "credit": "It's Nice That"
+    },
+    {
+      "title": "Taylor Knights designs responsible Melbourne coffee roastery to \"reveal rather than replace\"",
+      "source": "Dezeen",
+      "section": "diseño",
+      "date": "2026-08-04T05:00:24+00:00",
+      "summary": "A stripped-back interior of concrete surfaces and timber joinery lets sustainable production practices take centre stage at  Melbourne 's Contraband Coffee  cafe  and roastery, designed by architecture studio  Taylor Knights . \n The cafe is located in Melbourne's buzzy Brunswick East neighbourhood and is the second  Contraband Coffee  branch to be designed by  Taylor Knights , which also devised the interiors of the company's inaugural site in nearby Preston. \n Contraband Coffee takes over an ol",
+      "url": "https://www.dezeen.com/2026/08/04/contraband-coffee-melbourne-cafe-interiors-taylor-knights/",
+      "image": "http://static.dezeen.com/uploads/2026/07/contraband-coffee-shop-interiors-cafes-taylor-knights_dezeen_sq-1-411x411.jpg",
+      "credit": "Dezeen"
+    },
+    {
+      "title": "Bar Popolare Visual Identity Branding by Leonardo Maltese",
+      "source": "Abduzeedo",
+      "section": "diseño",
+      "date": "2026-08-04T03:27:56+00:00",
+      "summary": "",
+      "url": "https://abduzeedo.com/bar-popolare-visual-identity-branding-leonardo-maltese/",
+      "image": "https://cms.abduzeedo.com/sites/default/files/originals/bar-popolare_0_0.jpg",
+      "credit": "Abduzeedo"
+    },
+    {
+      "title": "Imogen Oke Visual Identity Branding by Thought & Found",
+      "source": "Abduzeedo",
+      "section": "diseño",
+      "date": "2026-08-04T03:08:05+00:00",
+      "summary": "",
+      "url": "https://abduzeedo.com/imogen-oke-visual-identity-branding-thought-found/",
+      "image": "https://cms.abduzeedo.com/sites/default/files/originals/imogen-oke_0_0.jpg",
+      "credit": "Abduzeedo"
+    },
+    {
+      "title": "SpaceX buys land 🗺️, AI vertical integration 🤖, Cloudflare Computer 👨‍💻",
+      "source": "TLDR AI",
+      "section": "ia",
+      "date": "2026-08-04T00:00:00+00:00",
+      "summary": "",
+      "url": "https://tldr.tech/tech/2026-08-04",
+      "image": null,
+      "credit": "TLDR AI"
+    },
+    {
+      "title": "New ways to learn and teach with ChatGPT Work and Codex",
+      "source": "OpenAI News",
+      "section": "ia",
+      "date": "2026-08-04T00:00:00+00:00",
+      "summary": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
+      "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
+      "image": null,
+      "credit": "OpenAI News"
+    },
+    {
+      "title": "Serotoninn",
+      "source": "Awwwards SOTD",
+      "section": "awwwards",
+      "date": "2026-08-04T00:00:00+00:00",
+      "summary": "Young womenswear brand. Designed in Germany, made in Kyiv, Ukraine. Chic pieces with a grungy touch—perfect for anyone who wants something a little different.",
+      "url": "https://www.awwwards.com/sites/serotoninn",
+      "image": "https://www.awwwards.com/awards/submissions/2026/06/6a31480c94d74820269997.png",
+      "credit": "Awwwards SOTD"
+    },
+    {
+      "title": "Drawink Animals Illustrations Getillustrations: Line Art",
+      "source": "Abduzeedo",
+      "section": "diseño",
+      "date": "2026-08-03T22:01:40+00:00",
+      "summary": "",
+      "url": "https://abduzeedo.com/drawink-animals-illustrations-getillustrations-line-art/",
+      "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_drawink-animals-illustrations-getillustrations.jpg",
+      "credit": "Abduzeedo"
+    },
+    {
+      "title": "Apple is getting this wrong",
+      "source": "OpenAI News",
+      "section": "ia",
+      "date": "2026-08-03T22:00:00+00:00",
+      "summary": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
+      "url": "https://openai.com/index/apple-is-getting-this-wrong",
+      "image": null,
+      "credit": "OpenAI News"
+    },
+    {
+      "title": "diesta streamlining insurance payments significa.co UI",
+      "source": "Abduzeedo",
+      "section": "diseño",
+      "date": "2026-08-03T19:07:44+00:00",
+      "summary": "",
+      "url": "https://abduzeedo.com/diesta-streamlining-insurance-payments-significaco-ui/",
+      "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_diesta-streamlining-insurance-payments-significaco.jpg",
+      "credit": "Abduzeedo"
+    },
+    {
+      "title": "Glazed pavilion with \"distinctly modernist character\" added to Portland Art Museum",
+      "source": "Dezeen",
+      "section": "diseño",
+      "date": "2026-08-03T17:56:02+00:00",
+      "summary": "A glass-walled pavilion sandwiched between historic buildings is the leading feature of an  Oregon  art  museum  revamp, which was designed by US studios  Hennebery Eddy Architects  and Vinci Hamp Architects to improve the visitor experience. \n Spanning two urban blocks, the Portland Art Museum is located in the city's downtown district. \n Hennebery Eddy Architects and Vinci Hamp Architects have completed an expansion to the Portland Art Museum \n It primarily consists of two historic buildings: ",
+      "url": "https://www.dezeen.com/2026/08/03/portland-art-museum-oregon-hennebery-eddy-architects-and-vinci-hamp-architects/",
+      "image": "http://static.dezeen.com/uploads/2026/06/portland-art-museum-oregon-hennebery-eddy-architects-and-vinci-hamp-architects_dezeen_2364_sq-1-411x411.jpg",
+      "credit": "Dezeen"
+    },
+    {
+      "title": "Data centre approved as part of Truman Brewery masterplan in east London",
+      "source": "Dezeen",
+      "section": "diseño",
+      "date": "2026-08-03T15:00:32+00:00",
+      "summary": "Plans unveiled by architecture studio  Buckley Gray Yeoman  for offices, homes and a  data centre  near Brick Lane in  London  have been approved. \n Planned for three sites in the east London neighbourhood, the Truman Brewery masterplan will comprise eight buildings designed by  Buckley Gray Yeoman  (BGY), alongside London-based studios  Carmody Groarke ,  Morris+Company  and  Henley Halebrown . \n Approved last week  by the Ministry of Housing, Communities and Local Government, the contentious p",
+      "url": "https://www.dezeen.com/2026/08/03/truman-brewery-masterplan-buckley-gray-yeoman-london/",
+      "image": "http://static.dezeen.com/uploads/2026/08/truman-brewery-masterplan-buckley-gray-yeoman-london-sq_dezeen_2364_col_0-411x411.jpg",
+      "credit": "Dezeen"
+    },
+    {
+      "title": "Petbarn Visual Identity Branding by Landor Australia",
+      "source": "Abduzeedo",
+      "section": "diseño",
+      "date": "2026-08-03T14:14:41+00:00",
+      "summary": "",
+      "url": "https://abduzeedo.com/petbarn-visual-identity-branding-landor-australia/",
+      "image": "https://cms.abduzeedo.com/sites/default/files/originals/petbarn_1_0.gif",
+      "credit": "Abduzeedo"
+    },
+    {
+      "title": "Gideon Phillip Directs Striking Monochromatic Branding for PM",
+      "source": "Abduzeedo",
+      "section": "diseño",
+      "date": "2026-08-03T13:37:56+00:00",
+      "summary": "",
+      "url": "https://abduzeedo.com/gideon-phillip-directs-striking-monochromatic-branding-pm/",
+      "image": "https://cms.abduzeedo.com/sites/default/files/originals/pm-brand-identity_1.jpg",
+      "credit": "Abduzeedo"
+    },
+    {
+      "title": "Minimalist Branding for ELYO Brand Identity",
+      "source": "Abduzeedo",
+      "section": "diseño",
+      "date": "2026-08-03T13:28:39+00:00",
+      "summary": "",
+      "url": "https://abduzeedo.com/minimalist-branding-elyo-brand-identity/",
+      "image": "https://cms.abduzeedo.com/sites/default/files/originals/elyo-brand-identity_0.jpg",
+      "credit": "Abduzeedo"
+    },
+    {
+      "title": "Inrestudio uses double-layered envelope to create \"in-between spaces\" for Vietnamese home",
+      "source": "Dezeen",
+      "section": "diseño",
+      "date": "2026-08-03T10:30:59+00:00",
+      "summary": "Irregularly placed and mismatched openings puncture the terracotta-toned, double-layered exterior of 100 Windows, a  multigenerational home  in  Vietnam  designed by local architecture practice Inrestudio. \n Designed for two generations and three households – a couple, their two sons and the sons' families – the 639-square-metre home is located close to the Red River in the suburbs of  Hanoi . \n A double-layered envelope with irregular openings characterises 100 Windows \n Responding to both the ",
+      "url": "https://www.dezeen.com/2026/08/03/100-windows-inrestudio-multi-generational-house-vietnam/",
+      "image": "http://static.dezeen.com/uploads/2026/07/inrestudio-multi-generational-house-vietnam_dezeen_2364_sq_0-411x411.jpg",
+      "credit": "Dezeen"
+    },
+    {
+      "title": "Daylight",
+      "source": "Typewolf",
+      "section": "diseño",
+      "date": null,
+      "summary": "Fonts:  Grenette ,  Styrene",
+      "url": "https://www.typewolf.com/site-of-the-day/daylight-health",
+      "image": "https://www.typewolf.com/assets/img/sotd/2025-12-14.png",
+      "credit": "Typewolf"
+    },
+    {
+      "title": "Heart & Soil",
+      "source": "Typewolf",
+      "section": "diseño",
+      "date": null,
+      "summary": "Fonts:  Cardinal ,  Sweet Sans ,  Baskerville",
+      "url": "https://www.typewolf.com/site-of-the-day/heart-and-soil",
+      "image": "https://www.typewolf.com/assets/img/sotd/2025-12-13.png",
+      "credit": "Typewolf"
+    },
+    {
+      "title": "Dirty Vine",
+      "source": "Typewolf",
+      "section": "diseño",
+      "date": null,
+      "summary": "Fonts:  Swear ,  DM Mono",
+      "url": "https://www.typewolf.com/site-of-the-day/dirty-vine",
+      "image": "https://www.typewolf.com/assets/img/sotd/2025-12-12.png",
+      "credit": "Typewolf"
+    },
+    {
+      "title": "Muse",
+      "source": "Typewolf",
+      "section": "diseño",
+      "date": null,
+      "summary": "Fonts:  DaVinci ,  Suisse Int’l",
+      "url": "https://www.typewolf.com/site-of-the-day/muse-paris",
+      "image": "https://www.typewolf.com/assets/img/sotd/2025-12-11.png",
+      "credit": "Typewolf"
+    },
+    {
+      "title": "Board",
+      "source": "Typewolf",
+      "section": "diseño",
+      "date": null,
+      "summary": "Fonts:  Kabel ,  Neue Haas Grotesk",
+      "url": "https://www.typewolf.com/site-of-the-day/board",
+      "image": "https://www.typewolf.com/assets/img/sotd/2025-12-10.jpg",
+      "credit": "Typewolf"
+    },
+    {
+      "title": "Elena Scott",
+      "source": "Typewolf",
+      "section": "diseño",
+      "date": null,
+      "summary": "Fonts:  Editorial Old ,  Neue Montreal",
+      "url": "https://www.typewolf.com/site-of-the-day/elena-scott",
+      "image": "https://www.typewolf.com/assets/img/sotd/2025-12-09.png",
+      "credit": "Typewolf"
+    },
+    {
+      "title": "Speakeasy",
+      "source": "Typewolf",
+      "section": "diseño",
+      "date": null,
+      "summary": "Fonts:  Tobias ,  Diatype ,  Diatype Mono",
+      "url": "https://www.typewolf.com/site-of-the-day/speakeasy",
+      "image": "https://www.typewolf.com/assets/img/sotd/2025-12-08.jpg",
+      "credit": "Typewolf"
+    },
+    {
+      "title": "Every",
+      "source": "Typewolf",
+      "section": "diseño",
+      "date": null,
+      "summary": "Fonts:  Signifier ,  Switzer",
+      "url": "https://www.typewolf.com/site-of-the-day/every-2025",
+      "image": "https://www.typewolf.com/assets/img/sotd/2025-09-28.png",
+      "credit": "Typewolf"
+    },
+    {
+      "title": "TR Studio",
+      "source": "Typewolf",
+      "section": "diseño",
+      "date": null,
+      "summary": "Fonts:  Arizona Flare ,  Dia",
+      "url": "https://www.typewolf.com/site-of-the-day/tr-studio",
+      "image": "https://www.typewolf.com/assets/img/sotd/2025-09-27.png",
+      "credit": "Typewolf"
+    },
+    {
+      "title": "Go RVing",
+      "source": "Typewolf",
+      "section": "diseño",
+      "date": null,
+      "summary": "Fonts:  Agipo ,  Topol ,  Maison Neue",
+      "url": "https://www.typewolf.com/site-of-the-day/go-rving",
+      "image": "https://www.typewolf.com/assets/img/sotd/2025-09-26.png",
+      "credit": "Typewolf"
+    }
+  ],
+  "curation": {
+    "subject": "Diseñar contra el algoritmo: tipografía que engaña a la IA y branding que se niega a encajar",
+    "tldr": [
+      "Una tipografía creada para que los scrapers de IA lean basura, no tu texto: Decoy Font es la respuesta más radical al problema de privacidad de datos que nadie estaba esperando de un estudio tipográfico.",
+      "Australia reconoce a los diseñadores como categoría profesional en su censo nacional por primera vez, señal de que el sector está ganando peso institucional real.",
+      "Violaine et Jérémy demuestran que la ilustración a mano y la materialidad táctil son hoy ventajas competitivas, no nostalgias: sus encargos más cotizados son los que ninguna IA puede replicar.",
+      "El branding de YOKO Matcha rompe el molde minimalista del té japonés con energía de sticker vintage: prueba de que subvertir el código visual de una categoría puede ser la decisión estratégica más acertada."
+    ],
+    "lead": {
+      "title": "Decoy Font: la tipografía que le miente a la IA",
+      "kind": "proyecto",
+      "source": "Dezeen",
+      "mins": 3,
+      "summary": "Mixfont diseñó una fuente de doble capa donde el humano lee el texto limpio y el scraper de IA lee ruido: es la primera solución tipográfica real al problema de raspado de datos, y te importa porque tus textos de cliente también están expuestos.",
+      "url": "https://www.dezeen.com/2026/08/06/dezeen-agenda-decoy-font-ai-mixfont/",
+      "image": null,
+      "credit": null
+    },
+    "radar": [
+      {
+        "source": "It's Nice That",
+        "mins": 4,
+        "title": "Violaine et Jérémy: materialidad y craft como ventaja competitiva",
+        "take": "Salir de la publicidad para construir un estudio anti-digital fue su mejor movimiento de negocio, no solo estético.",
+        "summary": "Dejaron agencias para construir un estudio donde la ilustración hiperestilizada y la tipografía custom son el diferencial: sus proyectos más celebrados son los que ninguna herramienta generativa puede imitar todavía.",
+        "url": "https://thedieline.com/violaine-et-jeremy-keep-materiality-craft-and-hand-drawn-illustration-kicking-in-the-digital-age/",
+        "image": "https://thedieline.com/wp-content/uploads/2026/08/EASTERN_AND_ORIENTAL_EXPRESS_BELMOND1-scaled.jpg",
+        "credit": "It's Nice That"
+      },
+      {
+        "source": "It's Nice That",
+        "mins": 3,
+        "title": "Stan Hema rebrandea el Stadtmuseum Berlín con tipografía del U-Bahn",
+        "take": "Robarle el tipo a la señalética urbana de la ciudad es la decisión más honesta que podía tomar este museo.",
+        "summary": "El estudio rediseñó la identidad del sistema de museos municipales de Berlín tomando tipografías directamente de la señalética del metro y de los puestos de currywurst: legibilidad local como argumento conceptual.",
+        "url": "https://www.itsnicethat.com/articles/stan-hema-berlin-museum-graphic-design-project-060826",
+        "image": "https://admin.itsnicethat.com/images/DGq-KIDbRd-SCpPSyuahUQfLwpI=/280718/width-1440/stan-hema-berlin-museum-graphic-design-itsnicethat-9.jpg",
+        "credit": "It's Nice That"
+      },
+      {
+        "source": "The Dieline",
+        "mins": 3,
+        "title": "YOKO Matcha: cuando romper el código visual de una categoría es la estrategia",
+        "take": "Energía de sticker de skate en un tin de matcha prueba que el minimalismo japonés ya es cliché de categoría, no posicionamiento.",
+        "summary": "Good Spark diseñó para YOKO con lettering overscale, paleta amarillo-verde-azul y referencias al sticker vintage: cada elemento contradice deliberadamente el zen-minimalismo que domina el mercado del té premium.",
+        "url": "https://thedieline.com/yoko-skips-the-zen-garden-for-a-sticker-sheet/",
+        "image": "https://thedieline.com/wp-content/uploads/2026/08/SnapInsta.to_756894719_18347831677219733_8476302730292748152_n.jpg",
+        "credit": "The Dieline"
+      },
+      {
+        "source": "Dezeen",
+        "mins": 2,
+        "title": "Australia incluye al diseño como categoría profesional en su censo por primera vez",
+        "take": "Cuando el estado te empieza a contar, tu trabajo empieza a pesar en políticas públicas y en negociaciones de industria.",
+        "summary": "El censo australiano del 11 de agosto incorpora por primera vez una categoría dedicada a diseñadores de todas las disciplinas; el dato importa porque la invisibilidad estadística ha sido históricamente el argumento para subpagar al sector.",
+        "url": "https://www.dezeen.com/2026/08/10/design-profession-category-australia-census/",
+        "image": null,
+        "credit": null
+      },
+      {
+        "source": "It's Nice That",
+        "mins": 4,
+        "title": "Patricia Varella, directora creativa de Polaroid, sobre nadar contra la corriente de la IA",
+        "take": "Ser la marca anti-IA más icónica del mercado no fue un accidente: fue una apuesta de largo plazo que requirió convencer a toda la estructura interna.",
+        "summary": "Varella cuenta cómo pasó de agencias a in-house con una visión clara sobre cómo posicionar Polaroid en la era generativa, y qué significa tener una campaña viral que contradice el zeitgeist tecnológico sin ser reactiva.",
+        "url": "https://www.itsnicethat.com/features/in-house-polaroid-patricia-varella-creative-industry-050826",
+        "image": "https://admin.itsnicethat.com/images/2H770rH3FqgsnouumQYxyw_JJss=/280614/width-1440%7Cformat-jpeg/KEY_ART_16X9_LjD4sTR.png",
+        "credit": "It's Nice That"
+      }
+    ],
+    "type_pick": {
+      "name": "Agrandir de Alex Slobzheninov",
+      "note": "Variable, de formas imperfectas e intencionadas: funciona donde quieres personalidad sin perder estructura. Vale revisarla si estás buscando alternativas a los grotescos de siempre.",
+      "url": "https://abduzeedo.com/agrandir-typeface-alex-slobzheninov-bold-imperfect-forms/",
+      "image": "https://cms.abduzeedo.com/sites/default/files/originals/hero_agrandir-typeface-free-fonts-variable-font-alex-slobzheninov.jpg"
+    },
+    "ai": [
+      {
+        "source": "Ben's Bites",
+        "mins": 4,
+        "title": "Así es como Ben usa agentes en una sesión real de trabajo",
+        "summary": "Ben documenta paso a paso una sesión concreta con agentes de IA: qué herramienta usó, qué funcionó y qué no, sin teoría y con capturas reales. El formato walkthrough es inusualmente útil comparado con el análisis habitual de estas newsletters.",
+        "url": "https://www.bensbites.com/p/bens-session",
+        "image": "https://substack-post-media.s3.amazonaws.com/public/images/06869fae-ac26-4d3d-87ad-a73f0916187e_1686x733.png",
+        "credit": "Ben's Bites"
+      }
+    ],
+    "craft": {
+      "title": "Daniela Doe lleva el diseño gráfico a la alfombra de tufting",
+      "summary": "Esta artista traduce grillas tipográficas y sistemas gráficos a rugs tufteados a mano: el artículo no es solo sobre el objeto, es sobre la pregunta de qué pasa cuando llevas tu lenguaje de diseño a un soporte completamente físico.",
+      "url": "https://www.itsnicethat.com/articles/daniela-doe-graphic-design-art-discover-040826"
+    },
+    "try_this": {
+      "title": "INKDRUM: simulador de risografía directo en el navegador",
+      "summary": "Sube cualquier imagen y genera la simulación de impresión risógrafo sin instalar nada: útil para previsualizar texturas de impresión antes de presupuestar o para añadir esa estética a presentaciones de concepto.",
+      "url": "https://abduzeedo.com/inkdrum-browser-risograph-print-simulator-inkdrum-team/",
+      "image": "https://cms.abduzeedo.com/sites/default/files/originals/inkdrum_0.jpg",
+      "credit": "Abduzeedo / INKDRUM Team"
+    },
+    "opportunity": {
+      "title": "DIELINE Awards 2027 — convocatoria Late Summer",
+      "org": "The Dieline",
+      "deadline": "28 de agosto de 2026",
+      "url": "https://thedieline.com/dieline-awards-2027-late-summer-entry-open/"
+    },
+    "spotted": [
+      {
+        "title": "Runblock, crema solar para corredores diseñada para parecer derretida por el calor",
+        "url": "https://www.itsnicethat.com/articles/george-fletcher-tess-lockhart-runblock-graphic-design-project-100826"
+      },
+      {
+        "title": "OTZ Lab: packaging de fragancia que construye su sistema de color desde la química, no desde el lujo",
+        "url": "https://thedieline.com/otz-lab-proves-chemistry-can-be-a-color-story/"
+      },
+      {
+        "title": "Numa Cold Brew: sistema visual basado solo en bandas de color, sin una sola ilustración de grano de café",
+        "url": "https://thedieline.com/numa-is-a-conceptual-cold-brew-built-on-color-and-pattern/"
+      }
+    ],
+    "awwwards": {
+      "featured": {
+        "name": "NOTHIN'",
+        "author": "Nothin' Studio",
+        "url": "https://www.awwwards.com/sites/nothin",
+        "image": "https://www.awwwards.com/awards/submissions/2026/06/6a351f5e3f18f475727585.jpg"
+      },
+      "more": [
+        {
+          "name": "Produx Design",
+          "url": "https://www.awwwards.com/sites/produx-design"
+        },
+        {
+          "name": "Vero New-York",
+          "url": "https://www.awwwards.com/sites/vero-new-york"
+        },
+        {
+          "name": "20 Years Inspired by People",
+          "url": "https://www.awwwards.com/sites/20-years-inspired-by-people"
+        },
+        {
+          "name": "No Art",
+          "url": "https://www.awwwards.com/sites/no-art"
+        },
+        {
+          "name": "Alethia",
+          "url": "https://www.awwwards.com/sites/alethia"
+        },
+        {
+          "name": "Serotoninn",
+          "url": "https://www.awwwards.com/sites/serotoninn"
+        }
+      ]
+    }
+  }
+}
