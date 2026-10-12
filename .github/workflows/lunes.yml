@@ -81,7 +81,9 @@ jobs:
             git add lunes/edition_counter.txt
           fi
           git diff --cached --quiet || git commit -m "archive: LUNES ${{ steps.archive.outputs.date }}"
-          git push
+          # main pudo avanzar durante la corrida (o es un re-run de un commit viejo): rebase antes de pushear
+          git pull --rebase origin main
+          git push origin HEAD:main
 
       - name: Avisar por mail si el job falló
         if: failure()
