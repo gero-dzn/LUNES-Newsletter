@@ -16,12 +16,12 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Python 3.11
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.11'
           cache: pip
@@ -89,12 +89,19 @@ jobs:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           FROM_EMAIL:     ${{ secrets.FROM_EMAIL }}
           NOTIFY_EMAIL:   ${{ secrets.NOTIFY_EMAIL }}
+          REPLY_TO:       ${{ secrets.REPLY_TO }}
           RUN_URL:        ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
           TRIGGER:        ${{ github.event_name }}
         run: |
+          # NOTIFY_EMAIL es opcional: si no está, cae en REPLY_TO. Sin ninguno, no hay a quién avisar.
+          TO="${NOTIFY_EMAIL:-$REPLY_TO}"
+          if [ -z "$TO" ]; then
+            echo "::warning::Ni NOTIFY_EMAIL ni REPLY_TO están definidos en Secrets; no se envía el aviso."
+            exit 0
+          fi
           BODY=$(jq -n \
             --arg from "$FROM_EMAIL" \
-            --arg to "$NOTIFY_EMAIL" \
+            --arg to "$TO" \
             --arg url "$RUN_URL" \
             --arg trigger "$TRIGGER" \
             '{from: $from, to: [$to],
