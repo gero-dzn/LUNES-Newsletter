@@ -6,6 +6,11 @@ on:
     # 6-8 h de atraso en los horarios en punto; con este margen sigue siendo lunes.
     - cron: '23 5 * * 1'
   workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run: fetch + curate + render, sin crear broadcast ni commitear"
+        type: boolean
+        default: true
 
 permissions:
   contents: write
@@ -53,6 +58,7 @@ jobs:
         run: python lunes/main.py --issue-number "${{ steps.issue_num.outputs.number }}"
 
       - name: Crear borrador, programar y notificar
+        if: ${{ github.event_name == 'schedule' || !inputs.dry_run }}
         env:
           RESEND_API_KEY:     ${{ secrets.RESEND_API_KEY }}
           RESEND_AUDIENCE_ID: ${{ secrets.RESEND_AUDIENCE_ID }}
@@ -72,6 +78,7 @@ jobs:
           echo "date=${DATE}" >> "$GITHUB_OUTPUT"
 
       - name: Commit al repo
+        if: ${{ github.event_name == 'schedule' || !inputs.dry_run }}
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
