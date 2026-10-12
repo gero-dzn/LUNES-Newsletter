@@ -1,13 +1,15 @@
 // LUNES — componente de código de Framer (página geronimogentili.com/lunes)
 //
-// Fuente de verdad del componente "Lunes" en Framer. Para actualizar la web:
-//   Framer → Assets → Code → Lunes → reemplazar todo el contenido con este archivo → Publish.
+// Fuente de verdad del code file "LunesLanding.tsx" del proyecto de Framer.
+// Se sube con el MCP de Unframer (updateCodeFile, codeFileId gEOtn9x) o pegándolo
+// en Framer → Assets → Code → LunesLanding. Después hay que publicar en Framer.
 //
 // Datos: lunes-newsletter.vercel.app/api/editions (lee archive/*.json del repo).
 //   - Por defecto devuelve las últimas 6; con ?all=1 devuelve todas.
 //   - Solo la edición más reciente lleva acento naranja; el resto barra neutra.
 
 import * as React from "react"
+import { addPropertyControls } from "framer"
 
 const C = {
     crema: "#F7F3ED",
@@ -186,7 +188,7 @@ const CSS = `
 
 const isValidEmail = (v: string) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v)
 
-export default function Lunes() {
+export default function LunesLanding() {
     const [email, setEmail] = React.useState("")
     const [status, setStatus] = React.useState<"idle" | "loading" | "success" | "error">("idle")
     const [error, setError] = React.useState("")
@@ -848,3 +850,5 @@ export default function Lunes() {
         </>
     )
 }
+
+addPropertyControls(LunesLanding, {})
