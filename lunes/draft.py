@@ -13,13 +13,31 @@ ROOT = Path(__file__).parent
 OUTPUT_DIR = ROOT / "output"
 
 
-def _next_send_utc() -> datetime:
-    """Return today at SEND_HOUR_UTC; push to tomorrow if we're already past that hour."""
-    now = datetime.now(timezone.utc)
-    candidate = now.replace(hour=config.SEND_HOUR_UTC, minute=0, second=0, microsecond=0)
-    if candidate <= now:
-        candidate += timedelta(days=1)
-    return candidate
+ART = timezone(timedelta(hours=-3))   # Argentina no tiene horario de verano
+MONDAY = 0
+REVIEW_WINDOW = timedelta(hours=1)    # margen de revisión cuando la corrida llega tarde
+
+
+def _next_send_utc(now: datetime | None = None) -> datetime:
+    """Hora de envío en UTC.
+
+    - Todavía no es SEND_HOUR_UTC (en día ART): sale hoy a esa hora.
+    - Ya pasó, pero en ART sigue siendo lunes (corrida atrasada): sale en
+      REVIEW_WINDOW a partir de ahora, así no se pasa al martes.
+    - Ya pasó y es otro día: mañana a SEND_HOUR_UTC.
+
+    Se evalúa en hora ART porque el "día" que importa es el del lector.
+    """
+    now     = now or datetime.now(timezone.utc)
+    now_art = now.astimezone(ART)
+    send_art_hour = (config.SEND_HOUR_UTC - 3) % 24
+    candidate = now_art.replace(hour=send_art_hour, minute=0, second=0, microsecond=0)
+
+    if candidate > now_art:
+        return candidate.astimezone(timezone.utc)
+    if now_art.weekday() == MONDAY:
+        return now + REVIEW_WINDOW
+    return (candidate + timedelta(days=1)).astimezone(timezone.utc)
 
 
 def create_broadcast(html_path=None, json_path=None) -> tuple[str, str]:
@@ -133,7 +151,7 @@ if __name__ == "__main__":
         print(f"\n  Broadcast programado")
         print(f"  id     : {broadcast_id}")
         print(f"  Asunto : {subject}")
-        print(f"  Sale   : {art_hour:02d}:00 ART  ({send_at.strftime('%H:%M')} UTC)")
+        print(f"  Sale   : {art_hour:02d}:{send_at.minute:02d} ART  ({send_at.strftime('%H:%M')} UTC)")
         print(f"  Panel  : {f'https://resend.com/broadcasts/{broadcast_id}'}\n")
     except (ValueError, RuntimeError, FileNotFoundError) as exc:
         logger.error("Draft fallido: %s", exc)
