@@ -77,6 +77,16 @@ jobs:
           cp lunes/output/issue.html "archive/${DATE}.html"
           echo "date=${DATE}" >> "$GITHUB_OUTPUT"
 
+      # Siempre (también en dry run): si el commit falla, la edición se recupera desde acá
+      - name: Subir edición como artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: edition-${{ steps.archive.outputs.date }}
+          path: |
+            lunes/output/issue.json
+            lunes/output/issue.html
+          retention-days: 30
+
       - name: Commit al repo
         if: ${{ github.event_name == 'schedule' || !inputs.dry_run }}
         run: |
