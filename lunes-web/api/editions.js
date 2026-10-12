@@ -2,7 +2,7 @@
 
 const GITHUB_API   = 'https://api.github.com/repos/gero-dzn/LUNES-Newsletter/contents/archive';
 const GITHUB_RAW   = 'https://raw.githubusercontent.com/gero-dzn/LUNES-Newsletter/main/archive';
-const MAX_EDITIONS = 6;
+const MAX_EDITIONS = 6;   // por defecto; ?all=1 devuelve todas
 
 const SECTION_TAGS = {
   lead:      ':: Lo de la semana',
@@ -15,7 +15,9 @@ const SECTION_TAGS = {
 };
 
 const MONTHS = ['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
-const ACCENTS = ['#FF4D12', '#211B17', '#5C534C'];
+// Solo la edición más reciente lleva naranja; el resto una barra neutra
+const ACCENT_LATEST = '#FF4D12';
+const ACCENT_REST   = 'rgba(33,27,23,0.14)';
 
 function formatDate(dateStr) {
   const [y, m, d] = dateStr.split('-');
@@ -47,7 +49,8 @@ module.exports = async function handler(req, res) {
       .sort((a, b) => b.name.localeCompare(a.name)); // newest first
 
     const total   = jsonFiles.length;
-    const toFetch = jsonFiles.slice(0, MAX_EDITIONS);
+    const showAll = ['1', 'true'].includes(String(req.query?.all ?? '').toLowerCase());
+    const toFetch = showAll ? jsonFiles : jsonFiles.slice(0, MAX_EDITIONS);
 
     const editions = await Promise.all(toFetch.map(async (f, i) => {
       try {
@@ -69,7 +72,7 @@ module.exports = async function handler(req, res) {
           num:    `#${String(total - i).padStart(2, '0')}`,
           date:   formatDate(rawDate),
           slug:   rawDate,
-          accent: ACCENTS[i % 3],
+          accent: i === 0 ? ACCENT_LATEST : ACCENT_REST,
           title:  truncate(c.lead?.title || c.subject || 'Edición LUNES', 65),
           sub:    truncate(
             Array.isArray(c.tldr) ? c.tldr[0]
@@ -84,7 +87,12 @@ module.exports = async function handler(req, res) {
       }
     }));
 
-    return res.status(200).json({ editions: editions.filter(Boolean) });
+    const list = editions.filter(Boolean);
+    return res.status(200).json({
+      editions: list,
+      total,
+      has_more: list.length < total,
+    });
   } catch (err) {
     console.error('[editions]', err.message);
     return res.status(500).json({ error: 'No se pudieron cargar las ediciones.' });
