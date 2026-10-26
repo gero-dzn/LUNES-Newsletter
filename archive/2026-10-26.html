@@ -1,0 +1,600 @@
+<!-- ============================================================
+     LUNES — Newsletter  ·  Diseño + IA
+     Email-safe HTML (tables + inline styles). Web fonts load on
+     Apple Mail / iOS / Samsung; fall back gracefully elsewhere.
+     Jinja2 template — rendered by render.py from output/issue.json
+     ============================================================ -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="x-apple-disable-message-reformatting">
+  <meta name="color-scheme" content="light dark">
+  <meta name="supported-color-schemes" content="light dark">
+  <title>LUNES — Lunes 26 · Octubre 2026</title>
+  <style>
+    body { margin:0; padding:0; background:#F7F3ED; -webkit-text-size-adjust:100%; }
+    a { text-decoration:none; }
+    .read:hover { background:#F7F3ED !important; color:#FF4D12 !important; border:2px solid #FF4D12 !important; }
+        @font-face { font-family:'Fractul'; font-style:normal; font-weight:600; src:url('https://lunes-newsletter.vercel.app/fonts/Fractul-SemiBold.woff2') format('woff2'); font-display:swap; }
+        @font-face { font-family:'Fractul'; font-style:normal; font-weight:700; src:url('https://lunes-newsletter.vercel.app/fonts/Fractul-Bold.woff2') format('woff2'); font-display:swap; }
+        @font-face { font-family:'Geist Mono'; font-style:normal; font-weight:400 700; src:url('https://lunes-newsletter.vercel.app/fonts/GeistMono-Regular.woff2') format('woff2'); font-display:swap; }
+    .display { font-family:'Fractul','Helvetica Neue',Arial,sans-serif; }
+    .mono { font-family:'Geist Mono',ui-monospace,'SF Mono',Menlo,Consolas,monospace; }
+    .body { font-family:'Geist Mono',ui-monospace,'SF Mono',Menlo,Consolas,monospace; }
+    .idx-link { color:#211B17 !important; text-decoration:none; }
+    .idx-link:hover { color:#FF4D12 !important; }
+    
+
+    .display { font-family:'Fractul','Helvetica Neue',Arial,sans-serif; }
+    .mono    { font-family:'Geist Mono',ui-monospace,'SF Mono',Menlo,Consolas,monospace; }
+    .body    { font-family:'Geist Mono',ui-monospace,'SF Mono',Menlo,Consolas,monospace; }
+
+    /* Interaction */
+    .idx-link    { color:#211B17 !important; text-decoration:none; }
+    .idx-link:hover { color:#FF4D12 !important; }
+
+    /* ── Mobile type scale (375-390px) ───────────────────── */
+    @media only screen and (max-width:620px) {
+      .container   { width:100% !important; }
+      .outer-pad   { padding-left:8px !important; padding-right:8px !important; }
+      .pad         { padding-left:8px !important; padding-right:8px !important; }
+      .card-pad    { padding-left:16px !important; padding-right:16px !important; }
+      .wordmark    { font-size:52px !important; }
+      .hero-title  { font-size:20px !important; line-height:1.3 !important; }
+      .sec-title   { font-size:17px !important; line-height:1.35 !important; }
+      .body-text   { font-size:14px !important; line-height:1.65 !important; }
+    }
+
+    /* ── Dark mode (Apple Mail, iOS Mail, Samsung) ───────── */
+    @media (prefers-color-scheme: dark) {
+      body, .bg-wrap   { background-color:#1A1714 !important; }
+      .wordmark        { color:#F0EAE3 !important; }
+      .bg-card         { background-color:#221E1B !important; }
+      .bg-placeholder  { background-color:#2A2420 !important; }
+      .bg-pill         { background-color:#2E2825 !important; }
+      .bg-try          { background-color:#1F1A17 !important; }
+      .bg-aww          { background-color:#1F1C1A !important; }
+      .bg-kind         { background-color:#2A1F1A !important; }
+      .t-ink           { color:#F0EAE3 !important; }
+      .t-gray          { color:#9A9189 !important; }
+      .t-muted         { color:#6B6059 !important; }
+      .t-pale          { color:#4A4440 !important; }
+      .sep             { border-top-color:#2E2825 !important; }
+      .b-card          { border-color:#2E2825 !important; }
+      .b-row           { border-bottom-color:#2E2825 !important; }
+      .btn-ghost       { background-color:#2A1F1A !important; }
+      .btn-cta         { background-color:#2A2420 !important; }
+      .idx-link        { color:#F0EAE3 !important; }
+    }
+
+    /* ── Outlook / Gmail Android dark mode ───────────────── */
+    [data-ogsc] body, [data-ogsc] .bg-wrap { background-color:#1A1714 !important; }
+    [data-ogsc] .bg-card  { background-color:#221E1B !important; }
+    [data-ogsc] .bg-pill  { background-color:#2E2825 !important; }
+    [data-ogsc] .t-ink    { color:#F0EAE3 !important; }
+    [data-ogsc] .t-gray   { color:#9A9189 !important; }
+    [data-ogsc] .wordmark { color:#F0EAE3 !important; }
+
+  </style>
+</head>
+<body class="bg-wrap" style="margin:0; padding:0; background:#F7F3ED;">
+
+<div style="display:none; max-height:0; overflow:hidden; opacity:0; font-size:1px; line-height:1px; color:#F7F3ED;">
+  Apple Music rediseñó su identidad por primera vez en 11 años: pasaron ondas de sonido…&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+</div>
+
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="bg-wrap" style="background:#F7F3ED;">
+<tr><td align="center" class="outer-pad" style="padding:32px 12px 48px 12px;">
+
+<table role="presentation" class="container" width="600" cellpadding="0" cellspacing="0" style="width:600px; max-width:600px;">
+
+  <!-- orange accent strip -->
+  <tr><td style="background:#FF4D12; height:4px; line-height:4px; font-size:1px; border-radius:4px 4px 0 0;">&nbsp;</td></tr>
+
+  <!-- meta row -->
+  <tr><td class="pad" style="padding:26px 36px 0 36px;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
+      <td align="left" class="mono" style="font-size:10px; letter-spacing:1.5px; color:#FF4D12; text-transform:uppercase;">Newsletter&nbsp;·&nbsp;Dise&#241;o&nbsp;+&nbsp;IA</td>
+      <td align="right" class="mono t-gray" style="font-size:10px; letter-spacing:1.5px; color:#5C534C;">Lunes 26 · Octubre 2026</td>
+    </tr></table>
+  </td></tr>
+
+  <!-- wordmark + badge -->
+  <tr><td class="pad" style="padding:8px 36px 0 36px;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
+      <td align="left" valign="middle">
+        <span class="display wordmark t-ink" style="font-size:72px; line-height:0.88; font-weight:700; color:#211B17; letter-spacing:-3px;">LUNES</span>
+      </td>
+      <td align="right" valign="top" style="width:72px; padding-top:8px;">
+        <span class="mono" style="display:inline-block; background:#FF4D12; color:#FFFFFF; font-size:13px; font-weight:700; padding:8px 14px; border-radius:20px;">#21</span>
+      </td>
+    </tr></table>
+  </td></tr>
+
+  <!-- tagline -->
+  <tr><td class="pad" style="padding:14px 36px 6px 36px;">
+    <p class="body body-text t-gray" style="margin:0; font-size:13px; line-height:1.65; color:#5C534C;">Lo que pas&#243; en dise&#241;o e IA, una vez por semana. Curado, no copiado. Sin relleno.</p>
+  </td></tr>
+
+  <!-- ethos -->
+  <tr><td class="pad" style="padding:0 36px 22px 36px;">
+    <p class="mono t-muted" style="margin:0; font-size:11px; line-height:1.6; color:#9A9189;">Observ&#225;, no solo mires. Y no dejes de consumir dise&#241;o &#8212; es el &#250;nico m&#250;sculo que no pod&#233;s tercerizar.</p>
+  </td></tr>
+
+  <!-- separator -->
+  <tr><td class="pad" style="padding:0 36px 24px 36px;">
+    <div class="sep" style="border-top:1px solid #E6DDD0; height:0; line-height:0; font-size:0;">&nbsp;</div>
+  </td></tr>
+
+  <!-- TL;DR card -->
+  <tr><td class="pad" style="padding:0 36px 14px 36px;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="bg-card" style="background:#FFFFFF; border:2px solid #FF4D12; border-radius:22px;">
+      <tr><td class="card-pad" style="padding:24px 28px 22px 28px;">
+        <span class="mono" style="display:inline-block; background:#FF4D12; color:#FFFFFF; font-size:11px; font-weight:700; letter-spacing:1px; padding:5px 12px; border-radius:12px;">// TL;DR</span>
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-top:14px;">
+          
+          <tr><td class="body body-text t-ink" style="font-size:13px; line-height:1.65; color:#211B17; padding:3px 0;"><span style="color:#FF4D12; font-family:'Geist Mono',ui-monospace,'SF Mono',Menlo,Consolas,monospace'Courier New',monospace;">&#8226;&nbsp;</span>Apple Music rediseñó su identidad por primera vez en 11 años: pasaron ondas de sonido por aceite para generar físicamente la forma del logo, una apuesta deliberada contra el diseño generado por IA.</td></tr>
+          
+          <tr><td class="body body-text t-ink" style="font-size:13px; line-height:1.65; color:#211B17; padding:3px 0;"><span style="color:#FF4D12; font-family:'Geist Mono',ui-monospace,'SF Mono',Menlo,Consolas,monospace'Courier New',monospace;">&#8226;&nbsp;</span>Alianza Editorial, referente del diseño de libros en España, renovó su identidad con Mucho: una &#39;A&#39; abierta y el nombre reducido a una sola palabra como sistema de marca.</td></tr>
+          
+          <tr><td class="body body-text t-ink" style="font-size:13px; line-height:1.65; color:#211B17; padding:3px 0;"><span style="color:#FF4D12; font-family:'Geist Mono',ui-monospace,'SF Mono',Menlo,Consolas,monospace'Courier New',monospace;">&#8226;&nbsp;</span>El rebrand de Diaspora Spice Co. demuestra que el packaging puede ser argumento político: ilustraciones botánicas, agricultores nombrados y latas amarillas que cuentan de dónde viene cada especia.</td></tr>
+          
+          <tr><td class="body body-text t-ink" style="font-size:13px; line-height:1.65; color:#211B17; padding:3px 0;"><span style="color:#FF4D12; font-family:'Geist Mono',ui-monospace,'SF Mono',Menlo,Consolas,monospace'Courier New',monospace;">&#8226;&nbsp;</span>Bráulio Amado habla de sus rutinas y parámetros de trabajo: cómo el caos controlado de Nueva York se convierte en material creativo con disciplina de proceso.</td></tr>
+          
+        </table>
+      </td></tr>
+    </table>
+  </td></tr>
+
+  <!-- Contents / index (numbered list, no description column) --><tr><td class="pad" style="padding:0 36px 28px 36px;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="bg-card b-card" style="background:#FFFFFF; border:1px solid #EDE7DF; border-radius:18px;">
+      <tr><td class="card-pad" style="padding:16px 22px 10px 22px;">
+        <span class="mono t-muted" style="font-size:10px; letter-spacing:1.8px; color:#9A9189; text-transform:uppercase;">// esta edici&#243;n</span>
+      </td></tr>
+      <tr><td class="card-pad" style="padding:0 22px 16px 22px;">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+          
+          <tr>
+            <td class="mono t-pale b-row" style="font-size:11px; color:#BDB5AE; padding:7px 12px 7px 0; white-space:nowrap; vertical-align:middle; width:26px; border-bottom:1px solid #F5F0EB;">01</td>
+            <td class="mono t-ink b-row" style="font-size:11px; color:#211B17; font-weight:600; padding:7px 0; vertical-align:middle; border-bottom:1px solid #F5F0EB; letter-spacing:0.8px; text-transform:uppercase;">LO DE LA SEMANA</td>
+          </tr>
+          
+          <tr>
+            <td class="mono t-pale b-row" style="font-size:11px; color:#BDB5AE; padding:7px 12px 7px 0; white-space:nowrap; vertical-align:middle; width:26px; border-bottom:1px solid #F5F0EB;">02</td>
+            <td class="mono t-ink b-row" style="font-size:11px; color:#211B17; font-weight:600; padding:7px 0; vertical-align:middle; border-bottom:1px solid #F5F0EB; letter-spacing:0.8px; text-transform:uppercase;">RADAR</td>
+          </tr>
+          
+          <tr>
+            <td class="mono t-pale b-row" style="font-size:11px; color:#BDB5AE; padding:7px 12px 7px 0; white-space:nowrap; vertical-align:middle; width:26px; border-bottom:1px solid #F5F0EB;">03</td>
+            <td class="mono t-ink b-row" style="font-size:11px; color:#211B17; font-weight:600; padding:7px 0; vertical-align:middle; border-bottom:1px solid #F5F0EB; letter-spacing:0.8px; text-transform:uppercase;">TIPOGRAFÍA</td>
+          </tr>
+          
+          <tr>
+            <td class="mono t-pale b-row" style="font-size:11px; color:#BDB5AE; padding:7px 12px 7px 0; white-space:nowrap; vertical-align:middle; width:26px; border-bottom:1px solid #F5F0EB;">04</td>
+            <td class="mono t-ink b-row" style="font-size:11px; color:#211B17; font-weight:600; padding:7px 0; vertical-align:middle; border-bottom:1px solid #F5F0EB; letter-spacing:0.8px; text-transform:uppercase;">IA</td>
+          </tr>
+          
+          <tr>
+            <td class="mono t-pale b-row" style="font-size:11px; color:#BDB5AE; padding:7px 12px 7px 0; white-space:nowrap; vertical-align:middle; width:26px; border-bottom:1px solid #F5F0EB;">05</td>
+            <td class="mono t-ink b-row" style="font-size:11px; color:#211B17; font-weight:600; padding:7px 0; vertical-align:middle; border-bottom:1px solid #F5F0EB; letter-spacing:0.8px; text-transform:uppercase;">OFICIO</td>
+          </tr>
+          
+          <tr>
+            <td class="mono t-pale b-row" style="font-size:11px; color:#BDB5AE; padding:7px 12px 7px 0; white-space:nowrap; vertical-align:middle; width:26px; border-bottom:1px solid #F5F0EB;">06</td>
+            <td class="mono t-ink b-row" style="font-size:11px; color:#211B17; font-weight:600; padding:7px 0; vertical-align:middle; border-bottom:1px solid #F5F0EB; letter-spacing:0.8px; text-transform:uppercase;">PARA PROBAR</td>
+          </tr>
+          
+          <tr>
+            <td class="mono t-pale b-row" style="font-size:11px; color:#BDB5AE; padding:7px 12px 7px 0; white-space:nowrap; vertical-align:middle; width:26px; border-bottom:1px solid #F5F0EB;">07</td>
+            <td class="mono t-ink b-row" style="font-size:11px; color:#211B17; font-weight:600; padding:7px 0; vertical-align:middle; border-bottom:1px solid #F5F0EB; letter-spacing:0.8px; text-transform:uppercase;">OPORTUNIDAD</td>
+          </tr>
+          
+          <tr>
+            <td class="mono t-pale b-row" style="font-size:11px; color:#BDB5AE; padding:7px 12px 7px 0; white-space:nowrap; vertical-align:middle; width:26px; border-bottom:1px solid #F5F0EB;">08</td>
+            <td class="mono t-ink b-row" style="font-size:11px; color:#211B17; font-weight:600; padding:7px 0; vertical-align:middle; border-bottom:1px solid #F5F0EB; letter-spacing:0.8px; text-transform:uppercase;">SPOTTED</td>
+          </tr>
+          
+          <tr>
+            <td class="mono t-pale b-row" style="font-size:11px; color:#BDB5AE; padding:7px 12px 7px 0; white-space:nowrap; vertical-align:middle; width:26px; border-bottom:1px solid #F5F0EB;">09</td>
+            <td class="mono t-ink b-row" style="font-size:11px; color:#211B17; font-weight:600; padding:7px 0; vertical-align:middle; border-bottom:1px solid #F5F0EB; letter-spacing:0.8px; text-transform:uppercase;">AWWWARDS</td>
+          </tr>
+          
+        </table>
+      </td></tr>
+    </table>
+  </td></tr>
+
+  
+  
+  <tr><td class="pad" style="padding:0 36px 12px 36px;">
+    <span class="mono bg-pill" style="display:inline-block; background:#211B17; color:#F7F3ED; font-size:11px; font-weight:700; letter-spacing:1.2px; padding:6px 14px; border-radius:16px; text-transform:uppercase;"><span style="color:#FF4D12;">&#9733;</span>&nbsp;Lo de la semana</span>
+  </td></tr>
+  <tr><td class="pad" style="padding:0 36px 10px 36px;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="bg-card" style="background:#FFFFFF; border-radius:22px;">
+      
+      <tr><td style="padding:0; line-height:0; font-size:0;">
+        <img src="https://static-2026.dezeen.com/uploads/2026/10/apple-music-rebrand_dezeen_2364_hero_14-1536x864-1.jpg" width="528" alt="Apple Music: un logo hecho físicamente con sonido" style="display:block; width:100%; border-radius:22px 22px 0 0; border:0;" />
+      </td></tr>
+      <tr><td class="mono t-muted" style="padding:6px 28px; font-size:10px; color:#9A9189; border-bottom:1px solid #EDE7DF;">Dezeen</td></tr>
+      
+      <tr><td class="card-pad" style="padding:22px 28px 28px 28px;">
+        <span class="mono bg-kind" style="display:inline-block; background:#FFF0EB; color:#FF4D12; font-size:10px; font-weight:700; letter-spacing:1.5px; padding:4px 10px; border-radius:8px; text-transform:uppercase; margin-bottom:14px;">identidad</span>
+        <p class="mono t-gray" style="margin:0 0 8px 0; font-size:11px; letter-spacing:1.5px; color:#5C534C; text-transform:uppercase;">Dezeen&nbsp;&#183;&nbsp;3&nbsp;min</p>
+        <h2 class="display hero-title t-ink" style="margin:0 0 14px 0; font-size:26px; line-height:1.18; font-weight:700; color:#211B17; letter-spacing:-0.5px;">Apple Music: un logo hecho físicamente con sonido</h2>
+        <p class="body body-text t-gray" style="margin:0 0 22px 0; font-size:14px; line-height:1.7; color:#5C534C;">Apple rediseña Apple Music por primera vez desde 2015 en colaboración con el músico Fred Again: pasaron ondas de sonido por un estanque de aceite y fotografiaron el resultado para generar la forma del logo. Es una declaración de intenciones en un momento donde todo el mundo genera formas con IA.</p>
+        <a class="read mono" href="https://www.dezeen.com/2026/10/26/apple-music-logo-physically-made-by-sound/" style="display:inline-block; background:#FF4D12; color:#FFFFFF; font-size:12px; font-weight:700; padding:12px 22px; border-radius:12px; border:2px solid transparent; letter-spacing:0;">leer&nbsp;&#8594;</a>
+      </td></tr>
+    </table>
+  </td></tr>
+  
+
+  
+  
+  <tr><td class="pad" style="padding:24px 36px 12px 36px;">
+    <span class="mono bg-pill" style="display:inline-block; background:#211B17; color:#F7F3ED; font-size:11px; font-weight:700; letter-spacing:1.2px; padding:6px 14px; border-radius:16px; text-transform:uppercase;"><span style="color:#FF4D12;">&#9678;</span>&nbsp;Radar</span>
+  </td></tr>
+  
+  <tr><td class="pad" style="padding:0 36px 10px 36px;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="bg-card" style="background:#FFFFFF; border-radius:20px;">
+      
+      <tr><td style="padding:0; line-height:0; font-size:0;">
+        <img src="https://mindsparklemag.com/storage/media/32185/alianza-publishing-house-open-a-brand-identity-book-covers-mucho-mindsparkle-mag-1.jpg" width="528" alt="" style="display:block; width:100%; border-radius:20px 20px 0 0; border:0;" />
+      </td></tr>
+      <tr><td class="mono t-muted" style="padding:6px 26px; font-size:10px; color:#9A9189; border-bottom:1px solid #EDE7DF;">Mindsparkle Mag</td></tr>
+      
+      <tr><td class="card-pad" style="padding:18px 26px 22px 26px;">
+        <p class="mono t-gray" style="margin:0 0 6px 0; font-size:11px; letter-spacing:1.5px; color:#5C534C; text-transform:uppercase;">Mindsparkle Mag&nbsp;&#183;&nbsp;3&nbsp;min</p>
+        <h3 class="display sec-title t-ink" style="margin:0 0 12px 0; font-size:19px; line-height:1.25; font-weight:700; color:#211B17;">Una &#39;A&#39; abierta y una palabra menos convierten Alianza en marca cultural</h3>
+        
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin:0 0 14px 0;">
+          <tr>
+            <td width="3" style="background:#FF4D12; border-radius:2px;">&nbsp;</td>
+            <td style="padding:0 0 0 10px;"><p class="mono" style="margin:0; font-size:13px; line-height:1.5; color:#FF4D12;">Cuando el activo más fuerte es el archivo, la mejor identidad es la que se aparta y lo deja respirar.</p></td>
+          </tr>
+        </table>
+        
+        <p class="body body-text t-gray" style="margin:0 0 16px 0; font-size:13px; line-height:1.65; color:#5C534C;">Mucho rediseñó Alianza Editorial, sello central de la vida intelectual española desde hace seis décadas, con un solo gesto tipográfico: una &#39;A&#39; abierta y el nombre reducido a &#39;Alianza&#39;. El sistema funciona porque confía en el catálogo.</p>
+        <a class="read mono btn-ghost" href="https://mindsparklemag.com/designs/an-open-a-and-one-dropped-word-turn-alianza-into-a-cultural-brand" style="display:inline-block; background:#FFF0EB; color:#FF4D12; font-size:12px; font-weight:700; padding:12px 20px; border-radius:10px; border:2px solid transparent; letter-spacing:0;">leer&nbsp;&#8594;</a>
+      </td></tr>
+    </table>
+  </td></tr>
+  
+  <tr><td class="pad" style="padding:0 36px 10px 36px;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="bg-card" style="background:#FFFFFF; border-radius:20px;">
+      
+      <tr><td style="padding:0; line-height:0; font-size:0;">
+        <img src="https://thedieline.com/wp-content/uploads/2026/10/10_PW-eb562f41e2183f6f8977ce387dc426a6-scaled-1.jpg" width="528" alt="" style="display:block; width:100%; border-radius:20px 20px 0 0; border:0;" />
+      </td></tr>
+      <tr><td class="mono t-muted" style="padding:6px 26px; font-size:10px; color:#9A9189; border-bottom:1px solid #EDE7DF;">The Dieline</td></tr>
+      
+      <tr><td class="card-pad" style="padding:18px 26px 22px 26px;">
+        <p class="mono t-gray" style="margin:0 0 6px 0; font-size:11px; letter-spacing:1.5px; color:#5C534C; text-transform:uppercase;">The Dieline&nbsp;&#183;&nbsp;3&nbsp;min</p>
+        <h3 class="display sec-title t-ink" style="margin:0 0 12px 0; font-size:19px; line-height:1.25; font-weight:700; color:#211B17;">Diaspora Spice Co. pone sus raíces en el frente del packaging</h3>
+        
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin:0 0 14px 0;">
+          <tr>
+            <td width="3" style="background:#FF4D12; border-radius:2px;">&nbsp;</td>
+            <td style="padding:0 0 0 10px;"><p class="mono" style="margin:0; font-size:13px; line-height:1.5; color:#FF4D12;">El mejor packaging de producto de origen es el que nombra a las personas detrás, no solo el lugar.</p></td>
+          </tr>
+        </table>
+        
+        <p class="body body-text t-gray" style="margin:0 0 16px 0; font-size:13px; line-height:1.65; color:#5C534C;">El rebrand de Diaspora Spice Co. por Kinshuk Bainss combina ilustraciones botánicas detalladas, personajes inspirados en los avisos de Amul y latas amarillas vibrantes. Cada elemento del sistema señala agricultores, ingredientes y tradiciones culinarias concretas.</p>
+        <a class="read mono btn-ghost" href="https://thedieline.com/diaspora-spice-co-puts-its-roots-on-display-with-colorful-rebrand/" style="display:inline-block; background:#FFF0EB; color:#FF4D12; font-size:12px; font-weight:700; padding:12px 20px; border-radius:10px; border:2px solid transparent; letter-spacing:0;">leer&nbsp;&#8594;</a>
+      </td></tr>
+    </table>
+  </td></tr>
+  
+  <tr><td class="pad" style="padding:0 36px 10px 36px;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="bg-card" style="background:#FFFFFF; border-radius:20px;">
+      
+      <tr><td style="padding:0; line-height:0; font-size:0;">
+        <img src="https://admin.itsnicethat.com/images/fxIu2lkThnbQN2U0O6hauzX6pC8=/283855/width-1440%7Cformat-jpeg/Braulio_Hero.png" width="528" alt="" style="display:block; width:100%; border-radius:20px 20px 0 0; border:0;" />
+      </td></tr>
+      <tr><td class="mono t-muted" style="padding:6px 26px; font-size:10px; color:#9A9189; border-bottom:1px solid #EDE7DF;">It&#39;s Nice That</td></tr>
+      
+      <tr><td class="card-pad" style="padding:18px 26px 22px 26px;">
+        <p class="mono t-gray" style="margin:0 0 6px 0; font-size:11px; letter-spacing:1.5px; color:#5C534C; text-transform:uppercase;">It&#39;s Nice That&nbsp;&#183;&nbsp;4&nbsp;min</p>
+        <h3 class="display sec-title t-ink" style="margin:0 0 12px 0; font-size:19px; line-height:1.25; font-weight:700; color:#211B17;">Bráulio Amado: errores, caos y meditación</h3>
+        
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin:0 0 14px 0;">
+          <tr>
+            <td width="3" style="background:#FF4D12; border-radius:2px;">&nbsp;</td>
+            <td style="padding:0 0 0 10px;"><p class="mono" style="margin:0; font-size:13px; line-height:1.5; color:#FF4D12;">El proceso que parece más libre suele ser el más disciplinado por dentro.</p></td>
+          </tr>
+        </table>
+        
+        <p class="body body-text t-gray" style="margin:0 0 16px 0; font-size:13px; line-height:1.65; color:#5C534C;">It&#39;s Nice That conversa con uno de los diseñadores gráficos más influyentes de su generación sobre cómo los parámetros y las rutinas, no la inspiración espontánea, producen su mejor trabajo en medio del sprawl de Nueva York.</p>
+        <a class="read mono btn-ghost" href="https://www.itsnicethat.com/features/braulio-amado-graphic-design-spotlight-261026" style="display:inline-block; background:#FFF0EB; color:#FF4D12; font-size:12px; font-weight:700; padding:12px 20px; border-radius:10px; border:2px solid transparent; letter-spacing:0;">leer&nbsp;&#8594;</a>
+      </td></tr>
+    </table>
+  </td></tr>
+  
+  <tr><td class="pad" style="padding:0 36px 10px 36px;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="bg-card" style="background:#FFFFFF; border-radius:20px;">
+      
+      <tr><td style="padding:0; line-height:0; font-size:0;">
+        <img src="https://mindsparklemag.com/storage/media/32243/9507c9e2-730b-4bf4-8a4a-5d600df4f372.png" width="528" alt="" style="display:block; width:100%; border-radius:20px 20px 0 0; border:0;" />
+      </td></tr>
+      <tr><td class="mono t-muted" style="padding:6px 26px; font-size:10px; color:#9A9189; border-bottom:1px solid #EDE7DF;">Mindsparkle Mag</td></tr>
+      
+      <tr><td class="card-pad" style="padding:18px 26px 22px 26px;">
+        <p class="mono t-gray" style="margin:0 0 6px 0; font-size:11px; letter-spacing:1.5px; color:#5C534C; text-transform:uppercase;">Mindsparkle Mag&nbsp;&#183;&nbsp;2&nbsp;min</p>
+        <h3 class="display sec-title t-ink" style="margin:0 0 12px 0; font-size:19px; line-height:1.25; font-weight:700; color:#211B17;">Kebab.Lab: precisión clínica aplicada a una kebabería en Armenia</h3>
+        
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin:0 0 14px 0;">
+          <tr>
+            <td width="3" style="background:#FF4D12; border-radius:2px;">&nbsp;</td>
+            <td style="padding:0 0 0 10px;"><p class="mono" style="margin:0; font-size:13px; line-height:1.5; color:#FF4D12;">Reencuadrar el género es más efectivo que mejorar dentro de él.</p></td>
+          </tr>
+        </table>
+        
+        <p class="body body-text t-gray" style="margin:0 0 16px 0; font-size:13px; line-height:1.65; color:#5C534C;">Un estudio con sede en Ereván y Viena rediseñó la reputación entera del kebab local: interiores de acero inoxidable, identidad quirúrgica y lenguaje visual que atrae a un público que antes nunca entraba.</p>
+        <a class="read mono btn-ghost" href="https://mindsparklemag.com/designs/house-kebab-house-music-kebablabs-stainless-steel-doner-lab" style="display:inline-block; background:#FFF0EB; color:#FF4D12; font-size:12px; font-weight:700; padding:12px 20px; border-radius:10px; border:2px solid transparent; letter-spacing:0;">leer&nbsp;&#8594;</a>
+      </td></tr>
+    </table>
+  </td></tr>
+  
+  <tr><td class="pad" style="padding:0 36px 0px 36px;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="bg-card" style="background:#FFFFFF; border-radius:20px;">
+      
+      <tr><td style="padding:0; line-height:0; font-size:0;">
+        <img src="https://mindsparklemag.com/storage/media/32209/de-koffiejongens-organic-coffee-capsule-packaging-design-pink-brand-identity-mindsparkle-mag-1.jpg" width="528" alt="" style="display:block; width:100%; border-radius:20px 20px 0 0; border:0;" />
+      </td></tr>
+      <tr><td class="mono t-muted" style="padding:6px 26px; font-size:10px; color:#9A9189; border-bottom:1px solid #EDE7DF;">Mindsparkle Mag</td></tr>
+      
+      <tr><td class="card-pad" style="padding:18px 26px 22px 26px;">
+        <p class="mono t-gray" style="margin:0 0 6px 0; font-size:11px; letter-spacing:1.5px; color:#5C534C; text-transform:uppercase;">Mindsparkle Mag&nbsp;&#183;&nbsp;2&nbsp;min</p>
+        <h3 class="display sec-title t-ink" style="margin:0 0 12px 0; font-size:19px; line-height:1.25; font-weight:700; color:#211B17;">De Koffiejongens: un bloque rosa y la proporción áurea en el lineal</h3>
+        
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin:0 0 14px 0;">
+          <tr>
+            <td width="3" style="background:#FF4D12; border-radius:2px;">&nbsp;</td>
+            <td style="padding:0 0 0 10px;"><p class="mono" style="margin:0; font-size:13px; line-height:1.5; color:#FF4D12;">Pasar de suscripción a retail exige repensar el objeto, no solo aplicar la marca existente.</p></td>
+          </tr>
+        </table>
+        
+        <p class="body body-text t-gray" style="margin:0 0 16px 0; font-size:13px; line-height:1.65; color:#5C534C;">Never Thought Studio diseñó el packaging de retail de la marca de café orgánico holandesa usando una división Fibonacci y un bloque rosa sólido. El resultado compite visualmente en góndola sin perder la identidad digital que construyó su base de clientes.</p>
+        <a class="read mono btn-ghost" href="https://mindsparklemag.com/designs/a-pink-block-and-a-fibonacci-split-put-de-koffiejongens-on-the-shelf" style="display:inline-block; background:#FFF0EB; color:#FF4D12; font-size:12px; font-weight:700; padding:12px 20px; border-radius:10px; border:2px solid transparent; letter-spacing:0;">leer&nbsp;&#8594;</a>
+      </td></tr>
+    </table>
+  </td></tr>
+  
+  
+
+  
+  
+  <tr><td class="pad" style="padding:24px 36px 12px 36px;">
+    <span class="mono bg-pill" style="display:inline-block; background:#211B17; color:#F7F3ED; font-size:11px; font-weight:700; letter-spacing:1.2px; padding:6px 14px; border-radius:16px; text-transform:uppercase;"><span style="color:#FF4D12;">Aa</span>&nbsp;Tipograf&#237;a</span>
+  </td></tr>
+  <tr><td class="pad" style="padding:0 36px 0 36px;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="bg-card" style="background:#FFFFFF; border-radius:20px;">
+      
+      <tr><td style="padding:0; line-height:0; font-size:0;">
+        <img src="https://cms.abduzeedo.com/sites/default/files/originals/hero_exemplar-letters-from-sweden.jpg" width="528" alt="" style="display:block; width:100%; border-radius:20px 20px 0 0; border:0;" />
+      </td></tr>
+      
+      <tr><td class="card-pad" style="padding:22px 26px 24px 26px;">
+        <h3 class="display sec-title t-ink" style="margin:0 0 12px 0; font-size:20px; line-height:1.2; font-weight:700; color:#211B17;">Exemplar</h3>
+        <p class="body body-text t-gray" style="margin:0 0 18px 0; font-size:13px; line-height:1.65; color:#5C534C;">Letters from Sweden presenta una tipografía que toma como punto de partida las letras de muestra históricas de los fundidores. Vale explorarla para proyectos editoriales o de identidad que necesiten autoridad sin caer en lo genérico.</p>
+        <a class="read mono btn-ghost" href="https://abduzeedo.com/typography-exemplar-letters-sweden/" style="display:inline-block; background:#FFF0EB; color:#FF4D12; font-size:12px; font-weight:700; padding:12px 20px; border-radius:10px; border:2px solid transparent; letter-spacing:0;">ver fuente&nbsp;&#8594;</a>
+      </td></tr>
+    </table>
+  </td></tr>
+  
+
+  
+  
+  <tr><td class="pad" style="padding:24px 36px 12px 36px;">
+    <span class="mono bg-pill" style="display:inline-block; background:#211B17; color:#F7F3ED; font-size:11px; font-weight:700; letter-spacing:1.2px; padding:6px 14px; border-radius:16px; text-transform:uppercase;"><span style="color:#FF4D12;">&#9670;</span>&nbsp;IA para dise&#241;adores</span>
+  </td></tr>
+  
+  <tr><td class="pad" style="padding:0 36px 10px 36px;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="bg-card" style="background:#FFFFFF; border-radius:20px;">
+      
+      <tr><td class="card-pad" style="padding:22px 26px 22px 26px;">
+        <p class="mono t-gray" style="margin:0 0 6px 0; font-size:11px; letter-spacing:1.5px; color:#5C534C; text-transform:uppercase;">OpenAI News&nbsp;&#183;&nbsp;3&nbsp;min</p>
+        <h3 class="display sec-title t-ink" style="margin:0 0 12px 0; font-size:19px; line-height:1.25; font-weight:700; color:#211B17;">La Decisions API de OpenAI: decisiones rápidas y baratas para cualquier app</h3>
+        <p class="body body-text t-gray" style="margin:0 0 16px 0; font-size:13px; line-height:1.65; color:#5C534C;">OpenAI lanzó una API específica para decisiones focalizadas y de bajo costo dentro de aplicaciones. Para diseñadores que desarrollan productos digitales propios, es la entrada más práctica a integrar lógica de IA sin pagar por potencia que no necesitan.</p>
+        <a class="read mono btn-ghost" href="https://openai.com/index/decisions-api" style="display:inline-block; background:#FFF0EB; color:#FF4D12; font-size:12px; font-weight:700; padding:12px 20px; border-radius:10px; border:2px solid transparent; letter-spacing:0;">leer&nbsp;&#8594;</a>
+      </td></tr>
+    </table>
+  </td></tr>
+  
+  <tr><td class="pad" style="padding:0 36px 0px 36px;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="bg-card" style="background:#FFFFFF; border-radius:20px;">
+      
+      <tr><td style="padding:0; line-height:0; font-size:0;">
+        <img src="https://substack-post-media.s3.amazonaws.com/public/images/312e8c5c-e1bf-4874-94a6-eec18f9f3b77_1920x1080.png" width="528" alt="" style="display:block; width:100%; border-radius:20px 20px 0 0; border:0;" />
+      </td></tr>
+      <tr><td class="mono t-muted" style="padding:6px 26px; font-size:10px; color:#9A9189; border-bottom:1px solid #EDE7DF;">Ben&#39;s Bites</td></tr>
+      
+      <tr><td class="card-pad" style="padding:18px 26px 22px 26px;">
+        <p class="mono t-gray" style="margin:0 0 6px 0; font-size:11px; letter-spacing:1.5px; color:#5C534C; text-transform:uppercase;">Ben&#39;s Bites&nbsp;&#183;&nbsp;4&nbsp;min</p>
+        <h3 class="display sec-title t-ink" style="margin:0 0 12px 0; font-size:19px; line-height:1.25; font-weight:700; color:#211B17;">Cómo construí mi app &#39;todo en uno&#39; con agentes de IA</h3>
+        <p class="body body-text t-gray" style="margin:0 0 16px 0; font-size:13px; line-height:1.65; color:#5C534C;">Ben Tossell documenta en detalle cómo armó un sistema personal con agentes de IA que centraliza tareas, email, CRM y archivos en un solo lugar. La lectura es útil no por la herramienta en sí sino por el modelo mental de cómo delegar trabajo repetitivo a agentes.</p>
+        <a class="read mono btn-ghost" href="https://www.bensbites.com/p/how-i-built-my-everything-app" style="display:inline-block; background:#FFF0EB; color:#FF4D12; font-size:12px; font-weight:700; padding:12px 20px; border-radius:10px; border:2px solid transparent; letter-spacing:0;">leer&nbsp;&#8594;</a>
+      </td></tr>
+    </table>
+  </td></tr>
+  
+  
+
+  
+  
+  <tr><td class="pad" style="padding:24px 36px 12px 36px;">
+    <span class="mono bg-pill" style="display:inline-block; background:#211B17; color:#F7F3ED; font-size:11px; font-weight:700; letter-spacing:1.2px; padding:6px 14px; border-radius:16px; text-transform:uppercase;"><span style="color:#FF4D12;">&#8853;</span>&nbsp;Oficio</span>
+  </td></tr>
+  <tr><td class="pad" style="padding:0 36px 0 36px;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="bg-card" style="background:#FFFFFF; border-radius:20px;">
+      <tr><td class="card-pad" style="padding:22px 26px 24px 26px;">
+        <h3 class="display sec-title t-ink" style="margin:0 0 12px 0; font-size:19px; line-height:1.25; font-weight:700; color:#211B17;">Por qué el autoeditar te lleva a proyectos más grandes: No Ideas studio en Nicer Tuesdays</h3>
+        <p class="body body-text t-gray" style="margin:0 0 16px 0; font-size:13px; line-height:1.65; color:#5C534C;">Philip DiBello y Devin Washburn del estudio No Ideas explican cómo construir su propio sello editorial, Book Ideas, los llevó directamente a proyectos de mayor escala como el zine de Config de Figma. El argumento central: tomar riesgos editoriales propios es la mejor carta de presentación.</p>
+        <a class="read mono btn-ghost" href="https://www.itsnicethat.com/articles/nicer-tuesdays-new-york-september-no-ideas-201026" style="display:inline-block; background:#FFF0EB; color:#FF4D12; font-size:12px; font-weight:700; padding:12px 20px; border-radius:10px; border:2px solid transparent; letter-spacing:0;">leer&nbsp;&#8594;</a>
+      </td></tr>
+    </table>
+  </td></tr>
+  
+
+  
+  
+  <tr><td class="pad" style="padding:24px 36px 12px 36px;">
+    <span class="mono bg-pill" style="display:inline-block; background:#211B17; color:#F7F3ED; font-size:11px; font-weight:700; letter-spacing:1.2px; padding:6px 14px; border-radius:16px; text-transform:uppercase;"><span style="color:#FF4D12;">&#9654;</span>&nbsp;Para probar esta semana</span>
+  </td></tr>
+  <tr><td class="pad" style="padding:0 36px 0 36px;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="bg-try" style="background:#211B17; border-radius:22px;">
+      
+      <tr><td style="padding:0; line-height:0; font-size:0;">
+        <img src="https://m.itsnicethat.com/original_images/Temper-Hero-Close_1.gif" width="528" alt="" style="display:block; width:100%; border-radius:22px 22px 0 0; border:0;" />
+      </td></tr>
+      <tr><td class="mono" style="padding:5px 28px; font-size:10px; color:#6B6059; background:#2A231E; border-bottom:1px solid #2A231E;">It&#39;s Nice That</td></tr>
+      
+      <tr><td class="card-pad" style="padding:20px 28px 28px 28px;">
+        <h3 class="display sec-title" style="margin:0 0 12px 0; font-size:22px; line-height:1.18; font-weight:700; color:#F7F3ED;">Hono para Temper: etiquetas que forman un flipbook</h3>
+        <p class="body body-text" style="margin:0 0 22px 0; font-size:14px; line-height:1.65; color:#C9C1B8;">Studio Hono diseñó las etiquetas de una sidra de edición única de modo que, al alinear las botellas, recrean fotograma a fotograma el último rally del partido de Wimbledon 2008. Vale estudiarlo como ejercicio de identidad que solo existe cuando el producto está en contexto de uso real.</p>
+        <a class="read mono" href="https://www.itsnicethat.com/articles/studio-hono-temper-branding-project-261026" style="display:inline-block; background:#FF4D12; color:#FFFFFF; font-size:12px; font-weight:700; padding:12px 22px; border-radius:12px; border:2px solid transparent; letter-spacing:0;">abrir&nbsp;&#8594;</a>
+      </td></tr>
+    </table>
+  </td></tr>
+  
+
+  
+  
+  <tr><td class="pad" style="padding:24px 36px 12px 36px;">
+    <span class="mono bg-pill" style="display:inline-block; background:#211B17; color:#F7F3ED; font-size:11px; font-weight:700; letter-spacing:1.2px; padding:6px 14px; border-radius:16px; text-transform:uppercase;"><span style="color:#FF4D12;">&#9650;</span>&nbsp;Oportunidad</span>
+  </td></tr>
+  <tr><td class="pad" style="padding:0 36px 0 36px;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="bg-card b-card" style="background:#FFFFFF; border-radius:20px; border:1px solid #EDE7DF;">
+      <tr>
+        <td width="4" style="background:#FF4D12; border-radius:20px 0 0 20px; font-size:0; line-height:0;">&nbsp;</td>
+        <td class="card-pad" style="padding:22px 24px 22px 22px;">
+          <p class="mono t-gray" style="margin:0 0 6px 0; font-size:11px; letter-spacing:1.5px; color:#5C534C; text-transform:uppercase;">iF Design Foundation</p>
+          <h3 class="display sec-title t-ink" style="margin:0 0 10px 0; font-size:18px; line-height:1.25; font-weight:700; color:#211B17;">iF Design Award 2027 — convocatoria abierta</h3>
+          <p class="mono" style="margin:0 0 14px 0; font-size:11px; color:#FF4D12; font-weight:700;">Deadline: 2 de noviembre de 2026</p>
+          <a class="read mono btn-ghost" href="https://www.dezeen.com/2026/10/23/if-design-award-2027-calls-for-projects/" style="display:inline-block; background:#FFF0EB; color:#FF4D12; font-size:12px; font-weight:700; padding:12px 20px; border-radius:10px; border:2px solid transparent; letter-spacing:0;">ver&nbsp;&#8594;</a>
+        </td>
+      </tr>
+    </table>
+  </td></tr>
+  
+
+  
+  
+  <tr><td class="pad" style="padding:24px 36px 12px 36px;">
+    <span class="mono bg-pill" style="display:inline-block; background:#211B17; color:#F7F3ED; font-size:11px; font-weight:700; letter-spacing:1.2px; padding:6px 14px; border-radius:16px; text-transform:uppercase;"><span style="color:#FF4D12;">&#9673;</span>&nbsp;Spotted</span>
+  </td></tr>
+  <tr><td class="pad" style="padding:0 36px 0 36px;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="bg-card" style="background:#FFFFFF; border-radius:20px;">
+      <tr><td class="card-pad" style="padding:20px 26px 20px 26px;">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+          
+          <tr><td class="mono t-ink b-row" style="font-size:13px; line-height:1.5; color:#211B17; padding:9px 0; border-bottom:1px solid #F5F0EB;">
+            <span class="t-pale" style="color:#BDB5AE;">01&nbsp;&nbsp;</span><a href="https://abduzeedo.com/ps1-your-place-masterclass-brand-design-porto-rocha/" class="idx-link" style="color:#211B17; text-decoration:none; font-weight:600;">PS1 Is Your Place: brand design por Porto Rocha</a>
+          </td></tr>
+          
+          <tr><td class="mono t-ink b-row" style="font-size:13px; line-height:1.5; color:#211B17; padding:9px 0; border-bottom:1px solid #F5F0EB;">
+            <span class="t-pale" style="color:#BDB5AE;">02&nbsp;&nbsp;</span><a href="https://abduzeedo.com/inside-varley-art-gallery-branding-underline-studio/" class="idx-link" style="color:#211B17; text-decoration:none; font-weight:600;">Underline Studio reimagina la identidad de la Varley Art Gallery</a>
+          </td></tr>
+          
+          <tr><td class="mono t-ink b-row" style="font-size:13px; line-height:1.5; color:#211B17; padding:9px 0; border-bottom:1px solid #F5F0EB;">
+            <span class="t-pale" style="color:#BDB5AE;">03&nbsp;&nbsp;</span><a href="https://mindsparklemag.com/website/clear-in-focus-sustainable-in-action" class="idx-link" style="color:#211B17; text-decoration:none; font-weight:600;">Informe anual interactivo de Energie Graz por Studio TipTop y Studio Brighten</a>
+          </td></tr>
+          
+          <tr><td class="mono t-ink b-row" style="font-size:13px; line-height:1.5; color:#211B17; padding:9px 0; border-bottom:1px solid #F5F0EB;">
+            <span class="t-pale" style="color:#BDB5AE;">04&nbsp;&nbsp;</span><a href="https://abduzeedo.com/how-base-design-reimagined-kanal-centre-pompidou-identity/" class="idx-link" style="color:#211B17; text-decoration:none; font-weight:600;">Base Design reimagina la identidad del Kanal Centre Pompidou</a>
+          </td></tr>
+          
+          <tr><td class="mono t-ink b-row" style="font-size:13px; line-height:1.5; color:#211B17; padding:9px 0; border-bottom:none;">
+            <span class="t-pale" style="color:#BDB5AE;">05&nbsp;&nbsp;</span><a href="https://abduzeedo.com/tdc-43rd-annual-editorial-design-tereza-bettinardi/" class="idx-link" style="color:#211B17; text-decoration:none; font-weight:600;">TDC 43rd Annual: diseño editorial por Tereza Bettinardi</a>
+          </td></tr>
+          
+        </table>
+      </td></tr>
+    </table>
+  </td></tr>
+  
+
+  
+  
+  <tr><td class="pad" style="padding:24px 36px 12px 36px;">
+    <span class="mono bg-pill" style="display:inline-block; background:#211B17; color:#F7F3ED; font-size:11px; font-weight:700; letter-spacing:1.2px; padding:6px 14px; border-radius:16px; text-transform:uppercase;"><span style="color:#FF4D12;">&#10022;</span>&nbsp;Awwwards de la semana</span>
+  </td></tr>
+  <tr><td class="pad" style="padding:0 36px 0 36px;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="bg-aww" style="background:#2A2320; border-radius:22px;">
+      
+      <tr><td style="padding:20px 24px 0 24px; line-height:0; font-size:0;">
+        <img src="https://www.awwwards.com/awards/submissions/2026/09/6aa063830971d331326333.png" width="480" alt="A24" style="display:block; width:100%; border:2px solid #4A413C; border-radius:14px; box-sizing:border-box;" />
+      </td></tr>
+      
+      <tr><td class="card-pad" style="padding:18px 28px 6px 28px;">
+        <a href="https://www.awwwards.com/sites/a24" style="text-decoration:none;">
+          <h3 class="display" style="margin:0 0 4px 0; font-size:20px; line-height:1.18; font-weight:700; color:#F7F3ED;">A24</h3>
+        </a>
+        <p class="mono" style="margin:0 0 16px 0; font-size:11px; color:#A0948D;">Proyecto experimental&nbsp;&#183;&nbsp;<a href="https://www.awwwards.com/sites/a24" style="color:#FF4D12; text-decoration:none; font-weight:700;">ver sitio&nbsp;&#8594;</a></p>
+        <div style="border-top:1px solid #3A3330; height:0; font-size:0; line-height:0;">&nbsp;</div>
+      </td></tr>
+      
+      <tr><td class="card-pad" style="padding:8px 28px 8px 28px;">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+          
+          <tr><td class="mono" style="font-size:11px; padding:7px 0; border-bottom:1px solid #3A3330; line-height:1.4;">
+            <span style="color:#5C534C;">01&nbsp;&nbsp;</span><a href="https://www.awwwards.com/sites/forge-automotive" style="color:#C9C1B8; text-decoration:none; font-weight:600;">Forge Automotive</a>
+          </td></tr>
+          
+          <tr><td class="mono" style="font-size:11px; padding:7px 0; border-bottom:1px solid #3A3330; line-height:1.4;">
+            <span style="color:#5C534C;">02&nbsp;&nbsp;</span><a href="https://www.awwwards.com/sites/brandon-yasin" style="color:#C9C1B8; text-decoration:none; font-weight:600;">Brandon Yasin</a>
+          </td></tr>
+          
+          <tr><td class="mono" style="font-size:11px; padding:7px 0; border-bottom:1px solid #3A3330; line-height:1.4;">
+            <span style="color:#5C534C;">03&nbsp;&nbsp;</span><a href="https://www.awwwards.com/sites/esr-bespoke" style="color:#C9C1B8; text-decoration:none; font-weight:600;">ESR Bespoke</a>
+          </td></tr>
+          
+          <tr><td class="mono" style="font-size:11px; padding:7px 0; border-bottom:1px solid #3A3330; line-height:1.4;">
+            <span style="color:#5C534C;">04&nbsp;&nbsp;</span><a href="https://www.awwwards.com/sites/emotion-agency-1" style="color:#C9C1B8; text-decoration:none; font-weight:600;">Emotion Agency</a>
+          </td></tr>
+          
+          <tr><td class="mono" style="font-size:11px; padding:7px 0; border-bottom:1px solid #3A3330; line-height:1.4;">
+            <span style="color:#5C534C;">05&nbsp;&nbsp;</span><a href="https://www.awwwards.com/sites/ascension-pegassi-r" style="color:#C9C1B8; text-decoration:none; font-weight:600;">Ascension — Pegassi®</a>
+          </td></tr>
+          
+          <tr><td class="mono" style="font-size:11px; padding:7px 0; border-bottom:1px solid #3A3330; line-height:1.4;">
+            <span style="color:#5C534C;">06&nbsp;&nbsp;</span><a href="https://www.awwwards.com/sites/cartier-le-choeur-des-pierres" style="color:#C9C1B8; text-decoration:none; font-weight:600;">Cartier - Le Chœur des Pierres</a>
+          </td></tr>
+          
+        </table>
+      </td></tr>
+      
+      <tr><td class="card-pad" style="padding:12px 28px 20px 28px;">
+        <span class="mono" style="font-size:10px; color:#5C534C; letter-spacing:0.5px;">v&#237;a Awwwards</span>
+      </td></tr>
+    </table>
+  </td></tr>
+  
+
+  
+  
+
+  
+  <tr><td class="pad" style="padding:32px 36px 20px 36px;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+      <tr><td class="sep" style="border-top:1px solid #E6DDD0; padding-top:24px;">
+        <span class="display t-ink" style="font-size:22px; font-weight:700; color:#211B17; letter-spacing:-1px;">LUNES</span>
+        <p class="body body-text t-gray" style="margin:8px 0 0 0; font-size:13px; line-height:1.6; color:#5C534C;">
+          Hecho por <a href="https://www.geronimogentili.com" style="color:#FF4D12; font-weight:600; text-decoration:none;">Ger&#243;nimo Gentili</a>&nbsp;&#183;&nbsp;dise&#241;o + dev en Buenos Aires.
+        </p>
+        <p class="mono t-muted" style="margin:14px 0 0 0; font-size:11px; line-height:1.65; color:#6B6059;">
+          Recib&#237;s esto porque te suscribiste en geronimogentili.com<br>
+          <a href="{{{RESEND_UNSUBSCRIBE_URL}}}" style="color:#9A9189; text-decoration:underline;">cancelar suscripci&#243;n</a>
+        </p>
+      </td></tr>
+    </table>
+  </td></tr>
+
+  <tr><td style="height:32px; line-height:32px;">&nbsp;</td></tr>
+
+</table>
+</td></tr>
+</table>
+</body>
+</html>
